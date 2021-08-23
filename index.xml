@@ -33,9 +33,9 @@
     </item>
     
     <item>
-      <title>Therapy paper</title>
+      <title>Estimating returns to special education: combining machine learning and text analysis to address confounding</title>
       <link>https://example.com/publication/jmp/</link>
-      <pubDate>Tue, 10 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://example.com/publication/jmp/</guid>
       <description>&lt;p&gt;While the number of students with identified special needs is increasing in developed countries, there is little evidence on returns to special education in terms of academic outcomes and labor market integration. I investigate short- and long-term returns to special education programs for students with special needs using recent advances in causal machine-learning and computational text analysis. By leveraging detailed student-level written psychological records as well as administrative data, I find that special education programs in inclusive settings have positive returns on academic performance in math and language as well as on employment and wages. Moreover, I uncover an overall positive effect of inclusive special education programs in comparison to segregated programs. However, I find that segregation benefits mostly for nonnative and disruptive students. Finally, using shallow decision trees, I deliver optimal placement rules that increase overall returns for students with special needs and lower educational costs for all.&lt;/p&gt;
 </description>
@@ -46,7 +46,8 @@
       <link>https://example.com/publication/gifted/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
       <guid>https://example.com/publication/gifted/</guid>
-      <description>&lt;p&gt;Media coverage: the St. Galler &lt;a href=&#34;https://www.tagblatt.ch/leben/hochbegabung-begabte-jugendliche-befeuern-die-leistung-der-ganzen-klasse-jedenfalls-wenn-es-maedchen-sind-ld.2148101&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tagblatt&lt;/a&gt; and interview on &lt;a href=&#34;https://www.youtube.com/watch?v=db84CGAyF_4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Youtube&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;We study the causal impact of intellectually gifted students on their nongifted classmates’ school achievement, enrollment in post-compulsory education, and occupational choices. Using student-level administrative and psychological data, we find a positive effect of exposure to gifted students on peers’ school achievement in both math and language. This impact is heterogeneous. Larger effects are observed among male students and high achievers; female students benefit primarily from female gifted students; effects are driven by gifted students not diagnosed with emotional or behavioral disorders. Exposure to gifted students increases the likelihood of choosing a selective academic track and occupations in STEM fields.&lt;/p&gt;
+&lt;p&gt;Media coverage: the St. Galler &lt;a href=&#34;https://www.tagblatt.ch/leben/hochbegabung-begabte-jugendliche-befeuern-die-leistung-der-ganzen-klasse-jedenfalls-wenn-es-maedchen-sind-ld.2148101&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tagblatt&lt;/a&gt; and interview on &lt;a href=&#34;https://www.youtube.com/watch?v=db84CGAyF_4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Youtube&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
