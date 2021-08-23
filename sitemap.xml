@@ -2,49 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://asallin.github.io/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/talk/example-talk/</loc>
+    <loc>https://asallin.github.io/talk/example-talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/event/</loc>
+    <loc>https://asallin.github.io/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/publication-type/3/</loc>
+    <loc>https://asallin.github.io/publication-type/3/</loc>
     <lastmod>2021-08-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/publication/jmp/</loc>
+    <loc>https://asallin.github.io/publication/jmp/</loc>
     <lastmod>2021-08-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/publication_types/</loc>
+    <loc>https://asallin.github.io/publication_types/</loc>
     <lastmod>2021-08-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/publication/</loc>
+    <loc>https://asallin.github.io/publication/</loc>
     <lastmod>2021-08-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/publication-type/2/</loc>
+    <loc>https://asallin.github.io/publication-type/2/</loc>
     <lastmod>2021-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/publication/gifted/</loc>
+    <loc>https://asallin.github.io/publication/gifted/</loc>
     <lastmod>2021-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/publication/hdpx/</loc>
+    <loc>https://asallin.github.io/publication/hdpx/</loc>
     <lastmod>2021-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/publication/pdmp/</loc>
+    <loc>https://asallin.github.io/publication/pdmp/</loc>
     <lastmod>2021-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/slides/</loc>
+    <loc>https://asallin.github.io/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/slides/example/</loc>
+    <loc>https://asallin.github.io/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/admin/</loc>
+    <loc>https://asallin.github.io/admin/</loc>
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://asallin.github.io/categories/</loc>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://asallin.github.io/tags/</loc>
   </url>
 </urlset>

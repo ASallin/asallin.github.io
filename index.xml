@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aurélien Sallin</title>
-    <link>https://example.com/</link>
-      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://asallin.github.io/</link>
+      <atom:link href="https://asallin.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Aurélien Sallin</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://asallin.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Aurélien Sallin</title>
-      <link>https://example.com/</link>
+      <link>https://asallin.github.io/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>https://example.com/talk/example-talk/</link>
+      <link>https://asallin.github.io/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://example.com/talk/example-talk/</guid>
+      <guid>https://asallin.github.io/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -34,18 +34,18 @@
     
     <item>
       <title>Estimating returns to special education: combining machine learning and text analysis to address confounding</title>
-      <link>https://example.com/publication/jmp/</link>
+      <link>https://asallin.github.io/publication/jmp/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/jmp/</guid>
+      <guid>https://asallin.github.io/publication/jmp/</guid>
       <description>&lt;p&gt;While the number of students with identified special needs is increasing in developed countries, there is little evidence on returns to special education in terms of academic outcomes and labor market integration. I investigate short- and long-term returns to special education programs for students with special needs using recent advances in causal machine-learning and computational text analysis. By leveraging detailed student-level written psychological records as well as administrative data, I find that special education programs in inclusive settings have positive returns on academic performance in math and language as well as on employment and wages. Moreover, I uncover an overall positive effect of inclusive special education programs in comparison to segregated programs. However, I find that segregation benefits mostly for nonnative and disruptive students. Finally, using shallow decision trees, I deliver optimal placement rules that increase overall returns for students with special needs and lower educational costs for all.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>High-Ability Influencers? The Heterogeneous Effects of Gifted Classmates </title>
-      <link>https://example.com/publication/gifted/</link>
+      <link>https://asallin.github.io/publication/gifted/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/gifted/</guid>
+      <guid>https://asallin.github.io/publication/gifted/</guid>
       <description>&lt;p&gt;We study the causal impact of intellectually gifted students on their nongifted classmates’ school achievement, enrollment in post-compulsory education, and occupational choices. Using student-level administrative and psychological data, we find a positive effect of exposure to gifted students on peers’ school achievement in both math and language. This impact is heterogeneous. Larger effects are observed among male students and high achievers; female students benefit primarily from female gifted students; effects are driven by gifted students not diagnosed with emotional or behavioral disorders. Exposure to gifted students increases the likelihood of choosing a selective academic track and occupations in STEM fields.&lt;/p&gt;
 &lt;p&gt;Media coverage: the St. Galler &lt;a href=&#34;https://www.tagblatt.ch/leben/hochbegabung-begabte-jugendliche-befeuern-die-leistung-der-ganzen-klasse-jedenfalls-wenn-es-maedchen-sind-ld.2148101&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tagblatt&lt;/a&gt; and interview on &lt;a href=&#34;https://www.youtube.com/watch?v=db84CGAyF_4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Youtube&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -53,25 +53,25 @@
     
     <item>
       <title>High-dimensional Peer Effects </title>
-      <link>https://example.com/publication/hdpx/</link>
+      <link>https://asallin.github.io/publication/hdpx/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/hdpx/</guid>
+      <guid>https://asallin.github.io/publication/hdpx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pill mills and the case of Florida</title>
-      <link>https://example.com/publication/pdmp/</link>
+      <link>https://asallin.github.io/publication/pdmp/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/pdmp/</guid>
+      <guid>https://asallin.github.io/publication/pdmp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>https://example.com/slides/example/</link>
+      <link>https://asallin.github.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/slides/example/</guid>
+      <guid>https://asallin.github.io/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -198,9 +198,9 @@ Three
     
     <item>
       <title></title>
-      <link>https://example.com/admin/config.yml</link>
+      <link>https://asallin.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/admin/config.yml</guid>
+      <guid>https://asallin.github.io/admin/config.yml</guid>
       <description></description>
     </item>
     
