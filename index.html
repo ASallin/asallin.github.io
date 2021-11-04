@@ -281,7 +281,54 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-211995168-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-211995168-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
   
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','UA-211995168-1');
+</script>
+
 
   
 
@@ -843,7 +890,7 @@
     <div class="article-style">
       <p>Welcome.</p>
 <p>I am a PhD candidate in Economics (specialization in Econometrics) at the <a href="https://www.unisg.ch/en/forschung/doktorat/graduateprogrammeeconomicsandandfinance" target="_blank" rel="noopener">Graduate Programme in Economics and Finance (GPEF)</a> of the University of St. Gallen. My supervisor is <a href="https://www.beatrixeugster.ch/" target="_blank" rel="noopener">Beatrix Eugster</a>.</p>
-<p>My research interests are in applied microeconometrics, (causal) machine learning, and computational text analysis applied to pressing research questions in diverse domains, with the aim of thorough policy evaluation and meaningful policy recommendation. In my thesis, I investigate the situation of students from minority groups (such as <a href="http://jhr.uwpress.org/content/early/2021/02/03/jhr.58.4.0920-11170R1.full.pdf&#43;html" target="_blank" rel="noopener">gifted students</a> or <a href="https://drive.google.com/file/d/107Nj2l3LgDpGxCkFDXnll7oCCeZ-Yz4c/view" target="_blank" rel="noopener">students with special needs</a>) in inclusive educational settings.</p>
+<p>My research lies at the intersection of health economics, education economics, and applied causal machine learning, with the aim of thorough policy evaluation and meaningful policy recommendation. In my thesis, I investigate the situation of students from minority groups (such as <a href="http://jhr.uwpress.org/content/early/2021/02/03/jhr.58.4.0920-11170R1.full.pdf&#43;html" target="_blank" rel="noopener">gifted students</a> or <a href="https://drive.google.com/file/d/107Nj2l3LgDpGxCkFDXnll7oCCeZ-Yz4c/view" target="_blank" rel="noopener">students with special needs</a>) in inclusive educational settings.</p>
 <p>In addition to my research in Economics, I am a philosopher and trained Logic-based therapist with the <a href="https://npcassoc.org/" target="_blank" rel="noopener">NPCA</a>. I am engaged in working on problems of <a href="https://www.pdcnet.org/ijpp/content/ijpp_2021_0007_0001_0011_0026" target="_blank" rel="noopener">climate grief and &ldquo;climate-friendly&rdquo; virtues</a>. When not coding or writing, you&rsquo;ll find me <a href="https://www.strava.com/athletes/14815281" target="_blank" rel="noopener">running or biking</a>, cooking, baking sourdough bread, or collaborating on the <a href="https://www.intergifted.com" target="_blank" rel="noopener">Intergifted project</a> with my wife Jennifer.</p>
 <p>I am looking forward to meeting you at the European Job Market 2021!</p>
 
