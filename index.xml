@@ -33,18 +33,9 @@
     </item>
     
     <item>
-      <title>Estimating returns to special education: combining machine learning and text analysis to address confounding</title>
-      <link>https://asallin.github.io/publication/jmp/</link>
-      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://asallin.github.io/publication/jmp/</guid>
-      <description>&lt;p&gt;While the number of students with identified special needs is increasing in developed countries, there is little evidence on returns to special education in terms of academic outcomes and labor market integration. In this paper, I investigate short- and long-term returns to special education programs for students with special needs using recent advances in causal machine learning and computational text analysis. By leveraging detailed student-level written psychological records as well as administrative data, I find that special education programs in inclusive settings have positive returns on academic performance in math and language as well as on employment and wages. Moreover, I uncover a positive effect of inclusive special education programs in comparison to segregated programs. However, segregation benefits mostly nonnative and students with emotional or behavioral problems. Finally, using shallow decision trees, I deliver optimal placement rules that increase overall returns for students with special needs and lower special education costs. These placement rules would reallocate most students with special needs from segregation to inclusion, which reinforces the conclusion that inclusion is beneficial to students with special needs.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>High-Ability Influencers? The Heterogeneous Effects of Gifted Classmates</title>
       <link>https://asallin.github.io/publication/gifted/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
       <guid>https://asallin.github.io/publication/gifted/</guid>
       <description>&lt;p&gt;We study the causal impact of intellectually gifted students on their nongifted classmates’ school achievement, enrollment in post-compulsory education, and occupational choices. Using student-level administrative and psychological data, we find a positive effect of exposure to gifted students on peers’ school achievement in both math and language. This impact is heterogeneous. Larger effects are observed among male students and high achievers; female students benefit primarily from female gifted students; effects are driven by gifted students not diagnosed with emotional or behavioral disorders. Exposure to gifted students increases the likelihood of choosing a selective academic track and occupations in STEM fields.&lt;/p&gt;
 &lt;p&gt;Media coverage: the St. Galler &lt;a href=&#34;https://www.tagblatt.ch/leben/hochbegabung-begabte-jugendliche-befeuern-die-leistung-der-ganzen-klasse-jedenfalls-wenn-es-maedchen-sind-ld.2148101&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tagblatt&lt;/a&gt; and interview on &lt;a href=&#34;https://www.youtube.com/watch?v=db84CGAyF_4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Youtube&lt;/a&gt;.&lt;/p&gt;
@@ -52,18 +43,27 @@
     </item>
     
     <item>
-      <title>High-dimensional Peer Effects</title>
+      <title>Estimating returns to special education: combining machine learning and text analysis to address confounding</title>
+      <link>https://asallin.github.io/publication/jmp/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://asallin.github.io/publication/jmp/</guid>
+      <description>&lt;p&gt;While the number of students with identified special needs is increasing in developed countries, there is little empirical evidence on academic and labor market returns to special education. By leveraging unique insights into the special education placement process through written individual psychological records, I present results from the first ever study to examine short- and long-term returns to special education programs with causal machine learning and computational text analysis methods. I find that special education programs in inclusive settings have positive returns on academic performance in math and language as well as on employment and wages. Moreover, I uncover a positive effect of inclusive special education programs in comparison to segregated programs, and I find that students with emotional or behavioral problems and nonnative students benefit more from segregation than the other students. Finally, I deliver optimal placement rules that increase overall returns for students with special needs and lower special education costs. These placement rules would reallocate most students with special needs from segregation to inclusion.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Earth is Not Flat: A New World of High-Dimensional Peer Effects</title>
       <link>https://asallin.github.io/publication/hdpx/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://asallin.github.io/publication/hdpx/</guid>
-      <description>&lt;p&gt;Despite a boom of peer-effect studies in the past 10 years, most spillovers in the classroom have been analyzed in isolation, i.e. researchers have focused on the effect of one particular type of peers on classmates (for instance, the effect of high-ability peers). This view fails to take into account the fact that peer effects are, in reality, more complex. Indeed, individual effects are important, and average effects very likely miss the complexity of spillovers. In this paper, we develop a more general empirical approach that considers the systematic interaction between a rich array of peer types and nonlinearities of spillovers. We use machine-learning methods to (1) understand which dimensions in the classroom are the most predictive of academic success; (2) estimate high-dimensional peer effects functions; and finally (3) conduct policy-relevant simulations. We find that own types are the most predictive of academic success, and that average peer effects are likely to miss important heterogeneity.&lt;/p&gt;
+      <description>&lt;p&gt;The majority of recent peer-effect studies in education have focused on the effect of one particular type of peers on classmates. This view fails to take into account the reality that peer effects are heterogeneous for students with different characteristics, and that there are at least as many peer effect functions as there are types of peers. In this paper, we develop a general empirical framework that accounts for systematic interactions between peer types and nonlinearities of peer effects. We use machine-learning methods to (i) understand which dimensions of peer characteristics are the most predictive of academic success, (ii) estimate high-dimensional peer effects functions, and (iii) investigate performance-improving classroom allocation through policy-relevant simulations. First, we find that students&#39; own characteristics are the most predictive of academic success, and that the most predictive peer effects are generated by students with special needs, low-achieving students, and male students. Second, we show that peer effects traditionally reported by the literature likely miss important nonlinearities in the distribution of peer proportions. Third, we determine that classroom compositions that are the most balanced in students&#39; characteristics are the best ways to reach maximal aggregated school performance.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Pill mills and the case of Florida</title>
       <link>https://asallin.github.io/publication/pdmp/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://asallin.github.io/publication/pdmp/</guid>
       <description></description>
     </item>
