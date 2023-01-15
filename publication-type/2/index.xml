@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Aurélien Sallin</title>
+    <link>https://asallin.github.io/publication-type/2/</link>
+      <atom:link href="https://asallin.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Aurelien Sallin</copyright><lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://asallin.github.io/media/icon_hufb0af0ffa7c4769e88338e6608699541_8962_512x512_fill_lanczos_center_3.png</url>
+      <title>2</title>
+      <link>https://asallin.github.io/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>High-Ability Influencers? The Heterogeneous Effects of Gifted Classmates</title>
+      <link>https://asallin.github.io/publication/gifted/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://asallin.github.io/publication/gifted/</guid>
+      <description>&lt;p&gt;We study the causal impact of intellectually gifted students on their nongifted classmates’ school achievement, enrollment in post-compulsory education, and occupational choices. Using student-level administrative and psychological data, we find a positive effect of exposure to gifted students on peers’ school achievement in both math and language. This impact is heterogeneous. Larger effects are observed among male students and high achievers; female students benefit primarily from female gifted students; effects are driven by gifted students not diagnosed with emotional or behavioral disorders. Exposure to gifted students increases the likelihood of choosing a selective academic track and occupations in STEM fields.&lt;/p&gt;
+&lt;p&gt;Media coverage: the St. Galler &lt;a href=&#34;https://www.tagblatt.ch/leben/hochbegabung-begabte-jugendliche-befeuern-die-leistung-der-ganzen-klasse-jedenfalls-wenn-es-maedchen-sind-ld.2148101&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tagblatt&lt;/a&gt; and interview on &lt;a href=&#34;https://www.youtube.com/watch?v=db84CGAyF_4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Youtube&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

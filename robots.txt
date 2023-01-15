@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://asallin.github.io/sitemap.xml

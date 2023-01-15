@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Aurélien Sallin</title>
+    <link>https://asallin.github.io/project/</link>
+      <atom:link href="https://asallin.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Aurelien Sallin</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://asallin.github.io/media/icon_hufb0af0ffa7c4769e88338e6608699541_8962_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>https://asallin.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Coaching gifted academics</title>
+      <link>https://asallin.github.io/project/coaching/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://asallin.github.io/project/coaching/</guid>
+      <description>&lt;p&gt;Project in construction.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Machine Learning to extract insights from health insurance claim data</title>
+      <link>https://asallin.github.io/project/claimdata/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://asallin.github.io/project/claimdata/</guid>
+      <description>&lt;p&gt;Health insurers are interested in gaining insights from claim data. This project aims at developing statistical tools to gain insights and model claim data using deep learning and machine learning.&lt;/p&gt;
+&lt;p&gt;Project in construction.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
