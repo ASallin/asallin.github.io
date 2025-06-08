@@ -1,9 +1,47 @@
 ---
-title: "About"
+title: "Aurélien Sallin"
+subtitle: "PhD, Economist and Data Scientist"
+description: ""
+image: media/asallin.jpg
+toc: false # no table of contents in about page
+about:
+  template: trestles
+  image-width: 34em
+  image-shape: round
+  links:
+    - icon: github
+      aria-label: GitHub
+      text: Github
+      href: https://github.com/ASallin
+    - icon: linkedin
+      aria-label: "LinkedIn"
+      text: LinkedIn
+      href: https://www.linkedin.com/in/aur%C3%A9lien-sallin-365148100/
+      target: _blank
+    - icon: envelope 
+      aria-label: "Email"
+      text: Email
+      href: mailto:aurelien.sallin@protonmail.com
+html:
+  page-layout: full
 ---
 
-About this site
+# Quarto syntax
 
-```{r}
-1 + 1
-```
+::: my-selector
+hello
+:::
+
+# HTML syntax
+
+::: my-selector
+Some element (e.g. text) to style
+:::
+
+# Quarto syntax
+
+Some text with just [this section]{.my-selector} styled
+
+# HTML syntax
+
+<p>Some text with just [this section]{.my-selector} styled</p>

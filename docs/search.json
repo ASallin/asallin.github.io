@@ -2,15 +2,43 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "asallin.github.io",
+    "title": "Hi there!",
     "section": "",
-    "text": "usethis::use_git() This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "I am an economist and data scientist at the health services management of one of the largest health insurance companies in Switzerland. By training, I am an economist and philosopher.\nMy passion lies in R programming and expressing quantitative information using numbers, simulations, models and great visualizations. When not coding or writing, you’ll find me running or biking🚴😎, doing politics with the Green liberal party, cooking, and collaborating on the Intergifted project with my wife Jennifer.\nFeel free to contact me using my contact informations 👇\n \n    \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Aurélien Sallin",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Quarto syntax\n\nhello\n\n\n\nHTML syntax\n\nSome element (e.g. text) to style\n\n\n\nQuarto syntax\nSome text with just this section styled\n\n\nHTML syntax\n\nSome text with just this section styled"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "this is an &lt;h1&gt; element\n\n\nthis is an &lt;h1&gt; element of class title\n\n\nthis is a &lt;p&gt; element\n\n\nthis is a &lt;p&gt; element of class title\n\n\n\nThis paragraph is orange.\n\n\nThis paragraph is centered.\n\n\nThis paragraph has no styling.\n\n\nThis level-2 header is centered\n\n\n\nThis level-3 header is both centered and orange\n\n\nThis paragraph is orange and bolded using markdown syntax (yes, you can combine markdown and html!)."
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "My Blog",
+    "section": "",
+    "text": "aaa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nblog post title\n\n\n\nQuarto\n\n\nR\n\n\nMEDS\n\n\n\nblog post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nAurélien Sallin\n\n\nOct 24, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about/about.html",
+    "href": "about/about.html",
+    "title": "Aurélien Sallin",
+    "section": "",
+    "text": "Quarto syntax\n\nhello\n\n\n\nHTML syntax\n\nSome element (e.g. text) to style\n\n\n\nQuarto syntax\nSome text with just this section styled\n\n\nHTML syntax\n\nSome text with just this section styled"
+  },
+  {
+    "objectID": "posts/2025-06-07-blog1/index.html",
+    "href": "posts/2025-06-07-blog1/index.html",
+    "title": "blog post title",
+    "section": "",
+    "text": "aaaba\n\n\n\nCitationBibTeX citation:@online{sallin2022,\n  author = {Sallin, Aurélien},\n  title = {Blog Post Title},\n  date = {2022-10-24},\n  url = {https://asallin.github.io/posts/2025-06-07-blog1/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSallin, Aurélien. 2022. “Blog Post Title.” October 24,\n2022. https://asallin.github.io/posts/2025-06-07-blog1/."
   }
 ]

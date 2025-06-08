@@ -1,0 +1,29 @@
+/* Override the default marquee layout */
+.quarto-about-marquee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Style the image container */
+.about-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Style the image itself */
+.about-image-container img {
+  width: 100%;
+  max-width: 500px; /* or any other width like 40em */
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+/* Make content centered and constrained in width */
+.about-contents {
+  max-width: 800px;
+  padding: 0 1rem;
+}

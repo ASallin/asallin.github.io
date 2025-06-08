@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Aurélien Sallin</title>
+<title>Research – Aurélien Sallin</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -70,7 +71,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="styles_home.css">
 </head>
 
 <body class="nav-fixed">
@@ -91,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link active" href="./research.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
@@ -128,49 +128,63 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
-
-
-
-<div class="quarto-about-marquee column-page">
-  <div class="about-image-container">
-    <img src="media/background1.png" class="about-image
-  rectangle " style="width: 35em;">
-  </div>
-  <div class="about-contents">
-    <header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Hi there!</h1>
+<h1 class="title">Research</h1>
 </div>
+
+
+
 <div class="quarto-title-meta column-page">
+
+    
+  
+    
   </div>
-</header> <div id="hero-heading">
-<p>I am an economist and data scientist at the health services management of one of the largest health insurance companies in Switzerland. By training, I am an economist and philosopher.</p>
-<p>My passion lies in R programming and expressing quantitative information using numbers, simulations, models and great visualizations. When not coding or writing, you’ll find me running or biking🚴😎, doing politics with the Green liberal party, cooking, and collaborating on the Intergifted project with my wife Jennifer.</p>
-<p>Feel free to contact me using my contact informations 👇</p>
-</div> 
-    <div class="about-footer"><div class="about-links">
-  <a href="https://github.com/ASallin" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="https://www.linkedin.com/in/aur%C3%A9lien-sallin-365148100/" class="about-link" rel="" target="_blank">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="mailto:aurelien.sallin@protonmail.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-</div>
-</div>
-  </div>
-</div>
+  
 
 
+</header>
+
+
+<h1>
+this is an <code>&lt;h1&gt;</code> element
+</h1>
+<h1 class="title">
+this is an <code>&lt;h1&gt;</code> element of class <code>title</code>
+</h1>
+<p>
+this is a <code>&lt;p&gt;</code> element
+</p>
+<p class="title">
+this is a <code>&lt;p&gt;</code> element of class <code>title</code>
+</p>
+<hr>
+<p class="orange-text">
+This paragraph is orange.
+</p>
+<p class="center-text">
+This paragraph is centered.
+</p>
+<p>
+This paragraph has no styling.
+</p>
+<h2 class="center-text anchored">
+This level-2 header is centered
+</h2>
+<hr>
+<h3 class="center-text orange-text anchored">
+This level-3 header is both centered and orange
+</h3>
+<p class="orange-text">
+<strong>This paragraph is orange and bolded using markdown syntax (yes, you can combine markdown and html!).</strong>
+</p>
 
 
 
@@ -195,6 +209,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

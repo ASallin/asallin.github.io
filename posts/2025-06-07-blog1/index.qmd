@@ -1,0 +1,18 @@
+---
+title: "blog post title"
+description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
+author:
+  - name: Aurélien Sallin
+    url: https://asallin.github.io/
+    orcid: 0000-0002-5300-3075
+    affiliation: Master of Environmental Data Science Program @ The Bren School (UCSB) & The National Center for Ecological Analysis & Synthesis
+    affiliation-url: https://ucsb-meds.github.io/ 
+date: 10-24-2022
+categories: [Quarto, R, MEDS] # self-defined categories
+citation: 
+  url: https://asallin.github.io/posts/2025-06-07-blog1/ 
+image: preview-image.png
+draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+aaaba

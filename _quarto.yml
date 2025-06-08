@@ -3,18 +3,47 @@ project:
   output-dir: docs
 
 website:
-  title: "asallin.github.io"
+  title: "Aurélien Sallin"
   navbar:
+    title: "Aurélien Sallin, PhD" # override printing your website `title` (e.g. "Sam Csik" on line 6) in the top left corner of your navbar
+    # logo: media/logo.png
+    # logo-alt: "Alt text for logo"
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - posts.qmd
+    right: # accepts right/left/center; you can also place items individually on the left, right, and center
+      - href: file/path/to/myCV.pdf # providing a relative file path to a pdf will open up a browser-based pdf viewer when clicked
+        text: CV
+        target: _blank # opens link (or page) in a new browser tab
+      - icon: github # add icons as navbar buttons
+        href: https://github.com/ASallin
+        target: _blank
+  page-footer:
+    background: light # or `dark`
+    left: Copyright 2025, Aurélien Sallin
+    right: This website is built with {{< fa heart title="a heart" >}}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
+
 
 format:
   html:
-    theme: cosmo
+    theme: styles.scss # I've also removed the `css: styles.css` option that was included by default, since I'll be writing all my sass and css in this single styles.scss file
+    mainfont: Karla # Add main font here
+    backgroundcolor: "#e6f6f7"
     css: styles.css
     toc: true
+    page-layout: full
+    grid: # to format layout of "HOME" Site, formating of other sites is defined in styles_publications.css, styles_talks.css, etc
+      sidebar-width: 180px
+      body-width: 1100px
+      margin-width: 200px
+      gutter-width: 1.5rem
 
-editor: visual
+
+editor: source
+
 

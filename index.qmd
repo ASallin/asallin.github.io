@@ -1,11 +1,35 @@
 ---
-title: "asallin.github.io"
+title: "Hi there!" #title of "home" page
+pagetitle: "Aurélien Sallin" # appears on top of browser window
+# subtitle: "STATISTICS, VISUALIZATIONS AND R PROGRAMMING"
+image: media/background1.png # in root folder
+css: styles_home.css
+about:
+  template: marquee
+  image-width: 35em
+  image-shape: rectangle
+  id: hero-heading
+  links:
+    - icon: github
+      aria-label: GitHub
+      text: Github
+      href: https://github.com/ASallin
+    - icon: linkedin
+      aria-label: "LinkedIn"
+      text: LinkedIn
+      href: https://www.linkedin.com/in/aur%C3%A9lien-sallin-365148100/
+      target: _blank
+    - icon: envelope 
+      aria-label: "Email"
+      text: Email
+      href: mailto:aurelien.sallin@protonmail.com
+page-layout: full
 ---
-usethis::use_git()
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+::: {#hero-heading}
+I am an economist and data scientist at the health services management of one of the largest health insurance companies in Switzerland. By training, I am an economist and philosopher.
 
-```{r}
-1 + 1
-```
+My passion lies in R programming and expressing quantitative information using numbers, simulations, models and great visualizations. When not coding or writing, you’ll find me running or biking🚴😎, doing politics with the Green liberal party, cooking, and collaborating on the Intergifted project with my wife Jennifer.
+
+Feel free to contact me using my contact informations 👇
+:::
