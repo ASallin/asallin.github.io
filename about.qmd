@@ -6,7 +6,7 @@ image: media/asallin.jpg
 toc: false # no table of contents in about page
 about:
   template: trestles
-  image-width: 34em
+  image-width: 12em
   image-shape: round
   links:
     - icon: github
