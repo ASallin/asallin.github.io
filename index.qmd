@@ -27,9 +27,11 @@ page-layout: full
 ---
 
 ::: {#hero-heading}
-I am an economist and data scientist at the health services management of one of the largest health insurance companies in Switzerland. By training, I am an economist and philosopher.
+I’m a data geek driven by big questions 🔍.
 
-My passion lies in R programming and expressing quantitative information using numbers, simulations, models and great visualizations. When not coding or writing, you’ll find me running or biking🚴😎, doing politics with the Green liberal party, cooking, and collaborating on the Intergifted project with my wife Jennifer.
+As an economist and data scientist at a major Swiss healthcare organization, I work with claims data to generate value for our healthcare system, our clients, and our provider partners.
 
-Feel free to contact me using my contact informations 👇
+Trained in economics and philosophy, I enjoy R programming and bringing numbers to life through models, simulations, and visualizations. When I’m not coding, I’m probably running, biking, doing politics with the Green Liberals, or cooking.
+
+Feel free to get in touch!
 :::
