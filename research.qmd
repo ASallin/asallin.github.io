@@ -2,28 +2,30 @@
 title: "Research"
 ---
 
-<h1>this is an `<h1>` element</h1> 
+In construction.
 
-<h1 class="title">this is an `<h1>` element of class `title`</h1>
+<!-- <h1>this is an `<h1>` element</h1>  -->
 
-<p>this is a `<p>` element</p>
+<!-- <h1 class="title">this is an `<h1>` element of class `title`</h1> -->
 
-<p class="title">this is a `<p>` element of class `title`</p>
+<!-- <p>this is a `<p>` element</p> -->
 
---- 
+<!-- <p class="title">this is a `<p>` element of class `title`</p> -->
 
-<p class="orange-text">This paragraph is orange.</p>
-  
-<p class="center-text">This paragraph is centered.</p>
-  
-<p>This paragraph has no styling.</p>
+<!-- ---  -->
 
-<h2 class="center-text">This level-2 header is centered</h2>
+<!-- <p class="orange-text">This paragraph is orange.</p> -->
 
----
-  
-<h3 class="center-text orange-text">This level-3 header is both centered and orange</h2>
-  
-<p class="orange-text">**This paragraph is orange and bolded using markdown syntax (yes, you can combine markdown and html!).**</p>
+<!-- <p class="center-text">This paragraph is centered.</p> -->
+
+<!-- <p>This paragraph has no styling.</p> -->
+
+<!-- <h2 class="center-text">This level-2 header is centered</h2> -->
+
+<!-- --- -->
+
+<!-- <h3 class="center-text orange-text">This level-3 header is both centered and orange</h2> -->
+
+<!-- <p class="orange-text">**This paragraph is orange and bolded using markdown syntax (yes, you can combine markdown and html!).**</p> -->
 
 

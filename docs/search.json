@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Hi there!",
+    "title": "Hoi!",
     "section": "",
-    "text": "I am an economist and data scientist at the health services management of one of the largest health insurance companies in Switzerland. By training, I am an economist and philosopher.\nMy passion lies in R programming and expressing quantitative information using numbers, simulations, models and great visualizations. When not coding or writing, you’ll find me running or biking🚴😎, doing politics with the Green liberal party, cooking, and collaborating on the Intergifted project with my wife Jennifer.\nFeel free to contact me using my contact informations 👇\n \n    \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email"
+    "text": "I am a data geek driven by big questions.\nAs an economist and data scientist, I work in the health services management team at one of Switzerland’s largest health insurers. I teach data science at the University of St. Gallen on the side.\nMy passion lies in turning data into insight through numbers, simulations, models, and impactful visualizations. When I’m not coding or writing, you’ll find me running and biking in the Swiss Alps.\nFeel free to get in touch using the contact info below 👇\n \n    \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Aurélien Sallin",
     "section": "",
-    "text": "Quarto syntax\n\nhello\n\n\n\nHTML syntax\n\nSome element (e.g. text) to style\n\n\n\nQuarto syntax\nSome text with just this section styled\n\n\nHTML syntax\n\nSome text with just this section styled"
+    "text": "since 2022 | Senior Economist/Data Scientist, Health Services Management @ SWICA\nI work as a Senior Health Economist and Data Scientist in the Health Services Research Group at SWICA Insurance. Our focus lies in the strategic, data-driven development of alternative financing models and the implementation of Value-Based Healthcare approaches.\nMy role includes conceptualizing and conducting statistical analyses based on claims data, leading departmental projects on healthcare financing, and using data to monitor costs, evaluate our interventions, and generate value for our insurees. This includes applying methods such as causal machine learning and quasi-experimental designs.\nWe collaborate closely with academic partners, and I have presented our research at over ten national and international conferences in health economics, statistics, and population research.\nBefore, I was an Economics researcher at the Swiss Institute for Empirical Economic Research (SEW) at the University of St. Gallen (2017-2022), where I led projects in education economics and applied econometrics. I published some work on gifted students and their positive effects on their peers."
   },
   {
     "objectID": "research.html",
@@ -40,5 +40,47 @@
     "title": "blog post title",
     "section": "",
     "text": "aaaba\n\n\n\nCitationBibTeX citation:@online{sallin2022,\n  author = {Sallin, Aurélien},\n  title = {Blog Post Title},\n  date = {2022-10-24},\n  url = {https://asallin.github.io/posts/2025-06-07-blog1/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSallin, Aurélien. 2022. “Blog Post Title.” October 24,\n2022. https://asallin.github.io/posts/2025-06-07-blog1/."
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Aurélien Sallin",
+    "section": "",
+    "text": "since 2022 | Senior Economist/Data Scientist, Health Services Management @ SWICA\nthis section I work as a Senior Health Economist and Data Scientist in the Health Services Research Group at SWICA Insurance. Our focus lies in the strategic, data-driven development of alternative financing models and the implementation of Value-Based Healthcare approaches.\nMy role includes conceptualizing and conducting statistical analyses based on claims data, leading departmental projects on healthcare financing, and using data to monitor costs, evaluate our interventions, and generate value for our insurees. This includes applying methods such as causal machine learning and quasi-experimental designs.\nWe collaborate closely with academic partners, and I have presented our research at over ten national and international conferences in health economics, statistics, and population research.\nsince 2023 | Lecturer @ University of St. Gallen  I teach introduction to data science with R.\n2017 - 2022 | Economics Researcher and Teaching assistant @ University of St. Gallen\nLead, design and implementation of advanced analytical projects in Economics and applied Econometrics. Scientific publication."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Aurélien Sallin",
+    "section": "Education",
+    "text": "Education\n2022 | PhD in Economcis and Finance\nSwiss Institute for Empirical Economic Research\n\n2018 | Master of Arts in Philosophy\nUniversity of Fribourg\n2017 | Master of Arts in Economics\nUniversity of Fribourg"
+  },
+  {
+    "objectID": "about.html#my-work",
+    "href": "about.html#my-work",
+    "title": "Aurélien Sallin",
+    "section": "",
+    "text": "since 2022 | Senior Economist/Data Scientist, Health Services Management @ SWICA\nI work as a Senior Health Economist and Data Scientist in the Health Services Research Group at SWICA Insurance. Our focus lies in the strategic, data-driven development of alternative financing models and the implementation of Value-Based Healthcare approaches.\nMy role includes conceptualizing and conducting statistical analyses based on claims data, leading departmental projects on healthcare financing, and using data to monitor costs, evaluate our interventions, and generate value for our insurees. This includes applying methods such as causal machine learning and quasi-experimental designs.\nWe collaborate closely with academic partners, and I have presented our research at over ten national and international conferences in health economics, statistics, and population research.\nBefore, I was an Economics researcher at the Swiss Institute for Empirical Economic Research (SEW) at the University of St. Gallen (2017-2022), where I led projects in education economics and applied econometrics. I published some work on gifted students and their positive effects on their peers."
+  },
+  {
+    "objectID": "about.html#teaching",
+    "href": "about.html#teaching",
+    "title": "Aurélien Sallin",
+    "section": "Teaching",
+    "text": "Teaching\nSince 2023, I’ve been teaching introduction to data science using R as a Lecturer @ University of St. Gallen"
+  },
+  {
+    "objectID": "about.html#my-passion",
+    "href": "about.html#my-passion",
+    "title": "Aurélien Sallin",
+    "section": "My passion",
+    "text": "My passion"
+  },
+  {
+    "objectID": "about.html#my-philosophy",
+    "href": "about.html#my-philosophy",
+    "title": "Aurélien Sallin",
+    "section": "My Philosophy",
+    "text": "My Philosophy\n2022 | PhD in Economics and Finance\nSwiss Institute for Empirical Economic Research\n\n2018 | Master of Arts in Philosophy\nUniversity of Fribourg\n2017 | Master of Arts in Economics\nUniversity of Fribourg"
   }
 ]

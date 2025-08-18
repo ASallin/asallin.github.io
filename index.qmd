@@ -1,5 +1,5 @@
 ---
-title: "Hi there!" #title of "home" page
+title: "Hoi!" #title of "home" page
 pagetitle: "Aurélien Sallin" # appears on top of browser window
 # subtitle: "STATISTICS, VISUALIZATIONS AND R PROGRAMMING"
 image: media/background2.png # in root folder
@@ -27,9 +27,11 @@ page-layout: full
 ---
 
 ::: {#hero-heading}
-I am an economist and data scientist at the health services management of one of the largest health insurance companies in Switzerland. By training, I am an economist and philosopher.
+I am a data geek driven by big questions.
 
-My passion lies in R programming and expressing quantitative information using numbers, simulations, models and great visualizations. When not coding or writing, you’ll find me running or biking🚴😎, doing politics with the Green liberal party, cooking, and collaborating on the Intergifted project with my wife Jennifer.
+As an **economist** and **data scientist**, I work in the health services management team at one of Switzerland’s largest health insurers. I teach data science at the University of St. Gallen on the side.
 
-Feel free to contact me using my contact informations 👇
+My passion lies in **turning data into insight through numbers, simulations, models, and impactful visualizations**. When I’m not coding or writing, you’ll find me running and biking in the Swiss Alps.
+
+Feel free to **get in touch** using the contact info below 👇
 :::

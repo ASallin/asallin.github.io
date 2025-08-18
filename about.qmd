@@ -26,22 +26,39 @@ html:
   page-layout: full
 ---
 
-# Quarto syntax
+## My work
 
-::: my-selector
-hello
-:::
+In the past three years (since 2022), I have been working as a **Senior Economist/Data Scientist** in the **Health Services Management Team of \@SWICA**. Our focus lies in the strategic, data-driven development of alternative financing models and the implementation of Value-Based Healthcare approaches.
 
-# HTML syntax
+My role includes conceptualizing and conducting statistical analyses based on claims data, leading departmental projects on healthcare financing, and using data to monitor costs, evaluate our interventions, and generate value for our insurees. This includes applying methods such as causal machine learning and quasi-experimental designs.
 
-::: my-selector
-Some element (e.g. text) to style
-:::
+We collaborate closely with academic partners, and I have presented our research at over ten national and international conferences in health economics, statistics, and population research. 
 
-# Quarto syntax
+Before, I was an **Economics researcher at the Swiss Institute for Empirical Economic Research (SEW) at the University of St. Gallen (2017-2022)**, where I led projects in education economics and applied econometrics. I published some work on gifted students and their positive effects on their peers. 
 
-Some text with just [this section]{.my-selector} styled
 
-# HTML syntax
 
-<p>Some text with just [this section]{.my-selector} styled</p>
+<hr>
+
+## Teaching
+
+**Since 2023, I've been teaching introduction to data science using R as a Lecturer \@ University of St. Gallen**\ 
+
+<hr>
+
+## My passion
+
+<hr>
+
+## My Philosophy
+
+**2022 \| PhD in Economics and Finance**\
+Swiss Institute for Empirical Economic Research\
+
+**2018 \| Master of Arts in Philosophy**\
+University of Fribourg
+
+**2017 \| Master of Arts in Economics**\
+University of Fribourg
+
+

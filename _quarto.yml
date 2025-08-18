@@ -5,7 +5,7 @@ project:
 website:
   title: "Aurélien Sallin"
   navbar:
-    title: "Aurélien Sallin, PhD" # override printing your website `title` (e.g. "Sam Csik" on line 6) in the top left corner of your navbar
+    title: "Aurélien Sallin, PhD" # override printing your website `title` 
     # logo: media/logo.png
     # logo-alt: "Alt text for logo"
     left:
