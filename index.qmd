@@ -27,11 +27,11 @@ page-layout: full
 ---
 
 ::: {#hero-heading}
-I am a data geek driven by big questions.
+I am a data geek driven by big questions  🔍.
 
-As an **economist** and **data scientist**, I work in the health services management team at one of Switzerland’s largest health insurers. I teach data science at the University of St. Gallen on the side.
+As an **economist** and **data scientist** at a major Swiss healthcare organization, I work with claims data to generate value for our healthcare system, our clients, and our provider partners. I **teach data science** at the University of St. Gallen on the side.
 
-My passion lies in **turning data into insight through numbers, simulations, models, and impactful visualizations**. When I’m not coding or writing, you’ll find me running and biking in the Swiss Alps.
+My passion lies in **turning data into insight through numbers, simulations, models, and impactful visualizations**. When I’m not coding, I’m probably running, biking, doing politics for my township, or cooking.
 
 Feel free to **get in touch** using the contact info below 👇
 :::
