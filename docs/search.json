@@ -11,21 +11,21 @@
     "href": "about.html",
     "title": "Aurélien Sallin",
     "section": "",
-    "text": "since 2022 | Senior Economist/Data Scientist, Health Services Management @ SWICA\nI work as a Senior Health Economist and Data Scientist in the Health Services Research Group at SWICA Insurance. Our focus lies in the strategic, data-driven development of alternative financing models and the implementation of Value-Based Healthcare approaches.\nMy role includes conceptualizing and conducting statistical analyses based on claims data, leading departmental projects on healthcare financing, and using data to monitor costs, evaluate our interventions, and generate value for our insurees. This includes applying methods such as causal machine learning and quasi-experimental designs.\nWe collaborate closely with academic partners, and I have presented our research at over ten national and international conferences in health economics, statistics, and population research.\nBefore, I was an Economics researcher at the Swiss Institute for Empirical Economic Research (SEW) at the University of St. Gallen (2017-2022), where I led projects in education economics and applied econometrics. I published some work on gifted students and their positive effects on their peers."
+    "text": "In the past three years (since 2022), I have been working as a Senior Economist/Data Scientist in the Health Services Management Team of @SWICA. Our focus lies in the strategic, data-driven development of alternative financing models and the implementation of Value-Based Healthcare approaches.\nMy role includes conceptualizing and conducting statistical analyses based on claims data, leading departmental projects on healthcare financing, and using data to monitor costs, evaluate our interventions, and generate value for our insurees. This includes applying methods such as causal machine learning and quasi-experimental designs. I have presented our research at over ten national and international conferences in health economics, statistics, and population research.\nBefore, I was an Economics researcher at the Swiss Institute for Empirical Economic Research (SEW) at the University of St. Gallen (2017-2022), where I led projects in education economics and applied econometrics. I published some work on gifted students and their positive effects on their peers."
   },
   {
     "objectID": "research.html",
     "href": "research.html",
-    "title": "Research",
+    "title": "Portfolio",
     "section": "",
-    "text": "this is an &lt;h1&gt; element\n\n\nthis is an &lt;h1&gt; element of class title\n\n\nthis is a &lt;p&gt; element\n\n\nthis is a &lt;p&gt; element of class title\n\n\n\nThis paragraph is orange.\n\n\nThis paragraph is centered.\n\n\nThis paragraph has no styling.\n\n\nThis level-2 header is centered\n\n\n\nThis level-3 header is both centered and orange\n\n\nThis paragraph is orange and bolded using markdown syntax (yes, you can combine markdown and html!)."
+    "text": "This page is in construction. For my research portfolio, see my google scholar page."
   },
   {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "My Blog",
     "section": "",
-    "text": "aaa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nblog post title\n\n\n\nQuarto\n\n\nR\n\n\nMEDS\n\n\n\nblog post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nAurélien Sallin\n\n\nOct 24, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "In construction.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nblog post title\n\n\n\nQuarto\n\n\nR\n\n\nMEDS\n\n\n\nblog post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nAurélien Sallin\n\n\nOct 24, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about/about.html",
@@ -60,21 +60,21 @@
     "href": "about.html#my-work",
     "title": "Aurélien Sallin",
     "section": "",
-    "text": "since 2022 | Senior Economist/Data Scientist, Health Services Management @ SWICA\nI work as a Senior Health Economist and Data Scientist in the Health Services Research Group at SWICA Insurance. Our focus lies in the strategic, data-driven development of alternative financing models and the implementation of Value-Based Healthcare approaches.\nMy role includes conceptualizing and conducting statistical analyses based on claims data, leading departmental projects on healthcare financing, and using data to monitor costs, evaluate our interventions, and generate value for our insurees. This includes applying methods such as causal machine learning and quasi-experimental designs.\nWe collaborate closely with academic partners, and I have presented our research at over ten national and international conferences in health economics, statistics, and population research.\nBefore, I was an Economics researcher at the Swiss Institute for Empirical Economic Research (SEW) at the University of St. Gallen (2017-2022), where I led projects in education economics and applied econometrics. I published some work on gifted students and their positive effects on their peers."
+    "text": "In the past three years (since 2022), I have been working as a Senior Economist/Data Scientist in the Health Services Management Team of @SWICA. Our focus lies in the strategic, data-driven development of alternative financing models and the implementation of Value-Based Healthcare approaches.\nMy role includes conceptualizing and conducting statistical analyses based on claims data, leading departmental projects on healthcare financing, and using data to monitor costs, evaluate our interventions, and generate value for our insurees. This includes applying methods such as causal machine learning and quasi-experimental designs. I have presented our research at over ten national and international conferences in health economics, statistics, and population research.\nBefore, I was an Economics researcher at the Swiss Institute for Empirical Economic Research (SEW) at the University of St. Gallen (2017-2022), where I led projects in education economics and applied econometrics. I published some work on gifted students and their positive effects on their peers."
   },
   {
     "objectID": "about.html#teaching",
     "href": "about.html#teaching",
     "title": "Aurélien Sallin",
     "section": "Teaching",
-    "text": "Teaching\nSince 2023, I’ve been teaching introduction to data science using R as a Lecturer @ University of St. Gallen"
+    "text": "Teaching\nSince 2023, I’ve been teaching introduction to data science using R as a Lecturer @ University of St. Gallen. This work has been extremely rewarding for me."
   },
   {
     "objectID": "about.html#my-passion",
     "href": "about.html#my-passion",
     "title": "Aurélien Sallin",
     "section": "My passion",
-    "text": "My passion"
+    "text": "My passion\nWhen I’m not analyzing data or teaching, I’m likely outdoors, running and biking in the Swiss Alps. I’m also passionate about civic engagement and the R community. Since 2023, I’ve been a co-organizer of the Zürich R User Group. In 2024, I was elected to the audit commission of the municipality of Flawil, where I contribute to local democratic oversight."
   },
   {
     "objectID": "about.html#my-philosophy",
@@ -82,5 +82,19 @@
     "title": "Aurélien Sallin",
     "section": "My Philosophy",
     "text": "My Philosophy\n2022 | PhD in Economics and Finance\nSwiss Institute for Empirical Economic Research\n\n2018 | Master of Arts in Philosophy\nUniversity of Fribourg\n2017 | Master of Arts in Economics\nUniversity of Fribourg"
+  },
+  {
+    "objectID": "about.html#my-other-interests",
+    "href": "about.html#my-other-interests",
+    "title": "Aurélien Sallin",
+    "section": "My other interests",
+    "text": "My other interests\nWhen I’m not analyzing data or teaching, I’m likely outdoors, running and biking in the Swiss Alps. I’m also passionate about civic engagement and the R community. Since 2023, I’ve been a co-organizer of the Zürich R User Group. In 2024, I was elected to the audit commission of the municipality of Flawil, where I contribute to local democratic oversight."
+  },
+  {
+    "objectID": "about.html#other-interests",
+    "href": "about.html#other-interests",
+    "title": "Aurélien Sallin",
+    "section": "Other interests",
+    "text": "Other interests\nWhen I’m not analyzing data or teaching, I’m likely outdoors, running and biking in the Swiss Alps. I’m also passionate about civic engagement and the R community. Since 2023, I’ve been a co-organizer of the Zürich R User Group. In 2024, I was elected to the audit commission of the municipality of Flawil, where I contribute to local democratic oversight."
   }
 ]

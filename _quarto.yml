@@ -14,7 +14,7 @@ website:
       - href: about.qmd
         text: About
       - href: research.qmd
-        text: Research
+        text: Portfolio
       - posts.qmd
     right: # accepts right/left/center; you can also place items individually on the left, right, and center
       - href: file/path/to/myCV.pdf # providing a relative file path to a pdf will open up a browser-based pdf viewer when clicked

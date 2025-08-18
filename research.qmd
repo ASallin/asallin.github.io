@@ -1,8 +1,8 @@
 ---
-title: "Research"
+title: "Portfolio"
 ---
 
-In construction.
+This page is in construction. For my research portfolio, see my [google scholar page](https://scholar.google.com/citations?user=buQosFUAAAAJ&hl=en).
 
 <!-- <h1>this is an `<h1>` element</h1>  -->
 
