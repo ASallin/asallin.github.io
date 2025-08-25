@@ -1,5 +1,5 @@
 ---
-title: "Hoi!" #title of "home" page
+title: "Welcome!" #title of "home" page
 pagetitle: "Aurélien Sallin" # appears on top of browser window
 # subtitle: "STATISTICS, VISUALIZATIONS AND R PROGRAMMING"
 image: media/background2.png # in root folder
@@ -27,8 +27,6 @@ page-layout: full
 ---
 
 ::: {#hero-heading}
-I am a data geek driven by big questions  🔍.
-
 As an **economist** and **data scientist** at a major Swiss healthcare organization, I work with claims data to generate value for our healthcare system, our clients, and our provider partners. I **teach data science** at the University of St. Gallen on the side.
 
 My passion lies in **turning data into insight through numbers, simulations, models, and impactful visualizations**. When I’m not coding, I’m probably running, biking, doing politics for my township, or cooking.

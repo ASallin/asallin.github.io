@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Hoi!",
+    "title": "Welcome!",
     "section": "",
-    "text": "I am a data geek driven by big questions 🔍.\nAs an economist and data scientist at a major Swiss healthcare organization, I work with claims data to generate value for our healthcare system, our clients, and our provider partners. I teach data science at the University of St. Gallen on the side.\nMy passion lies in turning data into insight through numbers, simulations, models, and impactful visualizations. When I’m not coding, I’m probably running, biking, doing politics for my township, or cooking.\nFeel free to get in touch using the contact info below 👇\n \n    \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email"
+    "text": "As an economist and data scientist at a major Swiss healthcare organization, I work with claims data to generate value for our healthcare system, our clients, and our provider partners. I teach data science at the University of St. Gallen on the side.\nMy passion lies in turning data into insight through numbers, simulations, models, and impactful visualizations. When I’m not coding, I’m probably running, biking, doing politics for my township, or cooking.\nFeel free to get in touch using the contact info below 👇\n \n    \n  \n    \n     Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Aurélien Sallin",
     "section": "",
-    "text": "In the past three years (since 2022), I have been working as a Senior Economist/Data Scientist in the Health Services Management Team of @SWICA. Our focus lies in the strategic, data-driven development of alternative financing models and the implementation of Value-Based Healthcare approaches.\nMy role includes conceptualizing and conducting statistical analyses based on claims data, leading departmental projects on healthcare financing, and using data to monitor costs, evaluate our interventions, and generate value for our insurees. This includes applying methods such as causal machine learning and quasi-experimental designs. I have presented our research at over ten national and international conferences in health economics, statistics, and population research.\nBefore, I was an Economics researcher at the Swiss Institute for Empirical Economic Research (SEW) at the University of St. Gallen (2017-2022), where I led projects in education economics and applied econometrics. I published some work on gifted students and their positive effects on their peers."
+    "text": "In the past three years (since 2022), I have been working as a Senior Economist/Data Scientist in the Health Services Management Team of one of the largest health insurance companies in Switzerland. Our focus lies in the strategic, data-driven development of alternative financing models and the implementation of Value-Based Healthcare approaches.\nMy role includes conceptualizing and conducting statistical analyses based on claims data, leading departmental projects on healthcare financing, and using data to monitor costs, evaluate our interventions, and generate value for our insurees. This includes applying methods such as causal machine learning and quasi-experimental designs. I have presented our research at over ten national and international conferences in health economics, statistics, and population research.\nBefore, I was an Economics researcher at the Swiss Institute for Empirical Economic Research (SEW) at the University of St. Gallen (2017-2022), where I led projects in education economics and applied econometrics. I published some work on gifted students and their positive effects on their peers."
   },
   {
     "objectID": "research.html",
@@ -60,7 +60,7 @@
     "href": "about.html#my-work",
     "title": "Aurélien Sallin",
     "section": "",
-    "text": "In the past three years (since 2022), I have been working as a Senior Economist/Data Scientist in the Health Services Management Team of @SWICA. Our focus lies in the strategic, data-driven development of alternative financing models and the implementation of Value-Based Healthcare approaches.\nMy role includes conceptualizing and conducting statistical analyses based on claims data, leading departmental projects on healthcare financing, and using data to monitor costs, evaluate our interventions, and generate value for our insurees. This includes applying methods such as causal machine learning and quasi-experimental designs. I have presented our research at over ten national and international conferences in health economics, statistics, and population research.\nBefore, I was an Economics researcher at the Swiss Institute for Empirical Economic Research (SEW) at the University of St. Gallen (2017-2022), where I led projects in education economics and applied econometrics. I published some work on gifted students and their positive effects on their peers."
+    "text": "In the past three years (since 2022), I have been working as a Senior Economist/Data Scientist in the Health Services Management Team of one of the largest health insurance companies in Switzerland. Our focus lies in the strategic, data-driven development of alternative financing models and the implementation of Value-Based Healthcare approaches.\nMy role includes conceptualizing and conducting statistical analyses based on claims data, leading departmental projects on healthcare financing, and using data to monitor costs, evaluate our interventions, and generate value for our insurees. This includes applying methods such as causal machine learning and quasi-experimental designs. I have presented our research at over ten national and international conferences in health economics, statistics, and population research.\nBefore, I was an Economics researcher at the Swiss Institute for Empirical Economic Research (SEW) at the University of St. Gallen (2017-2022), where I led projects in education economics and applied econometrics. I published some work on gifted students and their positive effects on their peers."
   },
   {
     "objectID": "about.html#teaching",
@@ -96,5 +96,12 @@
     "title": "Aurélien Sallin",
     "section": "Other interests",
     "text": "Other interests\nWhen I’m not analyzing data or teaching, I’m likely outdoors, running and biking in the Swiss Alps. I’m also passionate about civic engagement and the R community. Since 2023, I’ve been a co-organizer of the Zürich R User Group. In 2024, I was elected to the audit commission of the municipality of Flawil, where I contribute to local democratic oversight."
+  },
+  {
+    "objectID": "about.html#data-science-and-economics",
+    "href": "about.html#data-science-and-economics",
+    "title": "Aurélien Sallin",
+    "section": "",
+    "text": "In the past three years (since 2022), I have been working as a Senior Economist/Data Scientist in the Health Services Management Team of one of the largest health insurance companies in Switzerland. Our focus lies in the strategic, data-driven development of alternative financing models and the implementation of Value-Based Healthcare approaches.\nMy role includes conceptualizing and conducting statistical analyses based on claims data, leading departmental projects on healthcare financing, and using data to monitor costs, evaluate our interventions, and generate value for our insurees. This includes applying methods such as causal machine learning and quasi-experimental designs. I have presented our research at over ten national and international conferences in health economics, statistics, and population research.\nBefore, I was an Economics researcher at the Swiss Institute for Empirical Economic Research (SEW) at the University of St. Gallen (2017-2022), where I led projects in education economics and applied econometrics. I published some work on gifted students and their positive effects on their peers."
   }
 ]

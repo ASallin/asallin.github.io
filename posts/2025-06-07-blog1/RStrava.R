@@ -6,7 +6,13 @@ app_client_id  <- '28803' # an integer, assigned by Strava
 app_secret <- '5818ad04457f2d4e9a52bd4f6bcdf6c3bfff09d1' # an alphanumeric secret, assigned by Strava
 
 # create the authentication token
-stoken <- httr::config(token = strava_oauth(app_name, app_client_id, app_secret, app_scope="activity:read_all"))
+stoken <- httr::config(
+  token = strava_oauth(
+    app_name, 
+    app_client_id, 
+    app_secret, 
+    app_scope="activity:read_all")
+  )
 
 # save the key, do only once
 cat("google_key=AIzaSyDFHRqaV4jNPQ2-mT1ytvbFbuirhunq_Rk\n",
