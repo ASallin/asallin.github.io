@@ -1,31 +1,27 @@
 ---
-title: "Portfolio"
+title: "News & Activities"
 ---
 
-This page is in construction. For my research portfolio, see my [google scholar page](https://scholar.google.com/citations?user=buQosFUAAAAJ&hl=en).
+## Latest News
 
-<!-- <h1>this is an `<h1>` element</h1>  -->
+### 📰 **New Publication** (October 2025)
 
-<!-- <h1 class="title">this is an `<h1>` element of class `title`</h1> -->
+**"The impact of Choosing WiselyTM recommendations and insurance coverage restrictions on the provision of low-value care: an interrupted time series analysis of vitamin D tests"** published in *BMC Health Services Research*
 
-<!-- <p>this is a `<p>` element</p> -->
+[📖 Read Paper](https://bmchealthservres.biomedcentral.com/articles/10.1186/s12913-025-13524-9) | [📊 Interactive Blog Post](/posts/2025-06-07-blog1/scroll.html)
 
-<!-- <p class="title">this is a `<p>` element of class `title`</p> -->
+*Key findings: Financial incentives reduced unnecessary vitamin D testing by 62%, saving 15.65 million CHF annually.*
 
-<!-- ---  -->
+\
+### 🗳️ **Elected to Public Office** (2024)
 
-<!-- <p class="orange-text">This paragraph is orange.</p> -->
+Elected to the **Audit Commission** of Flawil municipality, contributing to local democratic oversight and public financial accountability.
 
-<!-- <p class="center-text">This paragraph is centered.</p> -->
+\
+---
 
-<!-- <p>This paragraph has no styling.</p> -->
+## Complete Academic Record
 
-<!-- <h2 class="center-text">This level-2 header is centered</h2> -->
-
-<!-- --- -->
-
-<!-- <h3 class="center-text orange-text">This level-3 header is both centered and orange</h2> -->
-
-<!-- <p class="orange-text">**This paragraph is orange and bolded using markdown syntax (yes, you can combine markdown and html!).**</p> -->
+For a comprehensive list of publications and citations, visit my [Google Scholar profile](https://scholar.google.com/citations?user=buQosFUAAAAJ&hl=en).
 
 

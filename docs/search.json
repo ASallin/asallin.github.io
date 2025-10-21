@@ -16,16 +16,16 @@
   {
     "objectID": "research.html",
     "href": "research.html",
-    "title": "Portfolio",
+    "title": "News & Activities",
     "section": "",
-    "text": "This page is in construction. For my research portfolio, see my google scholar page."
+    "text": "“The impact of Choosing WiselyTM recommendations and insurance coverage restrictions on the provision of low-value care: an interrupted time series analysis of vitamin D tests” published in BMC Health Services Research\n📖 Read Paper | 📊 Interactive Blog Post\nKey findings: Financial incentives reduced unnecessary vitamin D testing by 62%, saving 15.65 million CHF annually.\n\n#### 🗳️ Elected to Public Office (2024)\nElected to the Audit Commission of Flawil municipality, contributing to local democratic oversight and public financial accountability."
   },
   {
     "objectID": "posts.html",
     "href": "posts.html",
-    "title": "My Blog",
+    "title": "Blog",
     "section": "",
-    "text": "In construction.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nblog post title\n\n\n\nQuarto\n\n\nR\n\n\nMEDS\n\n\n\nblog post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nAurélien Sallin\n\n\nOct 24, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Here are some posts I wrote about the healthcare system, teaching programming, and other interests.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGuidelines vs. Financial Incentives: Which Policy Tool Actually Changes Physician Behavior?\n\n\n\n\n\n\nAurélien Sallin\n\n\nOct 20, 2025\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about/about.html",
@@ -33,13 +33,6 @@
     "title": "Aurélien Sallin",
     "section": "",
     "text": "Quarto syntax\n\nhello\n\n\n\nHTML syntax\n\nSome element (e.g. text) to style\n\n\n\nQuarto syntax\nSome text with just this section styled\n\n\nHTML syntax\n\nSome text with just this section styled"
-  },
-  {
-    "objectID": "posts/2025-06-07-blog1/index.html",
-    "href": "posts/2025-06-07-blog1/index.html",
-    "title": "blog post title",
-    "section": "",
-    "text": "aaaba\n\n\n\nCitationBibTeX citation:@online{sallin2022,\n  author = {Sallin, Aurélien},\n  title = {Blog Post Title},\n  date = {2022-10-24},\n  url = {https://asallin.github.io/posts/2025-06-07-blog1/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nSallin, Aurélien. 2022. “Blog Post Title.” October 24,\n2022. https://asallin.github.io/posts/2025-06-07-blog1/."
   },
   {
     "objectID": "about.html#experience",
@@ -67,7 +60,7 @@
     "href": "about.html#teaching",
     "title": "Aurélien Sallin",
     "section": "Teaching",
-    "text": "Teaching\nSince 2023, I’ve been teaching introduction to data science using R as a Lecturer @ University of St. Gallen. This work has been extremely rewarding for me."
+    "text": "Teaching\nSince 2023, I’ve been teaching introduction to data science using R as a Lecturer @ University of St. Gallen. I focus on making statistical concepts accessible and helping students develop practical skills for their future careers in data science, economics, and related fields."
   },
   {
     "objectID": "about.html#my-passion",
@@ -103,5 +96,124 @@
     "title": "Aurélien Sallin",
     "section": "",
     "text": "In the past three years (since 2022), I have been working as a Senior Economist/Data Scientist in the Health Services Management Team of one of the largest health insurance companies in Switzerland. Our focus lies in the strategic, data-driven development of alternative financing models and the implementation of Value-Based Healthcare approaches.\nMy role includes conceptualizing and conducting statistical analyses based on claims data, leading departmental projects on healthcare financing, and using data to monitor costs, evaluate our interventions, and generate value for our insurees. This includes applying methods such as causal machine learning and quasi-experimental designs. I have presented our research at over ten national and international conferences in health economics, statistics, and population research.\nBefore, I was an Economics researcher at the Swiss Institute for Empirical Economic Research (SEW) at the University of St. Gallen (2017-2022), where I led projects in education economics and applied econometrics. I published some work on gifted students and their positive effects on their peers."
+  },
+  {
+    "objectID": "posts/2025-06-07-blog1/index.html",
+    "href": "posts/2025-06-07-blog1/index.html",
+    "title": "Vitamin D Tests: an Inquiry",
+    "section": "",
+    "text": "We investigated the role of physicians in tackling low-value care."
+  },
+  {
+    "objectID": "posts/2025-06-07-blog1/index.html#main-findings",
+    "href": "posts/2025-06-07-blog1/index.html#main-findings",
+    "title": "Vitamin D Tests: an Inquiry",
+    "section": "Main findings",
+    "text": "Main findings\nThe findings were as follows: …"
+  },
+  {
+    "objectID": "posts/2025-06-07-blog1/index.html#an-interrupted-time-series-analysis-of-vitamin-d-tests",
+    "href": "posts/2025-06-07-blog1/index.html#an-interrupted-time-series-analysis-of-vitamin-d-tests",
+    "title": "Guidelines vs. Financial Incentives: Which Policy Tool Actually Changes Physician Behavior?",
+    "section": "An Interrupted Time Series Analysis of Vitamin D Tests",
+    "text": "An Interrupted Time Series Analysis of Vitamin D Tests"
+  },
+  {
+    "objectID": "posts/2025-06-07-blog1/index.html#a-policy-response",
+    "href": "posts/2025-06-07-blog1/index.html#a-policy-response",
+    "title": "Guidelines vs. Financial Incentives: Which Policy Tool Actually Changes Physician Behavior?",
+    "section": "A Policy Response",
+    "text": "A Policy Response\nThis increase led to several policy measures. In April 2021, the Smarter Medicine initiative, which is the Swiss equivalent of Choosing Wisely™, included vitamin D testing in its list of procedures to avoid. The recommendation was simple: no routine measurement of 25(OH)-Vitamin D in patients without risk factors. Physicians were informed of these measures.\nA year later, the Federal Office of Public Health introduced a coverage restriction, limiting reimbursement for such tests. Together, these steps offered a natural experiment to observe how clinical recommendations and financial incentives influence medical practice."
+  },
+  {
+    "objectID": "posts/2025-06-07-blog1/index.html#using-real-world-data-to-evaluate-the-effect",
+    "href": "posts/2025-06-07-blog1/index.html#using-real-world-data-to-evaluate-the-effect",
+    "title": "Guidelines vs. Financial Incentives: Which Policy Tool Actually Changes Physician Behavior?",
+    "section": "Using Real-World Data to Evaluate the Effect",
+    "text": "Using Real-World Data to Evaluate the Effect\nTo examine these changes, we analyzed mandatory health insurance claims data from SWICA, covering about 10% of the Swiss population. The data include more than 3’600 general practitioners and group practices, with adult patients who had at least one consultation between 2018 and 2023.\nWe applied interrupted time-series analysis to estimate how testing volumes evolved around the two interventions. The method compares observed data with a counterfactual trend, which shows what we would expect if the interventions had not taken place.\nThe models account for patient characteristics, clinical indications for testing based on Swiss guidelines, and physician-specific prescribing behavior. This allows us to isolate the effect of the policy interventions from broader temporal or compositional changes."
+  },
+  {
+    "objectID": "posts/2025-06-07-blog1/index.html#a-multi-disciplinary-collaboration",
+    "href": "posts/2025-06-07-blog1/index.html#a-multi-disciplinary-collaboration",
+    "title": "Guidelines vs. Financial Incentives: Which Policy Tool Actually Changes Physician Behavior?",
+    "section": "A Multi-Disciplinary Collaboration",
+    "text": "A Multi-Disciplinary Collaboration\nThis study is the result of a productive collaboration between the health services research team at SWICA, physicians at the Institute of Primary Care of the University of Zürich, and health economists at the Institute of Health Economics and Health Policy of the Bern University of Applied Sciences.\nThis collaboration demonstrates how insights from claims data can advance our understanding of the healthcare system and inform policy decisions aimed at reducing costs for the Swiss population.\nThis research has been published in BMC Health Services Research (October 2025) and is available here 👉(Sallin et al. 2025).\n\n\n\n\nWe model Vitamin D tests prescribed over time\nReading the Chart:\n- **Observed data** from SWICA claims (3,600+ physicians)\n- **Model predictions** based on our statistical analysis\n\n\n\n\n\n\n\n\nVitamin D Test Prescriptions Rose Despite Low-Value Status\nDespite clear evidence of low clinical value, vitamin D test prescriptions rose by 20% between 2018 and 2021.\nA textbook example of low-value care in the healthcare system (see also Obsan 2023).\n\n\n\n\nApril 2021: Smarter Medicine Takes Action\nSwitzerland’s Choosing Wisely™ campaign places vitamin D testing on their “Top 5” list of unnecessary procedures.\nClear message: “No routine testing for patients without risk factors.”\n\n\n\n\n\nClinical Recommendations: Modest Impact\nThe Smarter Medicine recommendation shows a slight downward trend.\nBut is this enough? Let’s compare with what would have happened without intervention…\n\n\n\n\nRevealing the Counterfactual\nThe teal dashed line shows what would have happened without the recommendation.\nTesting rates would have continued climbing upward.\n\n\n\n\nThe Numbers: Clinical Recommendations Work, But Modestly\nStatistical analysis confirms a 4.9% reduction in testing rates [95% CI: -5.3%, -4.5%].\nWe conduct statistical tests to see whether the recommendation led to a recognizable pattern. The number of tests per consultation falls by 4.9% [-5.3%, -4.5%] after the recommendation.\n\n\n\n\n\n\nJuly 2022: Financial Reality Hits\nThe Federal Office of Public Health restricts coverage. Patients now pay out-of-pocket for routine tests.\n\n\n\n\n\nFinancial Incentives: The Game Changer\nCoverage restrictions deliver a 62% reduction in testing rates. This is a dramatic drop compared to clinical recommendations alone.\nThe number of tests per consultation falls by 62% [-62.4%, -61.6%] The 6-month cumulated effect is -60% [-60.0%, 59.0%].\n\n\n\n\nThe Bottom Line: 15.65 Million CHF Saved\nHealthcare system savings of 15.65 million CHF in 2022 alone.\nThat’s 1.8 CHF per Swiss resident.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKey Findings and Policy Implications\nClinical recommendations alone proved less effective than government regulation in reducing low-value care in Switzerland—but our analysis revealed important nuances.\nWe found no unintended consequences from the coverage limitation: vitamin D supplementation rates remained unaffected, suggesting the policy successfully targeted testing without compromising appropriate treatment.\nHowever, from a health policy perspective, simply removing procedures from basic insurance coverage cannot be the default solution for addressing unnecessary treatments. This regulatory approach creates administrative burden.\nA more sustainable solution lies in strengthening financial incentives that align provider and payer interests. In Switzerland, this can be achieved through managed care contracts between physician networks and health insurers within alternative insurance models. These contracts establish quality standards while creating shared financial responsibility among physicians—encouraging appropriate care delivery without heavy-handed regulation."
+  },
+  {
+    "objectID": "posts/2025-06-07-blog1/index.html#key-findings-and-policy-implications",
+    "href": "posts/2025-06-07-blog1/index.html#key-findings-and-policy-implications",
+    "title": "Guidelines vs. Financial Incentives: Which Policy Tool Actually Changes Physician Behavior?",
+    "section": "Key Findings and Policy Implications",
+    "text": "Key Findings and Policy Implications\nClinical recommendations alone proved less effective than government regulation in reducing low-value care in Switzerland—but our analysis revealed important nuances.\nWe found no unintended consequences from the coverage limitation: vitamin D supplementation rates remained unaffected, suggesting the policy successfully targeted testing without compromising appropriate treatment.\nHowever, from a health policy perspective, simply removing procedures from basic insurance coverage cannot be the default solution for addressing unnecessary treatments. This regulatory approach creates administrative burden.\nA more sustainable solution lies in strengthening financial incentives that align provider and payer interests. In Switzerland, this can be achieved through managed care contracts between physician networks and health insurers within alternative insurance models. These contracts establish quality standards while creating shared financial responsibility among physicians—encouraging appropriate care delivery without heavy-handed regulation."
+  },
+  {
+    "objectID": "posts/2025-06-07-blog1/scroll.html#an-interrupted-time-series-analysis-of-vitamin-d-tests",
+    "href": "posts/2025-06-07-blog1/scroll.html#an-interrupted-time-series-analysis-of-vitamin-d-tests",
+    "title": "Guidelines vs. Financial Incentives Against Low-Value Care: Which Policy Tool Actually Changes Physician Behavior?",
+    "section": "An Interrupted Time Series Analysis of Vitamin D Tests",
+    "text": "An Interrupted Time Series Analysis of Vitamin D Tests"
+  },
+  {
+    "objectID": "posts/2025-06-07-blog1/scroll.html#a-policy-response",
+    "href": "posts/2025-06-07-blog1/scroll.html#a-policy-response",
+    "title": "Guidelines vs. Financial Incentives Against Low-Value Care: Which Policy Tool Actually Changes Physician Behavior?",
+    "section": "A Policy Response",
+    "text": "A Policy Response\nThis increase led to several policy measures. In April 2021, the Smarter Medicine initiative, which is the Swiss equivalent of Choosing Wisely™, included vitamin D testing in its list of procedures to avoid. The recommendation was simple: no routine measurement of 25(OH)-Vitamin D in patients without risk factors. Physicians were informed of these measures.\nA year later, the Federal Office of Public Health introduced a coverage restriction (limitatio), limiting reimbursement for such tests. Together, these steps offered a natural experiment to observe how clinical recommendations and financial incentives influence medical practice."
+  },
+  {
+    "objectID": "posts/2025-06-07-blog1/scroll.html#using-real-world-data-to-evaluate-the-effect",
+    "href": "posts/2025-06-07-blog1/scroll.html#using-real-world-data-to-evaluate-the-effect",
+    "title": "Guidelines vs. Financial Incentives Against Low-Value Care: Which Policy Tool Actually Changes Physician Behavior?",
+    "section": "Using Real-World Data to Evaluate the Effect",
+    "text": "Using Real-World Data to Evaluate the Effect\nTo examine these changes, we analyzed mandatory health insurance claims data from SWICA, covering about 10% of the Swiss population. The data include more than 3’600 general practitioners and group practices, with adult patients who had at least one consultation between 2018 and 2023.\nWe applied interrupted time-series analysis to estimate how testing volumes evolved around the two interventions. The method compares observed data with a counterfactual trend, which shows what we would expect if the interventions had not taken place.\nThe models account for patient characteristics, clinical indications for testing based on Swiss guidelines, and physician-specific prescribing behavior. This allows us to isolate the effect of the policy interventions from broader temporal or compositional changes."
+  },
+  {
+    "objectID": "posts/2025-06-07-blog1/scroll.html#a-multi-disciplinary-collaboration",
+    "href": "posts/2025-06-07-blog1/scroll.html#a-multi-disciplinary-collaboration",
+    "title": "Guidelines vs. Financial Incentives Against Low-Value Care: Which Policy Tool Actually Changes Physician Behavior?",
+    "section": "A Multi-Disciplinary Collaboration",
+    "text": "A Multi-Disciplinary Collaboration\nThis study is the result of a productive collaboration between the health services research team at SWICA, physicians at the Institute of Primary Care of the University of Zürich, and health economists at the Institute of Health Economics and Health Policy of the Bern University of Applied Sciences.\nThis collaboration demonstrates how insights from claims data can advance our understanding of the healthcare system and inform policy decisions aimed at reducing costs for the Swiss population."
+  },
+  {
+    "objectID": "posts/2025-06-07-blog1/scroll.html#key-findings-and-policy-implications",
+    "href": "posts/2025-06-07-blog1/scroll.html#key-findings-and-policy-implications",
+    "title": "Guidelines vs. Financial Incentives Against Low-Value Care: Which Policy Tool Actually Changes Physician Behavior?",
+    "section": "Key Findings and Policy Implications",
+    "text": "Key Findings and Policy Implications\nClinical recommendations alone proved less effective than government regulation in reducing low-value care in Switzerland. However, our analysis revealed important nuances.\nWe found no unintended consequences from the coverage limitation: vitamin D supplementation rates remained unaffected, suggesting the policy successfully targeted testing without compromising appropriate treatment.\nHowever, from a health policy perspective, simply removing procedures from basic insurance coverage cannot be the default solution for addressing unnecessary treatments. This regulatory approach creates high administrative burden for physicians.\nA more sustainable solution lies in strengthening financial incentives that align provider and payer interests. In Switzerland, this can be achieved through managed care contracts between physician networks and health insurers within alternative insurance models. These contracts establish quality standards while creating shared financial responsibility among physicians—encouraging appropriate care delivery without heavy-handed regulation."
+  },
+  {
+    "objectID": "posts/2025-06-07-blog1/scroll.html",
+    "href": "posts/2025-06-07-blog1/scroll.html",
+    "title": "Guidelines vs. Financial Incentives Against Low-Value Care: Which Policy Tool Actually Changes Physician Behavior?",
+    "section": "",
+    "text": "Our Research Question: How can healthcare systems effectively reduce low-value care that wastes millions in resources?\nOur Natural Experiment: Switzerland tried two different approaches in the case of prescription of Vitamin D tests: clinical guidelines vs. financial restrictions. We tracked what actually happened to the number of prescriptions.\nThe Results? 👇 Scroll to see the story unfold…\n📖 Full Study: The impact of Choosing WiselyTM recommendations and insurance coverage restrictions on the provision of low-value care: an interrupted time series analysis of vitamin D tests (Sallin et al. 2025)"
+  },
+  {
+    "objectID": "posts/2025-06-07-blog1/scroll.html#the-results-in-one-scroll",
+    "href": "posts/2025-06-07-blog1/scroll.html#the-results-in-one-scroll",
+    "title": "Guidelines vs. Financial Incentives Against Low-Value Care: Which Policy Tool Actually Changes Physician Behavior?",
+    "section": "The results in one scroll",
+    "text": "The results in one scroll\n\n\n\n\nReading the Chart: What Are We Looking At?\n●●● Grey line = Actual vitamin D tests prescribed each month (real SWICA data)\n●●● Red line = What our statistical model predicts should happen\n▬▬▬ Green box = COVID-19 lockdown period (March-April 2020)\nWhy this matters: The red and grey lines track closely together, showing our model accurately captures normal prescribing patterns. This means we can detect when policies actually change physician behavior.\n\n\n\n\nVitamin D Test Prescriptions Rose Despite Low-Value Status\nDespite clear evidence of low clinical value, vitamin D test prescriptions rose by 20% between 2018 and 2021.\nA textbook example of low-value care in the healthcare system (see also Obsan 2023).\n\n\n\n\nApril 2021: Smarter Medicine Takes Action\nSwitzerland’s Choosing Wisely™ campaign places vitamin D testing on their “Top 5” list of unnecessary procedures.\n\n\n\n\n\nClear message: “No routine testing for patients without risk factors.”\n\n\n\n\nClinical Recommendations: Modest Impact\nThe Smarter Medicine recommendation shows a slight downward trend.\nBut is this enough? Let’s compare with what would have happened without intervention…\n\n\n\n\nRevealing the Counterfactual\nThe teal dashed line shows what would have happened without the recommendation.\nTesting rates would have continued climbing upward.\n\n\n\n\nThe Numbers: Clinical Recommendations Work, But Modestly\nWe conduct statistical tests to see whether the recommendation led to a recognizable pattern. The number of tests per consultation falls by 5.98% in the 12 months following the recommendation.\n\n\n\n\nJuly 2022: Strong Regulatory Measure\n\n\nThe Federal Office of Public Health restricts coverage. Patients now pay out-of-pocket for routine tests.\n\n\n\n\nFinancial Incentives: The Game Changer\nThe number of tests per consultation drops by 57.82% in the 6 months following the coverage restriction. This is a dramatic drop compared to clinical recommendations alone.\n\n\n\n\nThe Bottom Line: 15.65 Million CHF Saved\nHealthcare system savings of 15.65 million CHF in 2022 alone.\nThat’s 1.8 CHF per Swiss resident."
+  },
+  {
+    "objectID": "research.html#latest-news",
+    "href": "research.html#latest-news",
+    "title": "News & Activities",
+    "section": "",
+    "text": "“The impact of Choosing WiselyTM recommendations and insurance coverage restrictions on the provision of low-value care: an interrupted time series analysis of vitamin D tests” published in BMC Health Services Research\n📖 Read Paper | 📊 Interactive Blog Post\nKey findings: Financial incentives reduced unnecessary vitamin D testing by 62%, saving 15.65 million CHF annually.\n\n#### 🗳️ Elected to Public Office (2024)\nElected to the Audit Commission of Flawil municipality, contributing to local democratic oversight and public financial accountability."
+  },
+  {
+    "objectID": "research.html#research-portfolio",
+    "href": "research.html#research-portfolio",
+    "title": "News & Activities",
+    "section": "Research Portfolio",
+    "text": "Research Portfolio\nFor a comprehensive list of publications and citations, visit my Google Scholar profile."
+  },
+  {
+    "objectID": "research.html#complete-academic-record",
+    "href": "research.html#complete-academic-record",
+    "title": "News & Activities",
+    "section": "Complete Academic Record",
+    "text": "Complete Academic Record\nFor a comprehensive list of publications and citations, visit my Google Scholar profile."
   }
 ]
