@@ -1,5 +1,5 @@
 
-/* ============ Format Title, subtitles of the ABOUT-subpage ==================*/
+/* ============ Format Title, ubtitles of the ABOUT-subpage ==================*/
 
 /* Base styles (big screens) */
 .title {
@@ -110,35 +110,35 @@ a {
     font-size: 2rem;
     text-align: center !important;  /* Centered on mobile */
   }
-
+  
   .subtitle {
     font-size: 0.9rem;
     text-align: center !important;  /* Centered on mobile */
     margin-bottom: 1.5em;
   }
-
+  
   .about-image {
     margin: 1em auto;  /* Center image */
     max-width: 70%;
     display: block;
   }
-
+  
   .about-contents {
     padding: 0 1em !important;
     text-align: left;  /* Keep content left-aligned */
   }
-
+  
   h1 {
     font-size: 2rem;
     text-align: left;
     margin-top: 1em;
   }
-
+  
   h2 {
     font-size: 1.3rem;
     text-align: left;
   }
-
+  
   /* Mobile social links adjustments */
   .about-entity .about-links {
     justify-content: center !important;  /* Center icons */
@@ -146,11 +146,11 @@ a {
     padding: 10px 0 20px !important;
     margin: 0 auto !important;
   }
-
+  
   .about-entity .about-link {
     font-size: 1.2em !important;
   }
-
+  
   .cv-link {
     display: block;
     /*text-align: center;   Center CV link */
@@ -165,33 +165,33 @@ a {
   .title {
     font-size: 1.8rem;
   }
-
+  
   .subtitle {
     font-size: 0.8rem;
   }
-
+  
   .about-image {
     max-width: 85%;
   }
-
+  
   .about-contents {
     font-size: 0.9rem;
   }
-
+  
   h1 {
     font-size: 1.8rem;
   }
-
+  
   h2 {
     font-size: 1.2rem;
   }
-
+  
   /* Small mobile social links adjustments */
   .about-entity .about-links {
     padding: 5px 0 35px !important;
     justify-content: center !important;  /* Ensure icons stay centered */
   }
-
+  
   .about-entity .about-link {
     font-size: 1.2rem !important;
     padding: 0.15em !important;
