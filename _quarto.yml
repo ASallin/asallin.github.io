@@ -5,7 +5,7 @@ project:
 website:
   title: "Aurélien Sallin"
   navbar:
-    title: "Aurélien Sallin, PhD" # override printing your website `title` 
+    title: "Aurélien Sallin, PhD" # override printing your website `title`
     # logo: media/logo.png
     # logo-alt: "Alt text for logo"
     left:
@@ -33,7 +33,6 @@ format:
   html:
     theme: styles.scss # I've also removed the `css: styles.css` option that was included by default, since I'll be writing all my sass and css in this single styles.scss file
     mainfont: Karla # Add main font here
-    backgroundcolor: "#e6f6f7"
     css: styles.css
     toc: true
     page-layout: full
