@@ -19,7 +19,7 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/aur%C3%A9lien-sallin-365148100/
       target: _blank
-    - icon: envelope 
+    - icon: envelope
       aria-label: "Email"
       text: Email
       href: mailto:aurelien.sallin@protonmail.com
@@ -31,5 +31,5 @@ As an **economist** and **data scientist** at a major Swiss healthcare organizat
 
 My passion lies in **turning data into insight through numbers, simulations, models, and impactful visualizations**. When I’m not coding, I’m probably running, biking, doing politics for my township, or cooking.
 
-Feel free to **get in touch** using the contact info below 👇
+Feel free to **get in touch** using my contact info.
 :::

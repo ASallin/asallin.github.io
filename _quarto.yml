@@ -32,7 +32,8 @@ website:
 format:
   html:
     theme: styles.scss # I've also removed the `css: styles.css` option that was included by default, since I'll be writing all my sass and css in this single styles.scss file
-    mainfont: Karla # Add main font here
+    mainfont: Inter # Professional, modern sans-serif
+    #mainfont: Karla
     css: styles.css
     toc: true
     page-layout: full

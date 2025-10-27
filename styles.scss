@@ -3,11 +3,16 @@
 // font
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&display=swap');
 
-
-// Fonts 
+// Fonts
 $karla: "Karla", sans-serif; // For main. Change in _quarto.yml
 $quicksand: "Quicksand", sans-serif; // for headers: change below
+
+$inter: "Inter", sans-serif; // Professional, clean sans-serif
+$source-serif: "Source Serif Pro", serif; // Elegant serif for headings
+
 // CSS grouping selector, which applies Sen to any HTML header
 
 // Colors
@@ -28,10 +33,10 @@ $muted-pink: #b74a58;
 $navbar-bg: $misty-sky; // navbar
 $navbar-fg: $deep-forest; // navbar foreground elements
 $navbar-hl: $hover-color; // highlight color when hovering over navbar links
-$body-bg: $muted-pink; // page background 
-$body-color: $deep-forest; // page text 
-$footer-bg: $misty-sky; // footer 
-$link-color: $muted-pink; // hyperlinks 
+$body-bg: $muted-pink; // page background
+$body-color: $deep-forest; // page text
+$footer-bg: $misty-sky; // footer
+$link-color: $muted-pink; // hyperlinks
 
 // Inline code
 $code-bg: $foggy-green; // inline code background color
@@ -40,9 +45,15 @@ $code-color: $muted-pink; // inline code text color
 
 /*-- scss:rules --*/
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3,
+h4,
+h5,
+h6 {
+  /*font-family: $quicksand;*/
   font-family: $quicksand;
+  font-weight: 600;
 }
+
 
 h1, h2 {
   letter-spacing: 5px;
@@ -51,13 +62,14 @@ h1, h2 {
 
 .title {
   color: $deep-red;
+  //color: $navy-blue; // Professional navy instead of bright red
 }
 
 .center-text {
   text-align: center;
 }
 
-.navbar-brand img { 
+.navbar-brand img {
   max-height: 120px;
   width: auto;
 }
@@ -66,5 +78,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: $misty-sky;
+  //background-color: white; // Clean white background
 }
 

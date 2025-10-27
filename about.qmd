@@ -8,6 +8,8 @@ about:
   template: trestles
   image-width: 12em
   image-shape: round
+  #image-width: 10em # Reduced from 12em - smaller is more professional
+  #image-shape: rounded # Less casual than round, more professional than square
   links:
     - icon: github
       aria-label: GitHub
@@ -28,7 +30,7 @@ html:
 
 ## Data Science and Economics
 
-In the past three years (since 2022), I have been working as a **Senior Economist/Data Scientist** in the **Health Services Management Team** of one of the largest health insurance companies in Switzerland. Our focus lies in the strategic, data-driven development of alternative financing models and the implementation of Value-Based Healthcare approaches.
+I am a **Senior Economist/Data Scientist** in the **Health Services Management Team** of one of the largest health insurance companies in Switzerland. My interest lies in the strategic, data-driven development of alternative financing models and the implementation of Value-Based Healthcare approaches.
 
 My role includes conceptualizing and conducting **statistical analyses** based on **claims data**, leading departmental projects on healthcare financing, and using data to monitor costs, evaluate our interventions, and generate value for our insurees. This includes applying methods such as **causal machine learning** and **quasi-experimental designs**. I have presented our research at over ten national and international conferences in health economics, statistics, and population research.
 
