@@ -39,7 +39,8 @@ $footer-bg: $misty-sky; // footer
 $link-color: $muted-pink; // hyperlinks
 
 // Inline code
-$code-bg: $foggy-green; // inline code background color
+//$code-bg: $foggy-green; // inline code background color
+$code-bg: transparent; // inline code background color
 $code-color: $muted-pink; // inline code text color
 
 

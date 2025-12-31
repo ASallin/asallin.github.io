@@ -8,3 +8,6 @@
 /.quarto/
 
 **/*.quarto_ipynb
+
+# secrets
+.Renviron
