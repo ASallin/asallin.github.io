@@ -11,3 +11,10 @@
 
 # secrets
 .Renviron
+
+# Cache directories and large data files
+**/cache/
+*.gpkg
+*.csv
+# But allow small essential csvs if needed
+!**/essential_data.csv
