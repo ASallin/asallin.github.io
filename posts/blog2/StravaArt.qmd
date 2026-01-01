@@ -9,13 +9,27 @@ keywords: ["Strava", "Data viz", "Data science"]
 toc: false
 format:
   html:
-    # css: "style_quarto.css"
     code-fold: true
 knitr:
   opts_chunk:
     dev.args:
       bg: transparent
 ---
+
+<style>
+img.responsive {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 600px) {
+  img.responsive {
+    width: 90%;
+  }
+}
+</style>
 
 ## Representing my biking in an artistic way
 In 2025, **I spent 322h biking around the countryside**. In comparison to the time I spent working, teaching, or handling everyday family tasks, this is not a lot. But time spent biking (and also running) has a special quality to it. It is time outside, alone or with friends, an immediate and physical experience of speed, distance, and calm. This experience contrasts with my screen-based work, and has become a central element of balance and peace of mind in my life.
@@ -195,7 +209,7 @@ As the basic structure of the map, I define a bounding box for Eastern Switzerla
 Once the activities and the map have been prepared, use `ggplot()` and `geom_sf` to plot the map rectangle, the street lines, and the activities. I chose among two favorite color palettes to display the map in a nice artistic way. I also chose a font that I thought would go well with the overall design.
 
 <div style="text-align: center;">
-  <img src="cache/map_2025.png" style="width:40%;" />
+  <img src="cache/map_2025.png" class="responsive" />
 </div>
 
 ```{r}
@@ -438,13 +452,13 @@ ggsave(
 First of all, as the saying goes, **if it's not on Strava, it didn't happen**. Now you have living proof that the metaphysical importance of Strava entries has real-life consequences. 
 
 <div style="text-align: center;">
-  <img src="cache/itdidnthappenstrava.jpg" style="width:30%;" />
+  <img src="cache/itdidnthappenstrava.jpg" class="responsive" />
 </div>
 
 Second, making beautiful maps from Strava activities brings exactly the sense of satisfaction and achievement we seek around the new year. With the cold outside, spending extra time coding was quite rewarding. **Take care and happy 2026!**
 
 <div style="text-align: center;">
-  <img src="cache/biking.jpg" style="width:40%;" />
+  <img src="cache/biking3.jpg" class="responsive" />
 </div>
 
 

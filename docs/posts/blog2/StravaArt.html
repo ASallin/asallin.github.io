@@ -106,9 +106,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-W2D6L26NC8"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
+</script>
 
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -215,6 +223,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
+<style>
+img.responsive {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 600px) {
+  img.responsive {
+    width: 90%;
+  }
+}
+</style>
 <section id="representing-my-biking-in-an-artistic-way" class="level2">
 <h2 class="anchored" data-anchor-id="representing-my-biking-in-an-artistic-way">Representing my biking in an artistic way</h2>
 <p>In 2025, <strong>I spent 322h biking around the countryside</strong>. In comparison to the time I spent working, teaching, or handling everyday family tasks, this is not a lot. But time spent biking (and also running) has a special quality to it. It is time outside, alone or with friends, an immediate and physical experience of speed, distance, and calm. This experience contrasts with my screen-based work, and has become a central element of balance and peace of mind in my life.</p>
@@ -368,7 +390,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>As the basic structure of the map, I define a bounding box for Eastern Switzerland (from Zürich to Bregenz, Konstanz to Luzern). That’s where most of my activities take place. I went biking and running in Western Switzerland and Spain, which I will not show on the map. I extract the main roads from OpenStreetMap using <code>add_osm_feature()</code>and cache them to a <code>.gpkg</code> file to avoid re-downloading.</p>
 <p>Once the activities and the map have been prepared, use <code>ggplot()</code> and <code>geom_sf</code> to plot the map rectangle, the street lines, and the activities. I chose among two favorite color palettes to display the map in a nice artistic way. I also chose a font that I thought would go well with the overall design.</p>
 <div style="text-align: center;">
-<p><img src="cache/map_2025.png" style="width:40%;"></p>
+<p><img src="cache/map_2025.png" class="responsive"></p>
 </div>
 <div class="cell">
 <details class="code-fold">
@@ -575,11 +597,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="if-its-not-on-strava-it-didnt-happen---also-in-2026">If it’s not on Strava, it didn’t happen - also in 2026</h2>
 <p>First of all, as the saying goes, <strong>if it’s not on Strava, it didn’t happen</strong>. Now you have living proof that the metaphysical importance of Strava entries has real-life consequences.</p>
 <div style="text-align: center;">
-<p><img src="cache/itdidnthappenstrava.jpg" style="width:30%;"></p>
+<p><img src="cache/itdidnthappenstrava.jpg" class="responsive"></p>
 </div>
 <p>Second, making beautiful maps from Strava activities brings exactly the sense of satisfaction and achievement we seek around the new year. With the cold outside, spending extra time coding was quite rewarding. <strong>Take care and happy 2026!</strong></p>
 <div style="text-align: center;">
-<p><img src="cache/biking.jpg" style="width:40%;"></p>
+<p><img src="cache/biking3.jpg" class="responsive"></p>
 </div>
 <p><br>
 </p>
@@ -684,7 +706,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/asallin\.github\.io");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -1016,7 +1038,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Copyright 2025, Aurélien Sallin</p>
+<p>Copyright 2026, Aurélien Sallin</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

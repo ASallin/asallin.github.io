@@ -4,6 +4,9 @@ project:
 
 website:
   title: "Aurélien Sallin"
+  site-url: "https://aureliensallin.ch"
+  repo-url: "https://github.com/ASallin/asallin.github.io"
+  google-analytics: "G-W2D6L26NC8" # Replace with your Google Analytics Measurement ID
   navbar:
     title: "Aurélien Sallin, PhD" # override printing your website `title`
     # logo: media/logo.png
@@ -25,7 +28,7 @@ website:
         target: _blank
   page-footer:
     background: light # or `dark`
-    left: Copyright 2025, Aurélien Sallin
+    left: Copyright 2026, Aurélien Sallin
     right: This website is built with {{< fa heart title="a heart" >}}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
 
 
@@ -34,7 +37,7 @@ format:
     theme: styles.scss # I've also removed the `css: styles.css` option that was included by default, since I'll be writing all my sass and css in this single styles.scss file
     mainfont: Inter # Professional, modern sans-serif
     #mainfont: Karla
-    css: styles.css
+    #css: styles.css
     toc: true
     page-layout: full
     grid: # to format layout of "HOME" Site, formating of other sites is defined in styles_publications.css, styles_talks.css, etc
