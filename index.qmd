@@ -1,7 +1,8 @@
 ---
 title: "Welcome!" #title of "home" page
 pagetitle: "Aurélien Sallin" # appears on top of browser window
-description: "Aurélien Sallin's personal website - Statistics, data visualization, R programming, and health economics research"
+website:
+  description: "Aurélien Sallin's personal website - Statistics, data visualization, R programming, and health economics research"
 # subtitle: "STATISTICS, VISUALIZATIONS AND R PROGRAMMING"
 image: media/background2.png # in root folder
 css: styles_home.css
