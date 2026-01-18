@@ -3,8 +3,8 @@ title: "Health expenditure and health outcomes"
 subtitle: "Learning data handling through real-world health economics data"
 author: "Aurélien Sallin"
 date: "2026-01-19"
-image: cache/spending_vs_life_2022.png
-description: "Do higher health expenditures buy better health? To investigate this question, students in our data handling course worked with international health data and learned how to retrieve, prepare, and visualise it. Being able to work with data is essential in applied economics, not only for producing models, but for understanding what indicators represent and how they can be compared. Measurement decisions influence interpretation, which is why empirical work in economics starts well before estimation."
+image: cache/banner.png
+description: "Do higher health expenditures lead to better health outcomes? Students explored this question by working with international data on health spending and outcomes. The project introduced the full data pipeline, from retrieving data to presenting results. Being able to work with data is essential in applied economics because empirical work starts well before estimation. The short answer to the research question: yes, higher expenditures are associated with better outcomes, but only up to a certain point."
 keywords: ["RStats", "Data science", "Data viz", "Teaching data science", "Applied economics", "Health economics", "Healthcare spending", "Health expenditure", "Life expectancy", "Health outcomes", "OECD", "World Bank data", "Data cleaning", "Data preparation", "APIs", "tidyverse", "ggplot2"] ##healtheconomics #healthpolicy #datascience #rstats #economics #oecd #dataviz #education #publichealth
 toc: false
 format:
@@ -30,14 +30,16 @@ img.responsive {
     width: 90%;
   }
 }
+
 </style>
 
+\
 
-## Teaching young economists to work with data
+# Teaching young economists to work with data
 
 In my course ["Data Handling"](https://github.com/ASallin/datahandling-lecture) at the University of St. Gallen, students in BA Economics learn their first steps in handling data. These steps are usually not covered in economics programs, where the focus lies mostly on statistics and econometrics. However, applied work starts earlier: finding relevant data, importing it, cleaning it, merging it, and summarising it. This is represented by the **data pipeline workflow**, which forms the backbone of the course.
 
-![](cache/data_science_pipeline.png){fig-align="center" fig-alt="The Data Pipeline" width="60%"}
+![](cache/data_science_pipeline.png){fig-align="center" fig-alt="The Data Pipeline" width="70%"}
 
 To make these steps concrete, we applied the pipeline to an economic question in a group project: **Do higher health expenditures buy better health?** Students worked with real-world data on life expectancy and perceived health status to investigate whether and how spending relates to outcomes. This setup allows students to practice the technical steps in data handling while engaging with a topic that raises real economic questions.
 
@@ -45,7 +47,7 @@ To make these steps concrete, we applied the pipeline to an economic question in
 
 ## A data handling project linking health spending and health outcomes
 
-The question of whether higher health expenditures lead to better health outcomes is a recurring theme in health economics. Spending is positively associated with outcomes in low- and middle-income countries, while the relationship is weaker in high-income settings ("plateau effect"). The United States and Switzerland are a well-known case: high spending with comparatively lower outcomes (@anderson2003s).
+The question of whether higher health expenditures lead to better health outcomes is a recurring theme in health economics. Spending is positively associated with outcomes in low- and middle-income countries, while the relationship is weaker in high-income settings ("plateau effect"). The United States and Switzerland are a well-known case: high spending with comparatively lower outcomes.
 
 For this project, students worked with international data to examine **three hypotheses**:
 
@@ -53,7 +55,7 @@ For this project, students worked with international data to examine **three hyp
   2. Higher health expenditures are associated with better perceived health status.
   3. The marginal gains from health spending are smaller in high-income settings than in lower-income settings.
 
-Students were guided through the technical steps: retrieving data through APIs, cleaning datasets, merging sources, and exploring basic patterns. In this project, they learned the core skills that applied economists need when working with data.
+Students were guided through the technical steps to investigate these three hypotheses.
 
 <br>
 
@@ -110,6 +112,7 @@ Students were asked to look at expenditures in USD and as share of GDP, discuss 
 <br>
 
 ## Measuring health outcomes: life expectancy and perceived health status
+
 We used **two outcomes**: **life expectancy (from the World Bank) and perceived health status (from the OECD)**. Life expectancy is a widely used indicator of population health and correlates with many determinants of health. Perceived health status captures how individuals evaluate their own health and varies across countries for both health-related and cultural reasons. Students were asked to reflect on the advantages and disadvantages of using these measures as proxies for health quality.
 
 Differences in perceived health status are informative but harder to compare across countries because reporting styles, expectations, and social norms influence responses. This makes it possible for two countries with similar health systems to display different levels of reported health.
@@ -130,7 +133,7 @@ Life expectancy is highly correlated with income brackets. We observe a Covid ef
 
 ## The final story: insights and visualization
 
-The relationship between expenditures and outcomes confirms the hypotheses. **Higher spending is associated with higher life expectancy, but the gains flatten at higher levels of spending (diminishing returns).** This is particularly impressive for two outlier countries: Switzerland and the US.
+The relationship between expenditures and outcomes confirms the hypotheses. To answer our research question: **yes, higher spending is associated with higher life expectancy, but the gains flatten at higher levels of spending (diminishing returns).** This is particularly impressive for two outlier countries: Switzerland and the US.
 
 ![](cache/spending_vs_life_2022.png){fig-align="center" fig-alt="Description of the image" width="80%"}
 
