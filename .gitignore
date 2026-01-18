@@ -13,7 +13,7 @@
 .Renviron
 
 # Cache directories and large data files
-**/cache/
+*.qs
 *.gpkg
 *.csv
 # But allow small essential csvs if needed
