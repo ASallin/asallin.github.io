@@ -155,7 +155,7 @@ This project emphasised the understanding of each step while still enabling stud
 
 ## Acknowledgments
 
-This course was originally created by [Ulrich Matter](https://umatter.github.io/). I am grateful for the foundation he provided and have since taken over and further developed the course content. To [Minna Heim](https://rseed.ch/about/minna/index.html) for taking time to inspire students and to prepare the lecture on APIs. To [Matt Bannert](https://rseed.ch/about/matt/index.html) for inspiration.
+This course was originally created by [Ulrich Matter](https://umatter.github.io/). I am grateful for the foundation he provided and have since taken over and further developed the course content. To Federica and Andrea for support in preparing, supporting students, and grading the project. To [Minna Heim](https://rseed.ch/about/minna/index.html) for taking time to inspire students and to prepare the lecture on APIs. To [Matt Bannert](https://rseed.ch/about/matt/index.html) for inspiration.
 
 <br>
 
