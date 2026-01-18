@@ -1,0 +1,337 @@
+Eriksson, Erik
+Garg, Sona
+Jensen, Philip
+Svidrun, Andriy
+Wunsch Izquierdo, Marco
+
+Our analysis reveals a clear story: countries that spend more on healthcare tend to achieve better healthcare outcomes. Focusing on 2019, Health expenditure per capita and life expectancy show a strong correlation of r=0.60. We found that this relationship seemed to be stronger correlated in high-income countries r = 0.54 in comparison to low-income countries with a correlation of r = 0.07, suggesting that additional spending only achieves better healthcare outcomes when the health system is sufficiently developed and the basic needs are provided. Perceived health also showed a positive correlation between life expectancy, however weaker of r = 0.34, meaning that countries in which better health was reported have higher life expectancy. Between 2000 and 2022, all income groups experienced increases in life expectancy, with low-income growing faster than high-income. Ultimately, our data concludes that there exists a positive correlation between higher spending and health outcomes, however the strength of this conclusion varies by income group and is weaker when we move from objective variables (of spending) to proxy variables (of perceived health).
+
+
+Author1, Rebecca Seegrün
+Author2, Nada Ajarti
+Author3, Mara Studer
+Author4, Valentine Lattion
+Author5, Lennart Herlyn
+
+The data shows that the link between healthcare spending and health outcomes is more nuanced than expected. Although the relationship is not perfect, a generally positive correlation appears across countries: higher spending tends to go hand in hand with longer life expectancy and better self-reported health. But this relationship is not proportional there are significant diminishing returns as spending increases. There are also striking exceptions. Some countries reach strong outcomes with relatively modest budgets, while others invest heavily without seeing proportional gains. Perceived health adds another dimension, as people’s impressions of their own well-being do not always align with objective indicators. Cultural norms, lifestyle patterns, and inequality likely shape these differences. A scatterplot of spending versus life expectancy illustrates this mix of clear overall trends and surprising outliers that make the data story compelling.
+
+
+Roelants du Vivier, Julie
+Gratzer- Marshall, Eliette
+Virit, Ali
+Braun, Finn
+Allotey Kelvin, Lloyd
+
+8.1 Our Story Our analysis shows a clear story: countries that spend more on healthcare achieve better health outcomes, but the benefits are not equal across the world. Low-income countries make the largest gains in life expectancy as spending increases, while high-income countries face diminishing returns; adding dollars brings only marginal improvements. Perceived health and life expectancy rise together, suggesting that both objective and subjective measures reflect the same underlying quality. Yet, major data gaps persist: perceived health is only available for OECD members, masking inequalities elsewhere. Overall, the global picture reveals progress, persistence of inequality, and a strong but nonlinear link between spending and health.
+
+
+Tim Noah Bitterolf
+Felix Zozin
+Josef Emil Klösch
+Tom Luca Köhler
+Yannick Tim Allmann
+
+Our analysis of global health economics (2000–2019) merges World Bank and OECD data to answer a critical question: how efficiently does capital translate into longevity? While we confirmed a robust positive correlation between health expenditure and life expectancy (p<0.05), the story is defined by non-linearity. As shown above, the relationship follow a logarithmic curve. In low-income nations, modest financial investments yield large spikes in survival rates. However, high-income nations face diminishing returns; the curve flattens, requiring exponential spending increases for marginal gains in life expectancy demonstrated by the significantly lower R^2 of our logarithmic model with diminishing marginal returns. Notably, Lower-Middle-Income countries show the steepest relative acceleration in spending over the last 20 years. The data suggests that while capital is the primary driver of basic survival, not only the amount of money spent but also structural efficiency becomes the deciding factor for longevity in developed economies.
+
+
+
+Markus Düppenbecker
+Lorenzo Di Perna
+Simon Jensen
+Mika Maniura
+Maximilian Rubén Winter
+
+Nice graph!!
+
+How far can national health spending actually buy longer lives?
+Using World Bank and OECD data, we examined how per-capita health expenditure relates to life expectancy across countries and income groups, and how perceived health status compares to objective outcomes in OECD countries. The 2019 scatter plot shows a clear but concave relationship: moving from very low to moderate spending is linked to large gains in longevity, while additional spending in high-expenditure systems yields only small improvements. Health spending alone therefore cannot explain global differences in life expectancy. Subjective health ratings add only limited insight, suggesting that broader social, economic and institutional factors also play a role. This project strengthened our ability to clean, merge and visualise complex datasets in R using dplyr, tidyr and ggplot2, ultimately turning raw data into a coherent story about global health patterns.
+
+
+Brynjar, Börner
+Elias Thomas, Rieder
+Jan, Nemeth
+Julius, Reich
+Sebastian Oliver, Kämpf
+
+In our project we collected health expenditure, life expectancy and perceived health status data from the World Bank and the OECD. We cleaned each dataset by selecting the relevant variables, removing unnecessary categories and checking for missing or inconsistent values. We also compared the OECD and WDI life-expectancy indicators to confirm that both sources report the same values.
+
+After this, we merged the datasets so that countries, years and income groups matched across all indicators. The merged data shows a positive relationship between health expenditure and our two quality measures. Life expectancy rises quickly with higher spending in low-income countries, while high-income countries show much smaller gains (diminishing returns). Perceived health status also differs clearly between income groups.
+
+Our conclusion is that low-income countries benefit most from additional resources, while high-income countries should focus on improving efficiency rather than increasing spending.
+
+
+Author1, Mathis Clement
+Author2, Elia Mazza
+Author3, Lara Mileto
+Author4, Joao Matteo Pisaturo
+Author5, Michele Zecchin
+
+This research aims to shed light on how health expenditure, life expectancy, and perceived health evolve across countries, and why understanding these dynamics helps us interpret global health systems more effectively. Our cleaned dataset shows that higher spending aligns with longer lives. However, this relationship is not always uniform. Many countries achieve strong outcomes with moderate investment, emphasizing the importance of a possible efficient allocation and accessible primary services. Furthermore, perceived health deepens our research revealing that how people feel about their well-being often reflects other factors such as culture, allocation and system design more than only spending levels. We gathered a concise dataset to reveal a powerful insight: resilient health systems are built through effective use of resources, not simply larger budgets.
+
+
+
+Alessio De Simeis (24-621-476)
+Elia Valentin Locher (21-941-000)
+Marco Molnar (21-917-315)
+Lars Wyssen (24-617-771)
+
+Our project tells a simple story: how far does one extra dollar of health spending really go?
+
+Using World Bank and OECD data for 2000–2022, we cleaned and merged global series on health expenditure, life expectancy and perceived health. We show that spending per capita has more than tripled worldwide, yet gains in life expectancy are far from proportional. Low- and lower-middle-income countries still spend little, but every additional dollar is associated with large improvements in longevity.
+
+In contrast, high-income countries already sit on a “plateau”: they spend vastly more, but extra spending buys only small health gains and often reflects higher prices rather than more care. Perceived health in OECD countries rises with spending too, but only moderately, reminding us that subjective well-being and objective survival are related yet distinct.
+
+Overall, our data story is about inequality and diminishing returns: health systems in poor countries need more resources, while rich countries need to spend smarter rather than simply more.
+
+
+
+Frison, Mattéo
+Rogger, Mathieu
+Heidenreich, Luca
+Heidenreich, Philip
+Walke, Paula Katharina
+
+Western countries are widely facing stagnation or even decreasing GDP. Often, this very present and much-discussed topic overshadows an issue at least equally important to confront: exploding state expenses that increasingly exceed countries’ actual budgets. A crucial area in many Western countries is the health sector, whose expenses represent a larger and larger share of the household budget. Very basic and simple analysis of the correlation between health expenditure and health quality clearly can show across different countries’ income groups where one part of the problem lies: higher expenditure does not unconditionally lead to better health quality. While there is a correlation, there are differences in marginal returns of increased expenditure for different countries’ income groups. This is something governments and politicians should keep in mind when deciding on budget allocation. Feel free to have a look at the whole project we conducted!
+
+
+Hans Christian Paul Witte
+Justus Henkel
+Peter Otto Thürbach
+Sophia de Groot
+Yael Erdin
+
+Greedy Big Pharma or drivers of longer lives? As ageing, long COVID and tight budgets strain health systems, one question matters: are we buying more health or just spending more money? Our analysis links how much countries spend on health to how healthy their populations are. Using World Bank and OECD data, we show that higher per-capita health expenditure in USD is associated with longer lives and better perceived health. Across income groups, life expectancy rises for everyone, but from very different levels: low-income countries gain the most years, yet the gap to high-income countries remains large. The strongest expenditure-outcome link appears in high-income countries; in low-income settings, structural factors such as infrastructure or political stability may limit predictability. Overall, our results support the idea of health spending as investment in “health capital”, but with diminishing returns at the top and binding constraints at the bottom.
+
+
+Martha Blaser
+Morgane Vuissoz
+Pauline Françoise Fournier
+Solène Héloïse Berney
+Santiago Carnevali Nunez
+
+Our analysis consists in a multi-dimensional exploration of the relationship between health expenditure and health outcomes. By comparing spending with health proxies (life expectancy and perceived health status), we demonstrate the importance of socio-economic status and the implication it has on health outcomes around the world. Income-group disparities are substantial and clearly reveal health inequalities. our Data reveals a positive moderate correlation between life expectancy - health expenditures, perceived health status - health expenditure, life expectancy - perceived health status, supporting the idea that greater spending is associated with better health outcomes. Moreover, since the 2000’s health expenditure has been consistently rising since coinciding with the continuous growth in life expectancy. Overall, our analysis provides strong evidence that higher spending is associated with better health outcomes, although disparities exists between the different income groups.
+
+
+Ambika Dauti
+Makenna Joelle Ben
+Rachel Elizabeth Raju
+
+Our analysis examines how healthcare spending relates to population health across income groups. High-income countries consistently combine the highest health expenditures with the best outcomes, showing a clear positive link between spending, life expectancy, and perceived health. Middle-income countries spend far less and achieve lower (and more volatile) health outcomes, with no sign of convergence. The contrast is striking: investing more in healthcare is strongly associated with better results, but the size of this relationship depends heavily on a country’s level of economic development. The final plot visualises this gap, showing two distinct trajectories that reflect persistent global inequalities in health systems.
+
+
+Cedric Borruat
+Marc Joel Dönni
+Yann Rochaix
+Lino Todesco
+Jonas Weber
+
+Nice graph
+
+In our research on global health, we examined the relationship between health expenditure, life expectancy and perceived health status across countries. We found a strong correlation of 0.85 between expenditure and life expectancy, particularly pronounced in high-income countries. For this computation, we used the Spearman correlation coefficient. In contrast, the correlation, also based on the Spearman correlation coefficient, between perceived health status and life expectancy is substantially lower at 0.42. These results suggest that higher spending can strengthen health systems, yet efficiency in allocating resources remains crucial. The differing correlation levels, together with visible positive and negative outliers, indicate that some countries achieve excellent health outcomes with relatively modest spending, while others struggle to reach comparable standards despite continuously increasing their expenditures.
+
+
+
+Arthur Charles Vallery
+Mathieu Charles Dominicé
+Balthazar Monchau
+Alexandre Zaza
+Antoine Reil
+
+Over the past two decades, global healthcare spending has risen sharply, yet its impact differs dramatically across countries. By merging World Bank and OECD datasets, we explored how expenditure translates into health outcomes. We find a clear positive relationship between spending and life expectancy, but with diminishing returns: low-income countries gain the most from each additional dollar, while high income countries see smaller improvements. Despite rising spending everywhere, perceived health status remains stable, suggesting limits to what money can buy once basic needs are met. Overall, our analysis highlights a widening spending gap but slow convergence in health outcomes.
+
+Best capturing visualization: a scatterplot of health expenditure (USD per capita) vs. life expectancy, with income groups colored, showing steep gains at low levels of spending and flattening at the top.
+
+
+Peter Bauschlicher
+Mick Blattmann
+Alessia Hauser
+Jule Michel
+Louis Platz
+
+Countries spend very different amounts on healthcare, but does more spending always lead to better health? In our analysis, we explore this relationship using global data on health expenditure, life expectancy and perceived health status. We find a generally positive correlation: countries that invest more per capita tend to achieve longer and healthier lives. However, the relationship may not be perfectly linear. In high income countries, additional spending might lead to smaller improvements because life expectancy is already at a high level and gains become harder to achieve. Possible explanations could include differences in lifestyle, prevention, inequality or system efficiency that limit further progress.
+
+
+
+Author1, Leo Solan Germann
+Author2, Kuzey Alp Alkin
+Author3, Nikolaus Protzen
+Author4, Elena-Laura Minea
+Author5, Luca Battistel
+
+Money and Health: Is There a Link?
+
+Our project looked at the relationship between healthcare spending and health outcomes across countries. We focused on life expectancy and perceived health status as indicators of healthcare quality. After cleaning and merging the datasets, we explored trends and correlations. Overall, we found that countries spending more on healthcare tend to have better health outcomes, but the relationship isn’t always perfect. For example, some countries spend a lot but don’t have the highest life expectancy, which suggests that other factors also matter. Our results also show differences between income groups: high-income countries often spend more and have higher life expectancy, while lower-income countries spend less and have lower outcomes. Still, most countries show improvements over time. The main takeaway is that healthcare spending is linked to better health outcomes, but money alone doesn’t explain everything.
+
+
+Isaac-Louys de Crousaz (24-619-835)
+Pedro Penetra Carolo Negrão (23-816-804)
+Janic Wermuth (24-610-834)
+Antonin Ricard-Boual (24-619-934)
+Killian Borgeaud (24-608-689)
+
+In this project we asked whether higher health spending buys better health. Using World Bank data on health expenditure and life expectancy together with OECD data on perceived health, we find a clear positive but concave relationship between spending per person and life expectancy, with diminishing gains once a few thousand dollars of spending is reached. Perceived health is also positively related to spending, but the link is weaker and noisier, partly because it is subjective and only observed for mostly rich countries. Splitting by income groups shows that the association between spending and life expectancy is tightest in high income countries. The final income group paths from 2000 to 2022 summarise this story visually, as higher average spending over time goes hand in hand with longer lives in every group, yet large gaps between rich and poor countries remain.
+
+
+
+Stupia Gonzalez, Gabriela
+Weiher, Fabian
+Fäs, Aidan
+Dukanovic, Nikola
+Ernst, Frederik
+
+Does Money Buy Life? The Economics of Survival
+
+Our analysis of global healthcare data (2000-2022) confirms that while funding is vital, it obeys the law of diminishing returns and is subject to threshold effects.
+
+The Threshold Trap: Contrary to our initial hypothesis, the poorest nations show near-zero correlation (r = 0.05) between domestic spending and life expectancy. Below a critical economic threshold, survival appears to be driven more by stability, external aid, and basic access to peace than by marginal increases in domestic health budgets.
+The Efficiency Sweet Spot: Middle-income countries see the highest returns. Here, modest investments in established healthcare infrastructure drive massive jumps in longevity.
+The Wealth Plateau: In high-income countries, the curve flattens. While wealth still predicts health (r = 0.54), the cost of extending life rises exponentially.
+Verdict: Money buys the capacity to survive, but only after a basic threshold of stability is met. Beyond a certain tipping point, biology and lifestyle begin to outweigh the budget.
+
+
+1. Ludvine Tüscher
+2. Till Monheim
+3. Justus Rethmann
+4. Matti Albrecht
+5. Grace Olvany
+
+Our analysis of OECD and World Bank data shows a clear global pattern: countries that spend more on healthcare achieve better outcomes, especially longer life expectancy and, to a lesser extent, better perceived health. The relationship with life expectancy is strong and statistically significant but non-linear: at low spending levels, each additional dollar yields sizable gains, while at high levels improvements flatten out, suggesting diminishing returns. Perceived health shows a weaker, yet still positive, association with spending.
+
+Visual patterns across income groups reveal two broad clusters. High-income countries combine high spending with strong outcomes, whereas middle-income countries show far greater variation in how efficiently spending translates into health. Low-income countries remain far behind on both dimensions. The core message is: what a country spends on health matters, but how efficiently resources are used matters just as much.
+
+
+Bunzel, Luis
+Cao, David
+Janura, Téva
+Markies, Dorian
+Wagensonner, Antonia
+
+The more a society funds its healthcare system, the longer it lives. Yes, but not quite…
+
+Our analysis reveals a strong correlation between wealth and health across the 262 countries examined. Higher health spending correlates with longer lives (R = 0.631). For low-income nations, every dollar spent yields significant gains in life expectancy. However, we observed that this relationship is not linear. Returns are diminishing as spending rises.
+
+For wealthier nations, the curve flattens. The most striking outlier is the United States. Despite spending $10,546 per capita (2019), far more than other nations, its life expectancy (78.8) lags behind the high-income average (80.4). This suggests two implications:
+
+—>Funding is the Foundation of Healthcare, but systemic efficiencies are the key for wealthy nations —> State-of-the-art healthcare delivers below average returns if broad accessibility is not achieved Further studies will focus on Health (in-)equality.
+
+
+
+Author1, Aurel Woodtli
+Author2, Fred Walter
+Author3, Luca Mulder
+
+Our analysis of World Bank and OECD data (2000–2022) reveals a nuanced answer: while healthcare expenditure and life expectancy are positively correlated (), the relationship is governed by diminishing returns. We observe a “Great Convergence,” where low-income nations are achieving rapid longevity gains despite minimal financial resources. However, we uncovered a counter-intuitive structural break: the link between funding and outcomes is actually weakest in low-income nations (), suggesting that below a certain development threshold, longevity depends more on stability and basic infrastructure than marginal health spending. Conversely, high-income nations show a stronger linear link (), though they pay a massive premium for every incremental year of life. Finally, perceived health data reveals a “cultural paradox”: nations like Japan boast world-leading longevity but report the lowest self-perceived health, proving that feeling healthy and being healthy are distinct phenomena.
+
+
+Lasser Timo
+Loukos Oscar
+Luyet Evan
+Marchal Paul
+Marie Antoine
+
+Our analysis reveals a clear but uneven link between healthcare spending and healthcare quality across countries. While higher expenditure generally aligns with better outcomes, such as longer life expectancy and lower infant mortality, the relationship is far from linear. Wealthy countries often face diminishing returns, where additional spending yields only marginal health gains, whereas low and middle-income countries benefit more strongly from incremental investment. A simple scatter plot comparing heatlh spending and quality shows two distinct clusters, highlighting how income level shapes the efficiency of healthcare systems. Overall, the data suggests that how resources are allocated matters at least as much as how much is spent.
+
+
+
+Alexis, Authier
+Arthur, Glauser
+Nicolas, Garbea
+Roberto, Santana
+Darsej, Spirig
+
+Our analysis explored the relationship between perceived health status and life expectancy across OECD countries from 2000 to 2023. We began by cleaning and harmonizing multiple datasets, including life expectancy and perceived health status. The data was filtered to include only relevant population groups (e.g., individuals aged 15 and older, excluding total aggregates) and recoded for consistent year and country formats.
+
+Life expectancy trends showed clear improvements over time in many countries, but also significant differences between countries. For instance, countries like Japan, Switzerland, and Spain consistently ranked among the highest in life expectancy, while others like Latvia and Lithuania reported lower values.
+
+We hypothesized that higher perceived health status would be positively associated with higher life expectancy. To test this, we averaged the perceived health status across sexes and merged it with the life expectancy dataset by country and year. A correlation analysis showed a positive and statistically significant relationship, supported visually by a scatterplot with a regression line.
+
+In summary, our findings support the hypothesis: OECD countries where more people report good or very good health tend to have higher life expectancy levels.
+
+
+Mayumi Cardoso Hara
+Barnabé Cusnir Caron
+Simon Alain Roger Gerdolle
+Letizia Gomez
+Anita Stern
+
+Our analysis explores how spending on healthcare impacts the health of populations at various stages of development. By analyzing data from the World Bank and OECD, we found a clear pattern: countries that invest more in healthcare generally enjoy longer life expectancies. However, there’s a catch wealthy nations often spend significantly more but see only minor improvements in health outcomes. This underlies the principles of diminishing returns. In contrast, lower-income countries can achieve substantial gains in health with relatively modest investments. This underscores the importance of fostering a basic health systems, which can lead to remarkable returns in overall health. We also noticed that as spending increases, people’s perceptions of their health improve, but this connection is not as strong. Overall, the data reveals that money matters for health but how much depends on where a country starts.
+
+
+
+Romain Muller
+Raffaele Lombardi
+Achille Zugravu
+Yoan Chambaz
+Jules Blanchet
+
+While one may be convinced that “money can’t buy health”, our global analysis reveals a more nuanced reality. Our research explores the complex dance between national wealth and human longevity. By analyzing two decades of data from the World Bank and OECD, we confirmed that money does indeed buy health, but not indefinitely.
+
+Our key finding reveals a strong positive correlation between per-capita health spending and life expectancy globally. However, the real story lies in the “diminishing returns” curve: while lower-income nations see drastic gains in lifespan with every additional dollar spent, the curve flattens for high-income countries like the US. We further found that how people perceive their health status is moderately linked to actual longevity outcomes, suggesting that subjective wellbeing reflects medical efficiency.
+
+The takeaway for policymakers is clear: for developing nations, increased health investment is a lifesaver; for developed ones, the focus must shift from spending more to spending smarter.
+
+
+
+Luis Hügli
+Amedeo Cipriano
+Isak Donner
+Elena Deganis
+
+Our study examines the relationship between health spending and important indicators of healthcare quality for all income levels. Although longer life expectancy and better perceived health are generally linked to higher spending, we find that this relationship is far from linear. High-income nations demonstrate diminishing returns by achieving high results with relatively smaller marginal gains. Conversely, as spending increases, low- and lower-middle-income nations show greater improvements, underscoring the influence of financial limitations on health outcomes. Although perceived health status varies greatly due to reporting and cultural differences, it generally supports the same trend. When combined, the findings demonstrate the importance of money, but the degree of development of a nation greatly influences how effective it is.
+
+
+
+Stephan Engeler
+Muaz Haciismailogullari
+Matteo Saudino
+Leonard Vitroler
+Odile Zimmermann
+
+“Embarking on our first deep dive into global health data, we sought to answer a fundamental question: Does money buy health? After synthesizing thousands of observations from World Bank and OECD sources, we discovered a nuanced reality. While spending drives better outcomes, the benefits plateau in wealthier nations, suggesting a point of diminishing returns. We also found that how healthy people feel varies much more than their actual life spans would suggest. Ultimately, our analysis proved that funding is only part of the equation, as the link between expenditure and health outcomes weakens significantly in higher-income nations. This journey taught us how to transform raw data into a coherent and meaningful.
+
+
+
+Aristote Oswald
+Nathan Brunschwiler
+Elias Dillier
+Philipp Sajthy
+Fabio Lehner
+
+What keeps people healthy longer – money or something more? Our dataset reveals a clear pattern: countries investing more in healthcare tend to achieve higher life expectancy and better perceived health. High-income nations spend significantly more and enjoy the best outcomes, while upper-middle-income countries show faster improvements per dollar spent – suggesting that early investment yields the largest gains. Yet, spending alone isn’t everything: correlations are positive but modest, hinting that lifestyle, policy, and equity also matter. Our analysis highlights global progress in life expectancy and rising expenditures over time, with a narrowing health gap across income groups. Healthcare investment pays off – especially where resources are scarce – but efficiency and access shape how far each dollar goes.
+
+
+Akando Räderer
+Aleksandar Maric
+Benedict Bornheim
+Karin Scherrer
+Pavle Licina
+
+The Wealth-Health Gap: Money Buys Years, But Only Up To A Point
+Our analysis reveals a stark global reality: money buys life, but with limits. In low-income nations, every dollar spent on health significantly boosts life expectancy. However, as nations become wealthier, this relationship decouples. High-income countries spend exponential amounts for marginal gains in longevity. Furthermore, our analysis of “Perceived Health” suggests that living longer doesn’t always mean feeling better. The challenge for the future isn’t just spending more, but spending smarter and shifting focus from extending lifespan to improving the quality of life.
+
+
+
+Jan Moritz Beyn
+Loïc Soandro Cherel-Robson
+Enzo Fornito
+Lorenzo Alessandro Umberto Gasperini
+Leonard Heidegger
+Lucas Rey
+
+📊 Countries differ massively in how efficiently they turn healthcare spending into actual health. That’s the result when comparing life expectancy and perceived health across countries using World Bank and OECD data.
+
+📜 Data for plot calculations: World Bank indicators (SP.DYN.LE00.IN (life expectancy), SH.XPD.CHEX.PC.CD (health expenditure per capita); OECD indicators (Life expectancy (OECD dataset), Perceived health status (AGE = Y_GE15, MEASURE = PHS)).
+
+💡 Detailed research by Jan Beyn, Loïc Cherel-Robson, Enzo Fornito, Lorenzo Gasperini, Leonard Heidegger and Lucas Rey shows the pattern clearly: poorer countries gain far more life expectancy for each additional healthcare dollar, while high-income countries spend much more for only minor improvements. Perceived health status moves in the same direction. For 2000–2019, low- and lower-middle-income countries draw steep upward curves as spending rises. High-income countries cluster on flat, high-cost trajectories.
+
+➡️ Implication: The value of a healthcare dollar depends strongly on where a country starts.
+
+
+
+Author1, Holzhauser, Nicolas
+Author2, Hung, Shang-En
+Author3, Johner, Joel Pascal
+Author4, Kleisner, Philip
+Author5, Richter, Manuel
+
+Higher healthcare spending correlates with better health outcomes. Over the long run, low- and middle-income countries gain a lot from increases in basic health spending, but within the 2019 cross-section, the strongest association between spending and life expectancy is observed in high-income countries, while marginal gains appear to diminish for already high investments.
