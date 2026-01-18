@@ -35,7 +35,7 @@ img.responsive {
 
 ## Teaching young economists to work with data
 
-In my course ["Data Handling"](https://github.com/ASallin/datahandling-lecture), students in BA Economics learn their first steps in handling data. These steps are usually not covered in economics programs, where the focus lies mostly on statistics and econometrics. However, applied work starts earlier: finding relevant data, importing it, cleaning it, merging it, and summarising it. This is represented by the **data pipeline workflow**, which forms the backbone of the course.
+In my course ["Data Handling"](https://github.com/ASallin/datahandling-lecture) at the University of St. Gallen, students in BA Economics learn their first steps in handling data. These steps are usually not covered in economics programs, where the focus lies mostly on statistics and econometrics. However, applied work starts earlier: finding relevant data, importing it, cleaning it, merging it, and summarising it. This is represented by the **data pipeline workflow**, which forms the backbone of the course.
 
 ![](cache/data_science_pipeline.png){fig-align="center" fig-alt="The Data Pipeline" width="60%"}
 
