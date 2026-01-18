@@ -58,7 +58,27 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -250,7 +270,7 @@ img.responsive {
 </section>
 <section id="a-data-handling-project-linking-health-spending-and-health-outcomes" class="level2">
 <h2 class="anchored" data-anchor-id="a-data-handling-project-linking-health-spending-and-health-outcomes">A data handling project linking health spending and health outcomes</h2>
-<p>The question of whether higher health expenditures lead to better health outcomes is a recurring theme in health economics. Spending is positively associated with outcomes in low- and middle-income countries, while the relationship is weaker in high-income settings (“plateau effect”). The United States and Switzerland are a well-known case: high spending with comparatively lower outcomes (<span class="citation" data-cites="anderson2003s">@anderson2003s</span>).</p>
+<p>The question of whether higher health expenditures lead to better health outcomes is a recurring theme in health economics. Spending is positively associated with outcomes in low- and middle-income countries, while the relationship is weaker in high-income settings (“plateau effect”). The United States and Switzerland are a well-known case: high spending with comparatively lower outcomes (<span class="citation" data-cites="anderson2003s">Anderson et al. (<a href="#ref-anderson2003s" role="doc-biblioref">2003</a>)</span>).</p>
 <p>For this project, students worked with international data to examine <strong>three hypotheses</strong>:</p>
 <ol type="1">
 <li>Higher health expenditures are associated with higher life expectancy.</li>
@@ -279,7 +299,7 @@ img.responsive {
 </blockquote>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="4questionsKnowYourData.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%" alt="Description of the image"></p>
+<p><img src="cache/4questionsKnowYourData.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
 </figure>
 </div>
 <p>We emphasized the four basic questions to apply to a new dataset before going deeper into analysis. This part is inspired by Jeremy G. Weber’s “Statistics for Public Policy”, 2024.</p>
@@ -341,7 +361,8 @@ img.responsive {
 </figure>
 </div>
 <p>For perceived health status, the association is weaker and only observable for OECD countries. Cultural and reporting differences play a larger role, and countries with similar levels of spending can report different levels of perceived health.</p>
-<p>At the end of the project, <strong>students were asked to reflect and communicate their results through a short LinkedIn post</strong>. This forced them to translate an analytical workflow into a clear narrative for a broader audience. Some groups chose a <strong>more classic academic narrative</strong> (<span style="color:#6c757d;">“Our analysis examines how healthcare spending relates to population health across income groups.”</span>), while others adopted a <strong>more polemic or provocative tone 😎</strong> <span style="color:#6c757d;">(with titles like “💡The Wealth-Health Gap: Money Buys Years, But Only Up To A Point”, “What keeps people healthy longer – money or something more?”, or “Greedy Big Pharma or drivers of longer lives? As ageing, long COVID and tight budgets strain health systems, one question matters: are we buying more health or just spending more money?”)</span>. The range of styles showed that data can support different narratives, as long as the underlying work is sound.</p>
+<p>At the end of the project, <strong>students were asked to reflect and communicate their results through a short LinkedIn post</strong>. This forced them to translate an analytical workflow into a clear narrative for a broader audience.</p>
+<p>Some groups chose a <strong>more classic academic narrative</strong> (<span style="color:#6c757d;">“Our analysis examines how healthcare spending relates to population health across income groups.”</span>), while others adopted a <strong>more polemic or provocative tone 😎</strong> <span style="color:#6c757d;">(with titles like “💡The Wealth-Health Gap: Money Buys Years, But Only Up To A Point”, “What keeps people healthy longer – money or something more?”, or “Greedy Big Pharma or drivers of longer lives? As ageing, long COVID and tight budgets strain health systems, one question matters: are we buying more health or just spending more money?”)</span>. The range of styles showed that data can support different narratives, as long as the underlying work is sound.</p>
 <p><br></p>
 </section>
 <section id="conclusion" class="level2">
@@ -353,14 +374,14 @@ img.responsive {
 </section>
 <section id="acknowledgments" class="level2">
 <h2 class="anchored" data-anchor-id="acknowledgments">Acknowledgments</h2>
-<p>This course was originally created by <a href="https://umatter.github.io/">Ulrich Matter</a>. I am grateful for the foundation he provided and have since taken over and further developed the course content. To <a href="https://rseed.ch/about/minna/index.html">Minna Heim</a> for taking time to inspire students and to prepare the lecture on APIs. To <a href="https://rseed.ch/about/matt/index.html">Matt Bannert</a> for inspiration.</p>
+<p>This course was originally created by <a href="https://umatter.github.io/">Ulrich Matter</a>. I am grateful for the foundation he provided and have since taken over and further developed the course content. To Federica and Andrea for support in preparing, supporting students, and grading the project. To <a href="https://rseed.ch/about/minna/index.html">Minna Heim</a> for taking time to inspire students and to prepare the lecture on APIs. To <a href="https://rseed.ch/about/matt/index.html">Matt Bannert</a> for inspiration.</p>
 <p><br></p>
 </section>
 <section id="the-code" class="level2">
 <h2 class="anchored" data-anchor-id="the-code">The code:</h2>
 <div class="cell">
 <details class="code-fold">
-<summary>Show R code for package loading</summary>
+<summary>Show R code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Code for the project 2025 and the blog post on health expenditure and outcomes</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Author: Aurélien Sallin</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Date: January 2026</span></span>
@@ -1027,9 +1048,14 @@ img.responsive {
 </div>
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-anderson2003s" class="csl-entry" role="listitem">
+Anderson, Gerard F, Uwe E Reinhardt, Peter S Hussey, and Varduhi Petrosyan. 2003. <span>“It’s the Prices, Stupid: Why the United States Is so Different from Other Countries.”</span> <em>Health Affairs</em> 22 (3): 89–105.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
