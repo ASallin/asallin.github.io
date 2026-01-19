@@ -5,7 +5,7 @@ author: "Aurélien Sallin"
 date: "2026-01-19"
 image: cache/banner.png
 description: "Do higher health expenditures lead to better health outcomes? Students explored this question by working with international data on health spending and outcomes. The project introduced the full data pipeline, from retrieving data to presenting results. Being able to work with data is essential in applied economics because empirical work starts well before estimation. The short answer to the research question: yes, higher expenditures are associated with better outcomes, but only up to a certain point."
-keywords: ["RStats", "Data science", "Data viz", "Teaching data science", "Applied economics", "Health economics", "Healthcare spending", "Health expenditure", "Life expectancy", "Health outcomes", "OECD", "World Bank data", "Data cleaning", "Data preparation", "APIs", "tidyverse", "ggplot2"] ##healtheconomics #healthpolicy #datascience #rstats #economics #oecd #dataviz #education #publichealth
+keywords: ["RStats", "Data science", "Data viz", "Teaching data science", "Applied economics", "Health economics", "Healthcare spending", "Health expenditure", "Life expectancy", "Health outcomes", "OECD", "World Bank data", "Data cleaning", "Data preparation", "APIs", "tidyverse", "ggplot2"] ##healtheconomics #healthpolicy
 toc: false
 format:
   html:
@@ -135,7 +135,7 @@ Life expectancy is highly correlated with income brackets. We observe a Covid ef
 
 The relationship between expenditures and outcomes confirms the hypotheses. To answer our research question: **yes, higher spending is associated with higher life expectancy, but the gains flatten at higher levels of spending (diminishing returns).** This is particularly impressive for two outlier countries: Switzerland and the US.
 
-![](cache/spending_vs_life_2022.png){fig-align="center" fig-alt="Description of the image" width="80%"}
+![](cache/spending_vs_life_2022.svg){fig-align="center" fig-alt="Description of the image" width="80%"}
 
 For perceived health status, the association is weaker and only observable for OECD countries. Cultural and reporting differences play a larger role, and countries with similar levels of spending can report different levels of perceived health.
 
@@ -191,7 +191,7 @@ library(OECD)
 
 
 # Set flag to download and process data or read from cache
-download_and_process <- TRUE
+download_and_process <- FALSE
 
 # CHAPTER 1 ---------------------------------
 # Chapter 1: Search for health expenditure indicators,
@@ -735,7 +735,10 @@ df_final |>
           quantile(ind_WorldBank_lifeexpectancy, 0.1, na.rm = T) |
         ind_WorldBank_lifeexpectancy >
           quantile(ind_WorldBank_lifeexpectancy, 0.9, na.rm = T)) &
-        income %in% c("High income"), # Ensure only OECD countries are labeled
+        income %in% c("High income") &
+        country_name %in% c("Germany", "Finland", "Sweden", "Norway", "Italy", "Spain", "Portugal", "United Kingdom",
+          "Ireland", "Netherlands", "Poland", "Austria", "Belgium", "Denmark", "France",
+          "Greece", "Czech Republic", "Slovak Republic", "Hungary", "Luxembourg",  "Iceland"),
       country_name,
       NA_character_
     )
@@ -744,13 +747,14 @@ df_final |>
     y = ind_WorldBank_lifeexpectancy,
     x = ind_WorldBank_health_pp
   )) +
-  geom_point(alpha = 0.75, color = "#0072B2", size = 2.6) +
   geom_smooth(
     method = "loess",
     se = FALSE,
-    color = "grey40",
-    linetype = "dashed"
+    color = "grey50",
+    linetype = "dashed",
+    linewidth = 0.5
   ) +
+  geom_point(alpha = 0.75, color = "#0072B2", size = 1.5) +
   scale_y_continuous(limits = c(0, 100)) +
   # Label outliers but exclude US and Switzerland (they are highlighted separately)
   geom_text_repel(
@@ -759,10 +763,10 @@ df_final |>
         !is.na(label) & !(country_name %in% c("United States", "Switzerland"))
       ),
     aes(label = label),
-    size = 3.1,
+    size = 3,
     color = "black",
-    segment.color = "grey70",
-    box.padding = 0.35,
+    segment.color = "grey80",
+    box.padding = 0.4,
     max.overlaps = 20
   ) +
   # Highlight US and Switzerland with red points
@@ -773,7 +777,7 @@ df_final |>
       ),
     aes(x = ind_WorldBank_health_pp, y = ind_WorldBank_lifeexpectancy),
     color = "#D55E00",
-    size = 3.6
+    size = 3.3
   ) +
   # Highlight countries that illustrate the threshold effect
   geom_text_repel(
@@ -787,16 +791,18 @@ df_final |>
     color = "#D55E00",
     size = 3.8,
     fontface = "bold",
-    nudge_x = 1,
+    box.padding = 0.65,
+    direction = "y",
+    max.overlaps = 20,
     segment.color = "grey50",
     show.legend = FALSE
   ) +
   labs(
     title = "Twice the spending, same or lower life expectancy",
-    subtitle = "US and Switzerland spend about twice as much on health (PPP per capita, 2022) as other OECD countries with similar life expectancy",
+    subtitle = "US and Switzerland spend about twice as much on health (PPP per capita, 2022) as \nother OECD countries with similar life expectancy",
     x = "Health expenditure per capita (PPP)",
     y = "Life Expectancy at Birth (years)",
-    caption = "Spending shown in PPP per capita (purchasing power parity: adjusted for price-level differences). Outliers labeled. Source: World Bank, 2022."
+    caption = "Spending shown in PPP per capita (purchasing power parity: adjusted for price-level differences). \nSource: World Bank, 2022."
   ) +
   theme_classic() +
   theme(
@@ -808,15 +814,25 @@ df_final |>
 
 # Save scatter for blog (wide transparent PNG)
 ggsave(
-  filename = "Project_dh2025/figures/spending_vs_life_2022.png",
+  filename = "Project_dh2025/figures/spending_vs_life_2022.svg",
   plot = last_plot(),
-  width = 12,
-  height = 8,
+  width = 8,
+  height = 6,
   units = "in",
   dpi = 300,
   bg = "transparent"
 )
 
+# Save scatter for linkedin
+ggsave(
+  filename = "Project_dh2025/figures/spending_vs_life_2022_ln.png",
+  plot = last_plot(),
+  width = 7.5,
+  height = 5.5,
+  units = "in",
+  dpi = 300,
+  bg = "transparent"
+)
 
 # Example: Comparing perceived health status
 df_final |>
