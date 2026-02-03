@@ -1,0 +1,98 @@
+---
+title: "Steigende Gesundheitskosten in der Schweiz"
+subtitle: "Here’s to past watts, nice maps, and many new roads ahead"
+author: "Aurélien Sallin"
+date: "2025-12-31"
+draft: true
+image: cache/my_rides_yearly.png
+description: "In 2025, I spent 322h biking around the countryside. Here is an artistic, data visualization way, to represent these hours of discovery and sweating effort."
+keywords: ["Strava", "Data viz", "Data science"]
+toc: false
+format:
+  html:
+    code-fold: true
+knitr:
+  opts_chunk:
+    dev.args:
+      bg: transparent
+---
+
+<style>
+img.responsive {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 600px) {
+  img.responsive {
+    width: 90%;
+  }
+}
+</style>
+
+Ich beschäftige mich beruflich täglich mit Fragen rund um Gesundheitskosten, Finanzierung und Anreize im Schweizer Gesundheitssystem. Entsprechend lese ich aus Neuger viele Studien, Policy-Beiträge und Kommentare. Nur wenige Texte sind jedoch analytisch so klar, dass sie über den jeweiligen institutionellen Kontext hinaus Orientierung geben.
+
+In den letzten Monaten haben sich für mich vier Argumente als besonders zentral. Sie stammen aus unterschiedlichen institutionellen Perspektiven, beschreiben aber dieselben strukturellen Mechanismen. Dieser Blogpost ist das Ergebnis dieses analytischen Leseprozesses: Ich formuliere Argumente und lege jeweils offen, auf welche Quellen sie sich stützen.
+
+Ich lerne davon: Die Problematik der steigenden Gesundheitskosten ist zwar eine Frage der Gesundheit. Medizinische Qualität, bessere Prozesse, Zugang zu besseren Behandlungen – das sind alles Themen der Gesundheitsfachleute. Aber ich sehe das Problem der Gesundheitskosten zunehmend als eine Frage der Volkswirtschaft und der öffentlichen Finanzen: Wie kann man begrenzte Ressourcen (Steuern, Prämien usw.) bestmöglich einsetzen, wenn diese Ressourcen im Wettbewerb stehen? Zum Beispiel: Muss ich mich entscheiden zwischen einer zusätzlichen Behandlung oder einem Knieersatz für meine Grossmutter – oder mehr Ressourcen für unsere Kinder in den Schulen?
+
+Die vier Beiträge, die ich hier besprechen möchte, sind:
+
+- die Kostenstudie zu übertragbaren und nichtübertragbaren Krankheiten im Auftrag des Bundesamts für Gesundheit (ZHAW, Universität Luzern, BFH, 2025),
+- die Medienmitteilung des BAG zu den Kosten nichtübertragbarer Krankheiten (2025),
+- Analysen von Avenir Suisse zur Finanzierung des Gesundheitssystems (2023, 2025),
+- sowie mehrere Beiträge von economiesuisse zur Kosten- und Prämienentwicklung (2022–2024).
+
+
+
+## Argument 1: Nicht die Demografie treibt die Kosten, sondern die Kosten pro Fall
+
+Die Kostenstudie im Auftrag des BAG liefert einen zentralen Ausgangspunkt für jede seriöse Diskussion. Zwischen 2012 und 2022 sind die Gesundheitskosten in der Schweiz um rund 37 Prozent gestiegen – von 66,6 auf 91,5 Milliarden Franken (BAG/ZHAW/BFH, 2025).
+
+Entscheidend ist die Zerlegung dieses Wachstums. Gemäss Studie entfallen rund 48 Prozent des Kostenanstiegs auf steigende Kosten pro Behandlungsfall, während Bevölkerungswachstum (33 Prozent) und Alterung (19 Prozent) eine klar nachgeordnete Rolle spielen.
+
+Dieser Befund ist analytisch zentral. Er widerspricht der verbreiteten Erklärung, der Kostenanstieg sei primär demografisch bedingt, und lenkt den Fokus auf Leistungsintensität, medizinischen Fortschritt und Versorgungsorganisation.
+
+
+## Argument 2: Chronische Erkrankungen sind der strukturelle Kostentreiber
+
+Ebenfalls aus der BAG-Studie stammt ein zweiter, oft unterschätzter Befund: Nichtübertragbare Krankheiten verursachen rund 72 Prozent der gesamten Gesundheitskosten, was im Jahr 2022 65,7 Milliarden Franken entspricht (BAG/ZHAW/BFH, 2025).
+
+Besonders kostenintensiv sind neurologische Erkrankungen (insbesondere Demenz), Herz-Kreislauf-Erkrankungen, psychische Erkrankungen sowie Krankheiten des Bewegungsapparats. Diese Erkrankungen verlaufen meist chronisch, erfordern langfristige Betreuung und sind stark ressourcenintensiv.
+
+Die BAG-Medienmitteilung ergänzt diesen Befund um die volkswirtschaftliche Perspektive. Unter Einbezug von Produktionsverlusten durch Arbeitsausfälle, Invalidität und vorzeitige Todesfälle belaufen sich die Kosten der nichtübertragbaren Krankheiten auf rund 109 Milliarden Franken pro Jahr, was etwa 14 Prozent des BIP entspricht (BAG, 2025).
+
+
+## Argument 3: Die Finanzierung verschiebt sich zunehmend zum Staat
+
+Die Analysen von Avenir Suisse und economiesuisse setzen an der Finanzierungsseite an und ergänzen die Kostenperspektive konsequent.
+
+Avenir Suisse zeigt, dass die Krankenkassenprämien nur rund 36 bis 39 Prozent der gesamten Gesundheitskosten finanzieren (Avenir Suisse, 2023; 2025). Ein grosser Teil wird über Steuern und staatliche Beiträge getragen.
+
+Kantone finanzieren mindestens 55 Prozent der stationären Leistungen. Hinzu kommen Prämienverbilligungen, Pflegefinanzierung, Spitex-Beiträge und Präventionsausgaben. Avenir Suisse spricht deshalb treffend davon, dass die Prämien lediglich die «Spitze des Eisbergs» abbilden.
+
+Economiesuisse ergänzt diese Sicht um eine anreizökonomische Perspektive. In mehreren Beiträgen wird argumentiert, dass nicht primär steigende Preise, sondern Mengenwachstum der zentrale Treiber steigender Prämien ist. Ursache dafür ist die zunehmende Drittzahlerproblematik: Sinkt die direkte Kostenwahrnehmung, steigt die nachgefragte Leistungsmenge (economiesuisse, 2022–2024).
+
+Diese Argumentation passt bemerkenswert gut zu den Befunden der BAG-Studie zu steigenden Kosten pro Fall.
+
+Fazit und kurze Reformperspektive
+
+Die vier Quellen stammen aus unterschiedlichen institutionellen Kontexten, zeichnen aber ein konsistentes Bild:
+
+Die Gesundheitskosten steigen strukturell.
+
+Der zentrale Treiber sind steigende Kosten pro Fall und chronische Erkrankungen.
+
+Die Finanzierung verlagert sich zunehmend auf den Staat.
+
+Aus analytischer Sicht lassen sich daraus einige vorsichtige Reformimplikationen ableiten, ohne politische Detaildebatten vorwegzunehmen:
+
+Anreizstrukturen werden wichtiger als reine Kostenziele.
+
+Integrierte Versorgungsmodelle und Qualitätstransparenz gewinnen an Bedeutung.
+
+Finanzierung und Verantwortung sollten konsistenter gekoppelt werden, um Mengeneffekte besser zu steuern.
+
+Dieser Blogpost versteht sich als analytische Zwischenbilanz. Er bündelt zentrale Argumente – nicht als Schlussstrich, sondern als Grundlage für weitere Diskussionen.
