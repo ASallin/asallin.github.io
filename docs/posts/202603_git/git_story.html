@@ -6,8 +6,12 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Aurélien Sallin">
+<meta name="dcterms.date" content="2026-03-12">
+<meta name="keywords" content="Git, version control, teaching programming, data science education, undergraduate economics">
+<meta name="description" content="Most programming courses teach Git as an afterthought, once students are already deep in syntax and debugging. I do the opposite. Here is why — and what happened in class when I did.">
 
-<title>Blog – Aurélien Sallin</title>
+<title>The day maincode_v1_final_reviewed_r3.py broke us – Aurélien Sallin</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +27,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,35 +72,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-W2D6L26NC8"></script>
 
 <script type="text/javascript">
@@ -108,47 +81,19 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
 </script>
+<meta name="quarto:status" content="draft">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner"><div id="quarto-draft-alert" class="alert alert-warning"><i class="bi bi-pencil-square"></i>Draft</div>
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Aurélien Sallin, PhD</span>
     </a>
   </div>
@@ -159,25 +104,25 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">News &amp; Activities</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./file/path/to/myCV.pdf" target="_blank"> 
+    <a class="nav-link" href="../../file/path/to/myCV.pdf" target="_blank"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
@@ -193,120 +138,108 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
-<!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div></div></div>
-<!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
-
-
-
-<div class="quarto-title-meta column-page-left">
-
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page">
+      <h1 class="title">The day <code>maincode_v1_final_reviewed_r3.py</code> broke us</h1>
+            <p class="subtitle lead">Why I now teach Git before anything else</p>
+                  <div>
+        <div class="description">
+          Most programming courses teach Git as an afterthought, once students are already deep in syntax and debugging. I do the opposite. Here is why — and what happened in class when I did.
+        </div>
+      </div>
+                </div>
+  </div>
     
   
+  <div class="quarto-title-meta column-page">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Aurélien Sallin </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 12, 2026</p>
+      </div>
+    </div>
     
+      
+    </div>
+    
+
+  <div>
+    <div class="keywords">
+      <div class="block-title">Keywords</div>
+      <p>Git, version control, teaching programming, data science education, undergraduate economics</p>
+    </div>
   </div>
   
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
-</header>
-
-
-<p>Here are some posts I wrote about the healthcare system, teaching programming, and other interests.</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1768777200000" data-listing-file-modified-sort="1773341870159" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="38" data-listing-word-count-sort="7405">
-<a href="./posts/202601_health/blog.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/202601_health/cache/banner.png" class="thumbnail-image card-img" style="height: 150px;">
+<p><br>
 </p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Health expenditure and health outcomes
-</h5>
-<div class="card-text listing-description">
-Are higher health expenditures associated to better health outcomes? Students explored this question by working with international data on health spending and outcomes. The…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Aurélien Sallin
-</div>
-<div class="listing-date">
-Jan 19, 2026
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1767135600000" data-listing-file-modified-sort="1767259318065" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2424">
-<a href="./posts/blog2/StravaArt.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/blog2/cache/my_rides_yearly.png" class="thumbnail-image card-img" style="height: 150px;">
+<p>This year I started a new experiment in our new “Introduction to programming for Economists” course: teaching Git and version control <em>before</em> students write a single line in Python. Git is most often treated as something we learn later on, after we master programming and are already well versed into the data pipeline. No wonder why Git is often offered as a course to Masters or PhD students!</p>
+<p>I became convinced that this is the wrong order. Here is why.</p>
+<p><br>
 </p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-An artistic map of my biking meandering using rStrava and open street maps
-</h5>
-<div class="card-text listing-description">
-In 2025, I spent 322h biking around the countryside. Here is an artistic, data visualization way, to represent these hours of discovery and sweating effort.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Aurélien Sallin
-</div>
-<div class="listing-date">
-Dec 31, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1760911200000" data-listing-file-modified-sort="1761075046239" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2898">
-<a href="./posts/202510_vitd/blog.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/202510_vitd/img/Vitamin-D.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<section id="the-story-i-tell-on-day-one" class="level2">
+<h2 class="anchored" data-anchor-id="the-story-i-tell-on-day-one">The story I tell on day one</h2>
+<p>Picture a typical situation for our typical Econ HSG students Max, Hanna, and Juliet. They have a group project due, like the one we do in our Data Handling course [link]. They’re all competent. They’ve all written code before. And Hanna — the pragmatic one — raises the obvious question: <em>how do three people work on the same files without breaking each other’s work?</em></p>
+<p><img src="cache/git_story1.png" class="story-img img-fluid"></p>
+<p>Their first instinct is the same as everyone’s first instinct: a shared folder. Dropbox, Google Drive, OneDrive — take your pick.</p>
+<p>It starts fine. Then it doesn’t. Someone overwrites someone else’s changes. Someone edits the file while it’s open on another machine. Nobody knows whose version is “right.” Nobody knows <em>who</em> changed <em>what</em>, <em>when</em>. And trying something new — a different approach, a refactored function — means risking the whole shared folder.</p>
+<p><img src="cache/git_story2.png" class="story-img img-fluid"></p>
+<p>At some point, someone renames the file. <code>maincode_v1_final_reviewed_r3.py</code>. Max stares at it. Juliet has had enough. <em>Let’s use Git.</em></p>
+<p><img src="cache/git_story3.png" class="story-img img-fluid"></p>
+<p><br>
 </p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Guidelines vs.&nbsp;Financial Incentives Against Low-Value Care: Which Policy Tool Actually Changes Physician Behavior?
-</h5>
-<div class="card-text listing-description">
-Swiss natural experiment reveals financial incentives reduced unnecessary vitamin D testing by 60% while clinical guidelines achieved only 6% reduction. Analysis of 3,600+…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Aurélien Sallin
-</div>
-<div class="listing-date">
-Oct 20, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</section>
+<section id="why-this-story-works" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-story-works">Why this story works</h2>
+<p>When I tell this in class, students don’t look confused. They nod. They’ve <em>been there</em>. Maybe not with code, but with a shared Word document, a group thesis, a design file that someone “accidentally” overwrote the night before a deadline.</p>
+<p>The pain is familiar. Git is the solution to familiar pain — and that is the best pedagogical setup there is.</p>
+<p>This is also why I teach it first. <strong>Students are most motivated to learn a tool when they understand what problem it solves.</strong> If I introduce Git after three weeks of Python, it feels like overhead. If I introduce it on day one — with a story — it feels like relief.</p>
+<p><br>
+</p>
+</section>
+<section id="what-git-actually-gives-you" class="level2">
+<h2 class="anchored" data-anchor-id="what-git-actually-gives-you">What Git actually gives you</h2>
+<p><strong>Git is a version control system.</strong> Every change to your project is recorded as a <em>commit</em> — a snapshot with a timestamp and a message explaining what changed and why. You can scroll through the full history of a project, revert to any earlier state, and always know who changed what.</p>
+<p>More importantly: <strong>branching</strong>. Branches let you try something new — a different algorithm, a rewritten function — without touching the working version. If it works, you merge it in. If it doesn’t, you discard it. No harm done.</p>
+<p>Git also makes collaboration explicit and safe. Everyone works on their own branch. Changes are reviewed before they’re merged. Conflicts — when two people edit the same line — are surfaced and resolved deliberately, not silently overwritten.</p>
+<p><img src="cache/git_story4.png" class="story-img img-fluid"></p>
+<p>In the story: they submitted on time. Clean commit history. No overwrites. And the file was called <code>main.py</code>.</p>
+<p><br>
+</p>
+</section>
+<section id="what-i-observed-in-class" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-observed-in-class">What I observed in class</h2>
+<p>Teaching Git first changed something. Students came into the Python sessions already thinking in terms of <em>changes</em>, <em>history</em>, and <em>collaboration</em> rather than just files and folders. When something broke, the instinct was to check the log, not to panic.</p>
+<p>It also shifted the framing of the whole course. <strong>Programming is not just writing code — it is managing change over time, alone or with others.</strong> Git makes that explicit from the start.</p>
+<p>The definition of “distributed version control system” can wait a few slides. The story comes first.</p>
+<p><br>
+</p>
+<hr>
+<p><em>This illustration is hand-drawn in Excalidraw and used in the lecture slides of <a href="https://asallin.github.io/BECON_4222_Introduction_Programming/">BEcon 4222 — Introduction to Programming</a> at the University of St.&nbsp;Gallen.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

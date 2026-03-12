@@ -4,7 +4,7 @@ subtitle: "Learning data handling through real-world health economics data"
 author: "Aurélien Sallin"
 date: "2026-01-19"
 image: cache/banner.png
-description: "Do higher health expenditures lead to better health outcomes? Students explored this question by working with international data on health spending and outcomes. The project introduced the full data pipeline, from retrieving data to presenting results. Being able to work with data is essential in applied economics because empirical work starts well before estimation. The short answer to the research question: yes, higher expenditures are associated with better outcomes, but only up to a certain point."
+description: "Are higher health expenditures associated to better health outcomes? Students explored this question by working with international data on health spending and outcomes. The project introduced the full data pipeline, from retrieving data to presenting results. Being able to work with data is essential in applied economics because empirical work starts well before estimation. The short answer to the research question: yes, higher expenditures are associated with better outcomes, but only up to a certain point."
 keywords: ["RStats", "Data science", "Health economics", "Health expenditure", "Life expectancy"]
 toc: false
 format:
@@ -41,7 +41,7 @@ In my course ["Data Handling"](https://github.com/ASallin/datahandling-lecture) 
 
 ![](cache/data_science_pipeline.png){fig-align="center" fig-alt="The Data Pipeline" width="70%"}
 
-To make these steps concrete, we applied the pipeline to an economic question in a group project: **Do higher health expenditures buy better health?** Students worked with real-world data on life expectancy and perceived health status to investigate whether and how spending relates to outcomes. This setup allows students to practice the technical steps in data handling while engaging with a topic that raises real economic questions.
+To make these steps concrete, we applied the pipeline to an economic question in a group project: **Are higher health expenditures associated with better health?** Students worked with real-world data on life expectancy and perceived health status to investigate whether and how spending relates to outcomes. This setup allows students to practice the technical steps in data handling while engaging with a topic that raises real economic questions.
 
 <br>
 

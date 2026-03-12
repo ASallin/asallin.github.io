@@ -1,0 +1,78 @@
+---
+title: "The day `maincode_v1_final_reviewed_r3.py` broke us"
+subtitle: "Why I now teach Git before anything else"
+author: "Aurélien Sallin"
+date: "2026-03-12"
+draft: true
+image: cache/banner.png
+description: "Most programming courses teach Git as an afterthought, once students are already deep in syntax and debugging. I do the opposite. Here is why — and what happened in class when I did."
+keywords: ["Git", "version control", "teaching programming", "data science education", "undergraduate economics"]
+toc: false
+format:
+  html:
+    code-fold: true
+---
+
+\
+
+This year I started a new experiment in our new "Introduction to programming for Economists" course: teaching Git and version control *before* students write a single line in Python. Git is most often treated as something we learn later on, after we master programming and are already well versed into the data pipeline. No wonder why Git is often offered as a course to Masters or PhD students!
+
+I became convinced that this is the wrong order. Here is why.
+
+\
+
+## The story I tell on day one
+
+Picture a typical situation for our typical Econ HSG students Max, Hanna, and Juliet. They have a group project due, like the one we do in our Data Handling course [link]. They're all competent. They've all written code before. And Hanna — the pragmatic one — raises the obvious question: *how do three people work on the same files without breaking each other's work?*
+
+![](cache/git_story1.png){.story-img}
+
+Their first instinct is the same as everyone's first instinct: a shared folder. Dropbox, Google Drive, OneDrive — take your pick.
+
+It starts fine. Then it doesn't. Someone overwrites someone else's changes. Someone edits the file while it's open on another machine. Nobody knows whose version is "right." Nobody knows *who* changed *what*, *when*. And trying something new — a different approach, a refactored function — means risking the whole shared folder.
+
+![](cache/git_story2.png){.story-img}
+
+At some point, someone renames the file. `maincode_v1_final_reviewed_r3.py`. Max stares at it. Juliet has had enough. *Let's use Git.*
+
+![](cache/git_story3.png){.story-img}
+
+\
+
+## Why this story works
+
+When I tell this in class, students don't look confused. They nod. They've *been there*. Maybe not with code, but with a shared Word document, a group thesis, a design file that someone "accidentally" overwrote the night before a deadline.
+
+The pain is familiar. Git is the solution to familiar pain — and that is the best pedagogical setup there is.
+
+This is also why I teach it first. **Students are most motivated to learn a tool when they understand what problem it solves.** If I introduce Git after three weeks of Python, it feels like overhead. If I introduce it on day one — with a story — it feels like relief.
+
+\
+
+## What Git actually gives you
+
+**Git is a version control system.** Every change to your project is recorded as a *commit* — a snapshot with a timestamp and a message explaining what changed and why. You can scroll through the full history of a project, revert to any earlier state, and always know who changed what.
+
+More importantly: **branching**. Branches let you try something new — a different algorithm, a rewritten function — without touching the working version. If it works, you merge it in. If it doesn't, you discard it. No harm done.
+
+Git also makes collaboration explicit and safe. Everyone works on their own branch. Changes are reviewed before they're merged. Conflicts — when two people edit the same line — are surfaced and resolved deliberately, not silently overwritten.
+
+![](cache/git_story4.png){.story-img}
+
+In the story: they submitted on time. Clean commit history. No overwrites. And the file was called `main.py`.
+
+\
+
+## What I observed in class
+
+Teaching Git first changed something. Students came into the Python sessions already thinking in terms of *changes*, *history*, and *collaboration* rather than just files and folders. When something broke, the instinct was to check the log, not to panic.
+
+It also shifted the framing of the whole course. **Programming is not just writing code — it is managing change over time, alone or with others.** Git makes that explicit from the start.
+
+The definition of "distributed version control system" can wait a few slides. The story comes first.
+
+\
+
+---
+
+*This illustration is hand-drawn in Excalidraw and used in the lecture slides of [BEcon 4222 — Introduction to Programming](https://asallin.github.io/BECON_4222_Introduction_Programming/) at the University of St. Gallen.*

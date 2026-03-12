@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Blog – Aurélien Sallin</title>
+<title>claude – Aurélien Sallin</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,35 +68,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-W2D6L26NC8"></script>
 
 <script type="text/javascript">
@@ -109,35 +78,6 @@ gtag('js', new Date());
 gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -171,7 +111,7 @@ window.Quarto = {
 <span class="menu-text">News &amp; Activities</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+    <a class="nav-link" href="./posts.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -197,116 +137,130 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#claude.md-instructions-for-claude-on-this-project" id="toc-claude.md-instructions-for-claude-on-this-project" class="nav-link active" data-scroll-target="#claude.md-instructions-for-claude-on-this-project">CLAUDE.md — Instructions for Claude on this project</a>
+  <ul class="collapse">
+  <li><a href="#who-aurélien-is" id="toc-who-aurélien-is" class="nav-link" data-scroll-target="#who-aurélien-is">Who Aurélien is</a></li>
+  <li><a href="#writing-style-key-traits" id="toc-writing-style-key-traits" class="nav-link" data-scroll-target="#writing-style-key-traits">Writing style — key traits</a></li>
+  <li><a href="#voice-and-tone" id="toc-voice-and-tone" class="nav-link" data-scroll-target="#voice-and-tone">Voice and tone</a></li>
+  <li><a href="#technical-conventions" id="toc-technical-conventions" class="nav-link" data-scroll-target="#technical-conventions">Technical conventions</a>
+  <ul class="collapse">
+  <li><a href="#r-and-quarto" id="toc-r-and-quarto" class="nav-link" data-scroll-target="#r-and-quarto">R and Quarto</a></li>
+  <li><a href="#quarto-specific" id="toc-quarto-specific" class="nav-link" data-scroll-target="#quarto-specific">Quarto-specific</a></li>
+  <li><a href="#project-structure" id="toc-project-structure" class="nav-link" data-scroll-target="#project-structure">Project structure</a></li>
+  </ul></li>
+  <li><a href="#content-guidelines" id="toc-content-guidelines" class="nav-link" data-scroll-target="#content-guidelines">Content guidelines</a></li>
+  <li><a href="#what-to-avoid" id="toc-what-to-avoid" class="nav-link" data-scroll-target="#what-to-avoid">What to avoid</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
 
 
 
-<div class="quarto-title-meta column-page-left">
+<section id="claude.md-instructions-for-claude-on-this-project" class="level1">
+<h1>CLAUDE.md — Instructions for Claude on this project</h1>
+<section id="who-aurélien-is" class="level2">
+<h2 class="anchored" data-anchor-id="who-aurélien-is">Who Aurélien is</h2>
+<p>Aurélien Sallin is a <strong>Senior Economist and Data Scientist</strong> at a major Swiss health insurance company (SWICA), working on alternative financing models, Value-Based Healthcare, and causal inference on claims data. He also <strong>teaches data science with R and introductory programming</strong> for undergraduate economists at the University of St.&nbsp;Gallen. He is an active biker/runner, co-organizes the Zürich R User Group, and sits on a local audit commission.</p>
+<p>This website is his personal/professional site. Blog posts are a mix of research communication (health economics), teaching reflections, and personal data projects (Strava art, etc.). Some posts are in English, some in German depending on the intended audience.</p>
+<hr>
+</section>
+<section id="writing-style-key-traits" class="level2">
+<h2 class="anchored" data-anchor-id="writing-style-key-traits">Writing style — key traits</h2>
+<ul>
+<li><strong>Clear, structured, evidence-based.</strong> Aurélien writes like a thoughtful economist: precise, grounded in data, and careful about measurement. Avoid vague claims; quantify when possible (“57.82% reduction”, “15.65 million CHF saved”, “322h biking”).</li>
+<li><strong>Accessible but not dumbed down.</strong> He explains methods and concepts in plain language without sacrificing accuracy. He bridges technical and general audiences.</li>
+<li><strong>Uses bold liberally</strong> for first mentions of key terms and key takeaways.</li>
+<li><strong>Concrete human stories motivate the technical.</strong> The Git post starts with Max, Hanna and Juliet. The Strava post starts with what biking means to him personally. Lead with context and story, then go technical.</li>
+<li><strong>Declarative, punchy section headers.</strong> e.g.&nbsp;“Financial Incentives: The Game Changer”, “Know your data”, “The final story: insights and visualization”.</li>
+<li><strong>Occasional dry humor and light emoji</strong> — natural, not forced. (😬🥁, 🏆🎯✅). Don’t overdo it.</li>
+<li><strong>Acknowledges collaborators and sources</strong> at the end of posts. He credits people explicitly.</li>
+<li><strong>Ends with implications or a takeaway</strong> that ties back to the broader theme.</li>
+</ul>
+<hr>
+</section>
+<section id="voice-and-tone" class="level2">
+<h2 class="anchored" data-anchor-id="voice-and-tone">Voice and tone</h2>
+<ul>
+<li>First person, warm but professional.</li>
+<li>Direct: he doesn’t pad sentences. Short paragraphs. Cut filler.</li>
+<li>He uses “we” when referring to collaborative research (e.g.&nbsp;“we analyzed…”), and “I” for personal projects and teaching reflections.</li>
+<li>Not self-promotional — states facts about his work without overselling.</li>
+<li>He mentions Switzerland, Swiss institutions, and Swiss policy contexts naturally.</li>
+</ul>
+<hr>
+</section>
+<section id="technical-conventions" class="level2">
+<h2 class="anchored" data-anchor-id="technical-conventions">Technical conventions</h2>
+<section id="r-and-quarto" class="level3">
+<h3 class="anchored" data-anchor-id="r-and-quarto">R and Quarto</h3>
+<ul>
+<li><strong>R is the primary language.</strong> Tidyverse style (<code>|&gt;</code> pipe), ggplot2 for all visualization.</li>
+<li><strong>ggplot theme</strong>: <code>theme_classic()</code> is the standard. Subtle grid lines in grey90. Bold plot titles, grey30 subtitles.</li>
+<li>Transparent backgrounds: <code>bg = "transparent"</code> in <code>ggsave()</code>, <code>dev.args: bg: transparent</code> in knitr opts.</li>
+<li><strong>Code chunks</strong>: always <code>code-fold: true</code> with meaningful <code>code-summary:</code> labels. Non-displayed chunks use <code>eval: false</code> / <code>echo: false</code>.</li>
+<li>Large data is cached as <code>.qs</code> files (using the <code>qs</code> package). Never re-download if a cache file exists.</li>
+<li>Post assets (images, data) live in a <code>cache/</code> subdirectory within each post folder.</li>
+<li>Figures saved for LinkedIn separately (smaller dimensions).</li>
+</ul>
+</section>
+<section id="quarto-specific" class="level3">
+<h3 class="anchored" data-anchor-id="quarto-specific">Quarto-specific</h3>
+<ul>
+<li>Vertical spacing: use <code>\</code> (Quarto line break) rather than <code>&lt;br&gt;</code> inside prose sections.</li>
+<li>Columns layout via <code>::: {.columns}</code> and <code>::: {.column width="X%"}</code>.</li>
+<li>Scrollytelling via the <code>closeread</code> extension (used in vitd post).</li>
+<li><code>toc: false</code> is the default for blog posts.</li>
+<li><code>draft: true</code> in frontmatter to suppress rendering of unpublished posts.</li>
+<li>Output directory is <code>docs/</code> (GitHub Pages source).</li>
+</ul>
+</section>
+<section id="project-structure" class="level3">
+<h3 class="anchored" data-anchor-id="project-structure">Project structure</h3>
+<ul>
+<li>Blog posts: <code>posts/&lt;YYYYMM_slug&gt;/blog.qmd</code> (or <code>&lt;slug&gt;.qmd</code>)</li>
+<li>Post assets: <code>posts/&lt;slug&gt;/cache/</code> for figures and data</li>
+<li>Global styles: <code>styles.scss</code>, <code>styles_home.css</code></li>
+<li><code>_freeze/</code> is committed (local rendering workflow, no CI re-render)</li>
+<li><code>docs/</code> is committed (rendered output for GitHub Pages)</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="content-guidelines" class="level2">
+<h2 class="anchored" data-anchor-id="content-guidelines">Content guidelines</h2>
+<ul>
+<li><strong>Do not invent statistics or claims</strong> — Aurélien’s posts are grounded in real research and real data. If writing content, flag where numbers/facts need to be filled in.</li>
+<li><strong>Health economics posts</strong> should reflect Swiss healthcare context: Smarter Medicine / Choosing Wisely, SWICA, federal reimbursement (<em>limitatio</em>), managed care contracts, quasi-experimental methods (ITS, DiD, causal ML).</li>
+<li><strong>Teaching posts</strong> should reflect his actual courses: Data Handling (BA Econ, St.&nbsp;Gallen), Introduction to Programming (BEcon 4222). Mention specific tools (R, tidyverse, APIs, Quarto) accurately.</li>
+<li><strong>Personal posts</strong> (biking, Strava) should feel personal and genuine — these are not generic data viz tutorials; they connect data to his actual life.</li>
+<li>When writing in <strong>German</strong>, match the register of Swiss academic/policy writing: clear, professional, without anglicisms unless standard.</li>
+</ul>
+<hr>
+</section>
+<section id="what-to-avoid" class="level2">
+<h2 class="anchored" data-anchor-id="what-to-avoid">What to avoid</h2>
+<ul>
+<li>Don’t add excessive emojis or exclamation marks.</li>
+<li>Don’t write generic “In conclusion, we have seen that…” endings — tie back to the specific insight.</li>
+<li>Don’t over-explain R code that Aurélien clearly knows well — focus on the narrative around it.</li>
+<li>Don’t suggest switching from R to Python.</li>
+<li>Don’t pad posts with unnecessary background that the audience already knows.</li>
+<li>Don’t break the <code>cache/</code> pattern — figures and data always go there, not in the post root.</li>
+</ul>
 
-    
-  
-    
-  </div>
-  
 
+</section>
+</section>
 
-</header>
-
-
-<p>Here are some posts I wrote about the healthcare system, teaching programming, and other interests.</p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1768777200000" data-listing-file-modified-sort="1773341870159" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="38" data-listing-word-count-sort="7405">
-<a href="./posts/202601_health/blog.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/202601_health/cache/banner.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Health expenditure and health outcomes
-</h5>
-<div class="card-text listing-description">
-Are higher health expenditures associated to better health outcomes? Students explored this question by working with international data on health spending and outcomes. The…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Aurélien Sallin
-</div>
-<div class="listing-date">
-Jan 19, 2026
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1767135600000" data-listing-file-modified-sort="1767259318065" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2424">
-<a href="./posts/blog2/StravaArt.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/blog2/cache/my_rides_yearly.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-An artistic map of my biking meandering using rStrava and open street maps
-</h5>
-<div class="card-text listing-description">
-In 2025, I spent 322h biking around the countryside. Here is an artistic, data visualization way, to represent these hours of discovery and sweating effort.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Aurélien Sallin
-</div>
-<div class="listing-date">
-Dec 31, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1760911200000" data-listing-file-modified-sort="1761075046239" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2898">
-<a href="./posts/202510_vitd/blog.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/202510_vitd/img/Vitamin-D.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Guidelines vs.&nbsp;Financial Incentives Against Low-Value Care: Which Policy Tool Actually Changes Physician Behavior?
-</h5>
-<div class="card-text listing-description">
-Swiss natural experiment reveals financial incentives reduced unnecessary vitamin D testing by 60% while clinical guidelines achieved only 6% reduction. Analysis of 3,600+…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Aurélien Sallin
-</div>
-<div class="listing-date">
-Oct 20, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
