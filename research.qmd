@@ -4,6 +4,21 @@ title: "News & Activities"
 
 ## Latest News
 
+::: {layout="[40, 60]"}
+::: {.column}
+![](media/fribourg_march_2026.JPG){style="width: 60%; height: auto;"}
+:::
+
+::: {.column}
+### 🎤 **Keynote at the Causal Inference Symposium** (18 March 2026)
+
+[2026 Symposium of Causal Inference in the Health Sciences](https://projects.unifr.ch/pophealthlab/?page_id=1561) organized by #PopHealthLab in Fribourg. Topic: *Measuring the Effects of Population-level Interventions Using Healthcare Claims Data* — interrupted time series, Swiss claims data, and the `itscausal` package.
+
+[Slides](/presentations/fribourg2026.html){target="_blank"} | [Blog post](/posts/202603_fribourg/blog.html)
+:::
+:::
+
+---
 
 ::: {layout="[60, 40]"}
 ::: {.column}
