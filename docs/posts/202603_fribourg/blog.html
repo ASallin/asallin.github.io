@@ -9,7 +9,7 @@
 <meta name="author" content="Aurélien Sallin">
 <meta name="dcterms.date" content="2026-03-18">
 <meta name="keywords" content="real-world evidence, interrupted time series, causal inference, health policy evaluation, Switzerland, Swiss healthcare, claims data, administrative data, routine data, low-value care, itscausal, SWICA, population-level intervention, Krankenkassendaten, Schweizer Gesundheitssystem">
-<meta name="description" content="How do you evaluate the causal impact of a health policy when everyone is treated at the same time? This talk at the 2026 Causal Inference Symposium in Fribourg presents interrupted time series applied to Swiss health insurance claims data — and shows how real-world evidence from routine administrative data can guide policy in the absence of a control group.">
+<meta name="description" content="How do you evaluate the causal impact of a health policy when everyone is treated at the same time? This talk at the 2026 Causal Inference Symposium in Fribourg presents interrupted time series applied to Swiss health insurance claims data. It shows how real-world evidence from routine administrative data can guide policy in the absence of a control group.">
 
 <title>Measuring the Effects of Population-level Interventions Using Healthcare Claims Data – Aurélien Sallin</title>
 <style>
@@ -148,7 +148,7 @@ gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
             <p class="subtitle lead">Talk at the 2026 Symposium of Causal Inference in the Health Sciences, Fribourg</p>
                   <div>
         <div class="description">
-          How do you evaluate the causal impact of a health policy when everyone is treated at the same time? This talk at the 2026 Causal Inference Symposium in Fribourg presents interrupted time series applied to Swiss health insurance claims data — and shows how real-world evidence from routine administrative data can guide policy in the absence of a control group.
+          How do you evaluate the causal impact of a health policy when everyone is treated at the same time? This talk at the 2026 Causal Inference Symposium in Fribourg presents interrupted time series applied to Swiss health insurance claims data. It shows how real-world evidence from routine administrative data can guide policy in the absence of a control group.
         </div>
       </div>
                 </div>
@@ -193,11 +193,16 @@ gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
 
 
 
-<p><strong>The challenge:</strong> Public health authorities, insurers, and researchers need to know whether their policies work. But population-level interventions affect everyone simultaneously! They rule out randomized experiments, difference-in-differences designs, and synthetic control methods.</p>
-<p>The question is: How do you evaluate causally what happened?</p>
-<p><strong>The setting:</strong> Swiss health insurance claims data — rich, longitudinal, and collected for billing purposes rather than research. Administrative data at its most routine, and yet often the only window into what actually changes at the population level.</p>
-<p><strong>The method:</strong> Interrupted time series (ITS). <strong>The illustration:</strong> Two successive Swiss policies targeting the same low-value practice — unnecessary Vitamin D testing — with strikingly different results.</p>
-<p>📊 <strong>Full presentation:</strong> <a href="../..\presentations/fribourg2026.html" target="_blank">Fribourg 2026 slides</a></p>
+<section id="tldr-and-my-crude-opinion" class="level2">
+<h2 class="anchored" data-anchor-id="tldr-and-my-crude-opinion">TLDR (and my crude opinion)</h2>
+<p>This is a summary of my talk at the <a href="https://www.unifr.ch">2026 Symposium of Causal Inference in the Health Sciences</a> in Fribourg (March 18, 2026). 📊 <strong>Full presentation:</strong> <a href="../..\presentations/fribourg2026.html" target="_blank">Fribourg 2026 slides</a></p>
+<p><strong>Key message</strong>: <strong>no control group is not the end of the world</strong></p>
+<p><strong>The challenge:</strong> Public health authorities, insurers, and researchers need to know whether their policies work. But population-level interventions affect everyone simultaneously! They rule out randomized experiments, difference-in-differences designs, and synthetic control methods. In these situations, how do you evaluate causally what happened?</p>
+<p><strong>The setting:</strong> I work with Swiss health insurance claims data. These longitudinal data are collected for billing purposes and not for research. They provide a rich source of information on healthcare utilization, but lack information on diagnoses, treatment paths, and clinical/reported outcomes.</p>
+<p><strong>The method:</strong> I am convinced that a good method to both estimate causal effects and handle the no-control-group problem while using claims data is <strong>Interrupted time series (ITS)</strong>. ITS is not part of the traditional econometric toolkit, because economists are skeptical of settings without control groups. But in the world of public health, ITS is widely used.</p>
+<p>Yes, ITS relies on strong identifying and modeling assumptions, and it has been widely misused. However, and ironically, I’ve seen differences-in-differences applications with such weak/implausible control groups or such weak support in favor of the common trend assumptions that authors should have used ITS instead.</p>
+<p>ITS is a pragmatic response, one that I like to call “second-best” response, to get causal estimates. Or if we don’t believe in these kinds of methods to uncover true causal estimates, at least get a better sense of what happened than just eyeballing the data. This is the kind of evidence that I need in my work and that policy makers need to make informed decisions.</p>
+<p><strong>The illustration:</strong> I showcase a credible and hihly policy-relevant example of ITS:Two successive Swiss policies targeting the same low-value practice — unnecessary Vitamin D testing. Plus, this example gives the perfect opportunity to draw cool graphs. Below is an exposé of my presentation.</p>
 <p><br>
 </p>
 <div class="quarto-figure quarto-figure-center">
@@ -207,6 +212,7 @@ gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
 </div>
 <p><br>
 </p>
+</section>
 <section id="the-setting-causal-analysis-without-a-control-group" class="level2">
 <h2 class="anchored" data-anchor-id="the-setting-causal-analysis-without-a-control-group">The Setting: Causal Analysis Without a Control Group</h2>
 <p>Evaluating the impact of public health policies is essential for accountability, quality improvement, and better policy design. Yet many real-world settings make this hard:</p>
@@ -214,13 +220,12 @@ gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
 <li><strong>No control group</strong>: national clinical guidelines, reimbursement restrictions, or public health campaigns affect all units simultaneously.</li>
 <li><strong>Routine data</strong>: health insurance claims data are collected for billing and administrative purposes, not designed for causal research. They are available, but they were not built for this.</li>
 </ul>
-<p>This is the setting I work in daily at <strong>SWICA</strong>, and the focus of my talk at the <a href="https://www.unifr.ch">2026 Symposium of Causal Inference in the Health Sciences</a> in Fribourg (March 18, 2026).</p>
 <p><br></p>
 </section>
 <section id="the-method-interrupted-time-series" class="level2">
 <h2 class="anchored" data-anchor-id="the-method-interrupted-time-series">The Method: Interrupted Time Series</h2>
 <p><strong>Interrupted time series (ITS)</strong> is a pragmatic response to the no-control-group problem. The core idea: use the pre-intervention trend to project a counterfactual — what would have happened without the intervention — and compare this to what was actually observed.</p>
-<p>ITS is widely used in real-world evidence and health policy evaluation. It is also widely misimplemented. The key risks:</p>
+<p>ITS is widely used in real-world evidence and health policy evaluation. It is also widely misimplemented (see survey cited in the presentation). The key risks:</p>
 <ul>
 <li><strong>Strong causal assumptions</strong>: trend continuity, no concurrent interventions, and no anticipation effects must all hold.</li>
 <li><strong>Functional form</strong>: the shape of the counterfactual matters enormously. Misspecification leads to biased estimates.</li>
@@ -236,7 +241,7 @@ gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
 </section>
 <section id="what-we-can-do-with-routine-data" class="level2">
 <h2 class="anchored" data-anchor-id="what-we-can-do-with-routine-data">What We Can Do With Routine Data</h2>
-<p>The core message is encouraging: <strong>no control group is not the end of the world</strong>. When rich longitudinal claims data are available, interrupted time series can produce credible causal estimates of policy effects — as long as the analysis is done carefully.</p>
+<p>The core message is, I believe, encouraging: <strong>no control group is not the end of the world</strong>. When rich longitudinal claims data are available, interrupted time series can produce credible causal estimates of policy effects. As long as the analysis is done carefully.</p>
 <p>Administrative data from health insurance systems like SWICA’s are a powerful resource for real-world evidence. They cover large populations, track individuals over time, and record actual healthcare utilization rather than self-reported behavior. These are precisely the properties that make ITS viable.</p>
 <p>The challenge is to move from <em>widely used</em> to <em>soundly implemented</em>. <code>itscausal</code> is our contribution to that goal.</p>
 <p><br></p>
