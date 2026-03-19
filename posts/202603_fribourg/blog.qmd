@@ -24,6 +24,10 @@ The question is: How do you evaluate causally what happened?
 
 \
 
+![](its_bouquet_flowers.png){fig-align="center"}
+
+\
+
 ## The Setting: Causal Analysis Without a Control Group
 
 Evaluating the impact of public health policies is essential for accountability, quality improvement, and better policy design. Yet many real-world settings make this hard:
@@ -50,17 +54,9 @@ Sound implementation requires careful attention to both. This is the problem tha
 
 ## The Illustration: Vitamin D Testing and Low-Value Care
 
-Switzerland offers a natural experiment. Two successive policies targeted the same unnecessary practice — routine Vitamin D testing for low-risk patients:
+Switzerland offers a natural experiment: two successive policies targeting the same unnecessary practice — routine Vitamin D testing for low-risk patients. A clinical recommendation in 2021, followed by a coverage restriction in 2022. The results were strikingly different.
 
-1. **April 2021**: Smarter Medicine (Switzerland's Choosing Wisely™ equivalent) listed Vitamin D testing in its Top 5 procedures to avoid. A clinical recommendation directed at physicians.
-2. **2022**: The Federal Office of Public Health introduced a **coverage restriction** (*limitatio*), directly limiting reimbursement for such tests under mandatory health insurance.
-
-Using claims data from SWICA covering more than 3'600 general practitioners, we estimated the causal effect of each intervention using interrupted time series:
-
-- The **clinical recommendation** reduced unnecessary testing by approximately **6%**.
-- The **financial incentive** reduced testing by approximately **58% within six months**.
-
-The contrast is striking. Soft nudges and hard levers can both work — but they do not work equally.
+The full case study, including the data, methodology, and results, is covered in detail in [this post](/posts/202510_vitd/blog.html). The key takeaway for this talk: soft nudges and hard levers can both work — but they do not work equally.
 
 <br>
 
