@@ -193,14 +193,14 @@ gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
 
 
 
-<section id="tldr-and-my-crude-opinion" class="level2">
-<h2 class="anchored" data-anchor-id="tldr-and-my-crude-opinion">TLDR (and my crude opinion)</h2>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TLDR</h2>
 <p>This is a summary of my talk at the <a href="https://www.unifr.ch">2026 Symposium of Causal Inference in the Health Sciences</a> in Fribourg (March 18, 2026). 📊 <strong>Full presentation:</strong> <a href="../..\presentations/fribourg2026.html" target="_blank">Fribourg 2026 slides</a></p>
 <p><strong>Key message</strong>: <strong>no control group is not the end of the world</strong></p>
 <p><strong>The challenge:</strong> Public health authorities, insurers, and researchers need to know whether their policies work. But population-level interventions affect everyone simultaneously! They rule out randomized experiments, difference-in-differences designs, and synthetic control methods. In these situations, how do you evaluate causally what happened?</p>
 <p><strong>The setting:</strong> I work with Swiss health insurance claims data. These longitudinal data are collected for billing purposes and not for research. They provide a rich source of information on healthcare utilization, but lack information on diagnoses, treatment paths, and clinical/reported outcomes.</p>
 <p><strong>The method:</strong> I am convinced that a good method to both estimate causal effects and handle the no-control-group problem while using claims data is <strong>Interrupted time series (ITS)</strong>. ITS is not part of the traditional econometric toolkit, because economists are skeptical of settings without control groups. But in the world of public health, ITS is widely used.</p>
-<p>Yes, ITS relies on strong identifying and modeling assumptions, and it has been widely misused. However, and ironically, I’ve seen differences-in-differences applications with such weak/implausible control groups or such weak support in favor of the common trend assumptions that authors should have used ITS instead.</p>
+<p><strong>My 🧂 meta-commentary on ITS:</strong> Yes, ITS relies on strong identifying and modeling assumptions, and it has been widely misused. However, and ironically, I’ve seen differences-in-differences applications with such weak/implausible control groups or such thin evidence in favor of the common trend assumptions that authors should have used ITS instead.</p>
 <p>ITS is a pragmatic response, one that I like to call “second-best” response, to get causal estimates. Or if we don’t believe in these kinds of methods to uncover true causal estimates, at least get a better sense of what happened than just eyeballing the data. This is the kind of evidence that I need in my work and that policy makers need to make informed decisions.</p>
 <p><strong>The illustration:</strong> I showcase a credible and hihly policy-relevant example of ITS:Two successive Swiss policies targeting the same low-value practice — unnecessary Vitamin D testing. Plus, this example gives the perfect opportunity to draw cool graphs. Below is an exposé of my presentation.</p>
 <p><br>
