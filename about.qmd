@@ -28,15 +28,6 @@ html:
   page-layout: full
 ---
 
-::: {.panel-tabset}
-## The way I would introduce myself
-I spend a lot of time asking...
-
-## The way LinkedIn and ChatGPT would introduce me
-My interest lies in the strategic, data-driven...
-:::
-
-
 ## Data Science and Economics
 
 I am a **Senior Economist/Data Scientist** in the **Health Services Management Team** of one of the largest health insurance companies in Switzerland. I spend a lot of time asking whether healthcare financing can be designed to reward what actually matters: good outcomes for patients, and efficient use of resources for all. In other words, value-based healthcare.
