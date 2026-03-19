@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aureliensallin.ch/research.html</loc>
-    <lastmod>2026-01-06T06:29:41.079Z</lastmod>
+    <lastmod>2026-03-19T06:34:09.588Z</lastmod>
   </url>
   <url>
     <loc>https://aureliensallin.ch/posts/blog2/StravaArt.html</loc>
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://aureliensallin.ch/posts.html</loc>
-    <lastmod>2025-12-28T15:44:24.481Z</lastmod>
+    <lastmod>2026-03-13T09:36:18.075Z</lastmod>
   </url>
   <url>
     <loc>https://aureliensallin.ch/posts/202601_health/health_expenditures_dh.html</loc>
@@ -34,10 +34,18 @@
   </url>
   <url>
     <loc>https://aureliensallin.ch/posts/202510_vitd/blog.html</loc>
-    <lastmod>2026-01-19T12:30:48.148Z</lastmod>
+    <lastmod>2026-03-13T09:36:18.076Z</lastmod>
   </url>
   <url>
     <loc>https://aureliensallin.ch/posts/202602_kosten1/202602_kosten1.html</loc>
     <lastmod>2026-02-02T12:36:34.583Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aureliensallin.ch/posts/202603_fribourg/blog.html</loc>
+    <lastmod>2026-03-19T06:31:36.779Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aureliensallin.ch/presentations/18032026_CausalSymposiumFribourg/presentation_fribourg.html</loc>
+    <lastmod>2026-03-18T06:31:51.695Z</lastmod>
   </url>
 </urlset>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.9.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,6 +13,9 @@
 
 <title>Guidelines vs.&nbsp;Financial Incentives Against Low-Value Care: Which Policy Tool Actually Changes Physician Behavior? – Aurélien Sallin</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -63,7 +66,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -91,15 +93,17 @@ div.csl-indent {
 <meta name="quarto:offset" content="../../">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-a7cfb47dbc3fb78ed3efb1bebf9abae9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-92e10f6ce3446bec35b7753a50f36476.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/intersection-observer-polyfill-1.0.0/intersection-observer.js"></script>
+<script src="../../site_libs/quarto-contrib/scrollama-3.2.0/scrollama.min.js"></script>
+<script src="../../site_libs/quarto-contrib/closeread-0.1.0/closeread.js"></script>
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -138,8 +142,12 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
 </script>
+<meta cr-debug-mode="false">
+<meta cr-remove-header-space="false">
 
 
+<link rel="stylesheet" href="..\..\site_libs\quarto-contrib\quarto-project\qmd-lab\closeread\closeread.css">
+<link rel="stylesheet" href="style_quarto.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -149,8 +157,6 @@ gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Aurélien Sallin, PhD</span>
     </a>
@@ -243,12 +249,27 @@ gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
     
 <!-- main -->
 <main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+      <!-- user-provided yaml closeread style options -->
+      <style>
+        :root {
+          --cr-narrative-font-size: 1.4rem;
+--cr-section-background-color: #F5F5F5;
+--cr-narrative-background-color-sidebar: #F5F5F5;
+--cr-narrative-text-color-overlay: #e2e2e2;
+--cr-narrative-overlay-max-width: 700px;
+--cr-narrative-text-color-sidebar: #333333;
+--cr-narrative-background-color-overlay: rgb(0,43,54,0.75);
+        }
+      </style>
+    
 
 
 
 
 
 <div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
@@ -420,6 +441,7 @@ gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
 <span id="cb1-169"><a href="#cb1-169" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-170"><a href="#cb1-170" aria-hidden="true" tabindex="-1"></a>    p</span>
 <span id="cb1-171"><a href="#cb1-171" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 </div>
 <hr>
 <div class="banner">
@@ -456,44 +478,26 @@ gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
 </section>
 <section id="the-results-in-one-scroll" class="level2">
 <h2 class="anchored" data-anchor-id="the-results-in-one-scroll">The results in one scroll</h2>
-<div class="cr-section">
-<section id="reading-the-chart-what-are-we-looking-at" class="level3" data-focus-on="cr-plot-layout-I">
+<div class="cr-section cr-column-screen sidebar-left">
+<div class="narrative-col">
+<div class="trigger new-trigger" data-focus-on="cr-plot-layout-I">
+<section id="reading-the-chart-what-are-we-looking-at" class="level3 narrative">
 <h3 class="anchored" data-anchor-id="reading-the-chart-what-are-we-looking-at">Reading the Chart: What Are We Looking At?</h3>
 <p><span style="color: grey; font-weight: bold; font-size: 1.2em;">●●●</span> <strong>Grey line</strong> = Actual vitamin D tests prescribed each month (real SWICA data)<br>
 <span style="color: #E22920; font-weight: bold; font-size: 1.2em;">●●●</span> <strong>Red line</strong> = What our statistical model predicts should happen<br>
 <span style="color: #00857C; font-weight: bold; font-size: 1.2em;">▬▬▬</span> <strong>Green box</strong> = COVID-19 lockdown period (March-April 2020)<br>
 <strong>Why this matters:</strong> The red and grey lines track closely together, showing our model accurately captures normal prescribing patterns. This means we can detect when policies actually change physician behavior.</p>
 </section>
-<div id="cr-plot-layout-I">
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_vitd_masked</span>(dfgraph, counterfactualM, <span class="at">mask_from =</span> <span class="sc">-</span><span class="dv">16</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="blog_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="768"></p>
-</figure>
 </div>
-</div>
-</div>
-</div>
-<section id="vitamin-d-test-prescriptions-rose-despite-low-value-status" class="level3" data-focus-on="cr-plot-layout-I">
+<div class="trigger new-trigger" data-focus-on="cr-plot-layout-I">
+<section id="vitamin-d-test-prescriptions-rose-despite-low-value-status" class="level3 narrative">
 <h3 class="anchored" data-anchor-id="vitamin-d-test-prescriptions-rose-despite-low-value-status">Vitamin D Test Prescriptions Rose Despite Low-Value Status</h3>
 <p>Despite clear evidence of low clinical value, vitamin D test prescriptions rose by <strong>20%</strong> between 2018 and 2021.</p>
 <p>A textbook example of low-value care in the healthcare system (see also <a href="https://www.versorgungsatlas.ch/indicator/_089">Obsan 2023</a>).</p>
 </section>
-<div id="cr-plot-layout-I">
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_vitd_masked</span>(dfgraph, counterfactualM, <span class="at">mask_from =</span> <span class="sc">-</span><span class="dv">16</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="blog_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="768"></p>
-</figure>
 </div>
-</div>
-</div>
-</div>
-<section id="april-2021-smarter-medicine-takes-action" class="level3" data-focus-on="cr-plot-layout-II">
+<div class="trigger new-trigger" data-focus-on="cr-plot-layout-II">
+<section id="april-2021-smarter-medicine-takes-action" class="level3 narrative">
 <h3 class="anchored" data-anchor-id="april-2021-smarter-medicine-takes-action">April 2021: Smarter Medicine Takes Action</h3>
 <p>Switzerland’s Choosing Wisely™ campaign places vitamin D testing on their <strong>“Top 5”</strong> list of unnecessary procedures.</p>
 <p><br>
@@ -503,9 +507,87 @@ gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
 </p>
 <p><strong>Clear message</strong>: “No routine testing for patients without risk factors.”</p>
 </section>
-<div id="cr-plot-layout-II">
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-plot-layout-3">
+<section id="clinical-recommendations-modest-impact" class="level3 narrative">
+<h3 class="anchored" data-anchor-id="clinical-recommendations-modest-impact">Clinical Recommendations: Modest Impact</h3>
+<p>The Smarter Medicine recommendation shows a <strong>slight downward trend</strong>.</p>
+<p>But is this enough? Let’s compare with what would have happened without intervention…</p>
+</section>
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-plot-layout-4">
+<section id="revealing-the-counterfactual" class="level3 narrative">
+<h3 class="anchored" data-anchor-id="revealing-the-counterfactual">Revealing the Counterfactual</h3>
+<p>The <strong>teal dashed line</strong> shows what would have happened without the recommendation.</p>
+<p>Testing rates would have continued climbing upward.</p>
+</section>
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-plot-layout-4.1">
+<section id="the-numbers-clinical-recommendations-work-but-modestly" class="level3 narrative">
+<h3 class="anchored" data-anchor-id="the-numbers-clinical-recommendations-work-but-modestly">The Numbers: Clinical Recommendations Work, But Modestly</h3>
+<p>We conduct statistical tests to see whether the recommendation led to a recognizable pattern. <strong>The number of tests per consultation falls by 5.98% in the 12 months following the recommendation.</strong></p>
+</section>
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-plot-layout-5">
+<section id="july-2022-strong-regulatory-measure" class="level3 narrative">
+<h3 class="anchored" data-anchor-id="july-2022-strong-regulatory-measure">July 2022: Strong Regulatory Measure</h3>
+<p><br>
+<a href="https://www.smartermedicine.ch/de/home"><img src="img/bag.png" class="img-fluid"></a><br>
+The Federal Office of Public Health restricts coverage. Patients now pay <strong>out-of-pocket</strong> for routine tests.</p>
+</section>
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-plot-layout-6">
+<section id="financial-incentives-the-game-changer" class="level3 narrative">
+<h3 class="anchored" data-anchor-id="financial-incentives-the-game-changer">Financial Incentives: The Game Changer</h3>
+<p>The number of tests per consultation drops by <strong>57.82%</strong> in the 6 months following the coverage restriction. This is a dramatic drop compared to clinical recommendations alone.</p>
+</section>
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-plot-layout-6.1">
+<section id="the-bottom-line-15.65-million-chf-saved" class="level3 narrative">
+<h3 class="anchored" data-anchor-id="the-bottom-line-15.65-million-chf-saved">The Bottom Line: 15.65 Million CHF Saved</h3>
+<p>Healthcare system savings of <strong>15.65 million CHF</strong> in 2022 alone.</p>
+<p>That’s <strong>1.8 CHF per Swiss resident</strong>.</p>
+</section>
+</div>
+</div>
+<div class="sticky-col">
+<div class="sticky-col-stack">
+<div id="cr-plot-layout-I" class="sticky">
 <div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_vitd_masked</span>(dfgraph, counterfactualM, <span class="at">mask_from =</span> <span class="sc">-</span><span class="dv">16</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="blog_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="768"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="cr-plot-layout-I" class="sticky">
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_vitd_masked</span>(dfgraph, counterfactualM, <span class="at">mask_from =</span> <span class="sc">-</span><span class="dv">16</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="blog_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="768"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="cr-plot-layout-II" class="sticky">
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_vitd_masked</span>(dfgraph, counterfactualM, <span class="at">mask_from =</span> <span class="sc">-</span><span class="dv">15</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -515,14 +597,12 @@ gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
 </div>
 </div>
 </div>
-<section id="clinical-recommendations-modest-impact" class="level3" data-focus-on="cr-plot-layout-3">
-<h3 class="anchored" data-anchor-id="clinical-recommendations-modest-impact">Clinical Recommendations: Modest Impact</h3>
-<p>The Smarter Medicine recommendation shows a <strong>slight downward trend</strong>.</p>
-<p>But is this enough? Let’s compare with what would have happened without intervention…</p>
-</section>
-<div id="cr-plot-layout-3">
+<div id="cr-plot-layout-3" class="sticky">
 <div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_vitd_masked</span>(dfgraph, counterfactualM, <span class="at">mask_from =</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">mask_counterfactual_from =</span> <span class="sc">-</span><span class="dv">15</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -532,14 +612,12 @@ gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
 </div>
 </div>
 </div>
-<section id="revealing-the-counterfactual" class="level3" data-focus-on="cr-plot-layout-4">
-<h3 class="anchored" data-anchor-id="revealing-the-counterfactual">Revealing the Counterfactual</h3>
-<p>The <strong>teal dashed line</strong> shows what would have happened without the recommendation.</p>
-<p>Testing rates would have continued climbing upward.</p>
-</section>
-<div id="cr-plot-layout-4">
+<div id="cr-plot-layout-4" class="sticky">
 <div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_vitd_masked</span>(dfgraph, counterfactualM, <span class="at">mask_from =</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">mask_counterfactual_from =</span> <span class="dv">0</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -549,13 +627,12 @@ gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
 </div>
 </div>
 </div>
-<section id="the-numbers-clinical-recommendations-work-but-modestly" class="level3" data-focus-on="cr-plot-layout-4.1">
-<h3 class="anchored" data-anchor-id="the-numbers-clinical-recommendations-work-but-modestly">The Numbers: Clinical Recommendations Work, But Modestly</h3>
-<p>We conduct statistical tests to see whether the recommendation led to a recognizable pattern. <strong>The number of tests per consultation falls by 5.98% in the 12 months following the recommendation.</strong></p>
-</section>
-<div id="cr-plot-layout-4.1">
+<div id="cr-plot-layout-4.1" class="sticky">
 <div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_vitd_masked</span>(dfgraph, counterfactualM, <span class="at">mask_from =</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">mask_counterfactual_from =</span> <span class="dv">0</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -565,15 +642,12 @@ gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
 </div>
 </div>
 </div>
-<section id="july-2022-strong-regulatory-measure" class="level3" data-focus-on="cr-plot-layout-5">
-<h3 class="anchored" data-anchor-id="july-2022-strong-regulatory-measure">July 2022: Strong Regulatory Measure</h3>
-<p><br>
-<a href="https://www.smartermedicine.ch/de/home"><img src="img/bag.png" class="img-fluid"></a><br>
-The Federal Office of Public Health restricts coverage. Patients now pay <strong>out-of-pocket</strong> for routine tests.</p>
-</section>
-<div id="cr-plot-layout-5">
+<div id="cr-plot-layout-5" class="sticky">
 <div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_vitd_masked</span>(dfgraph, counterfactualM, <span class="at">mask_from =</span> <span class="dv">0</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -583,13 +657,12 @@ The Federal Office of Public Health restricts coverage. Patients now pay <strong
 </div>
 </div>
 </div>
-<section id="financial-incentives-the-game-changer" class="level3" data-focus-on="cr-plot-layout-6">
-<h3 class="anchored" data-anchor-id="financial-incentives-the-game-changer">Financial Incentives: The Game Changer</h3>
-<p>The number of tests per consultation drops by <strong>57.82%</strong> in the 6 months following the coverage restriction. This is a dramatic drop compared to clinical recommendations alone.</p>
-</section>
-<div id="cr-plot-layout-6">
+<div id="cr-plot-layout-6" class="sticky">
 <div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_vitd_masked</span>(dfgraph, counterfactualM, <span class="at">mask_from =</span> <span class="cn">NULL</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -599,19 +672,19 @@ The Federal Office of Public Health restricts coverage. Patients now pay <strong
 </div>
 </div>
 </div>
-<section id="the-bottom-line-15.65-million-chf-saved" class="level3" data-focus-on="cr-plot-layout-6.1">
-<h3 class="anchored" data-anchor-id="the-bottom-line-15.65-million-chf-saved">The Bottom Line: 15.65 Million CHF Saved</h3>
-<p>Healthcare system savings of <strong>15.65 million CHF</strong> in 2022 alone.</p>
-<p>That’s <strong>1.8 CHF per Swiss resident</strong>.</p>
-</section>
-<div id="cr-plot-layout-6.1">
+<div id="cr-plot-layout-6.1" class="sticky">
 <div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot_vitd_masked</span>(dfgraph, counterfactualM, <span class="at">mask_from =</span> <span class="cn">NULL</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
 <p><img src="blog_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid figure-img" width="768"></p>
 </figure>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -630,9 +703,9 @@ The Federal Office of Public Health restricts coverage. Patients now pay <strong
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-sallin2025impact" class="csl-entry" role="listitem">
-Sallin, Aurélien, Daniel Ammann, Caroline Bähler, Tobias Müller, Stefan Neuner-Jehle, Oliver Senn, and Eva Blozik. 2025. <span>“The Impact of Choosing WiselyTM Recommendations and Insurance Coverage Restrictions on the Provision of Low-Value Care: An Interrupted Time Series Analysis of Vitamin d Tests.”</span> <em>BMC Health Services Research</em> 25 (1): 1359.
+Sallin, Aurélien, Daniel Ammann, Caroline Bähler, et al. 2025. <span>“The Impact of Choosing WiselyTM Recommendations and Insurance Coverage Restrictions on the Provision of Low-Value Care: An Interrupted Time Series Analysis of Vitamin d Tests.”</span> <em>BMC Health Services Research</em> 25 (1): 1359.
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

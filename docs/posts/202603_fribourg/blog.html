@@ -6,8 +6,12 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Aurélien Sallin">
+<meta name="dcterms.date" content="2026-03-18">
+<meta name="keywords" content="real-world evidence, interrupted time series, causal inference, health policy evaluation, Switzerland, Swiss healthcare, claims data, administrative data, routine data, low-value care, itscausal, SWICA, population-level intervention, Krankenkassendaten, Schweizer Gesundheitssystem">
+<meta name="description" content="How do you evaluate the causal impact of a health policy when everyone is treated at the same time? This talk at the 2026 Causal Inference Symposium in Fribourg presents interrupted time series applied to Swiss health insurance claims data — and shows how real-world evidence from routine administrative data can guide policy in the absence of a control group.">
 
-<title>News &amp; Activities – Aurélien Sallin</title>
+<title>Measuring the Effects of Population-level Interventions Using Healthcare Claims Data – Aurélien Sallin</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,25 +30,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-af5d08dce811e1d6d04939767673ead0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-af5d08dce811e1d6d04939767673ead0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -88,11 +92,11 @@ gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Aurélien Sallin, PhD</span>
     </a>
   </div>
@@ -103,25 +107,25 @@ gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page"> 
+    <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">News &amp; Activities</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./file/path/to/myCV.pdf" target="_blank"> 
+    <a class="nav-link" href="../../file/path/to/myCV.pdf" target="_blank"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
@@ -137,89 +141,110 @@ gtag('config', 'G-W2D6L26NC8', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
-<!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#latest-news" id="toc-latest-news" class="nav-link active" data-scroll-target="#latest-news">Latest News</a>
-  <ul class="collapse">
-  <li><a href="#talk-at-the-causal-inference-symposium-march-2026" id="toc-talk-at-the-causal-inference-symposium-march-2026" class="nav-link" data-scroll-target="#talk-at-the-causal-inference-symposium-march-2026">🎤 <strong>Talk at the Causal Inference Symposium</strong> (March 2026)</a></li>
-  </ul></li>
-  <li><a href="#complete-academic-record" id="toc-complete-academic-record" class="nav-link" data-scroll-target="#complete-academic-record">Complete Academic Record</a></li>
-  </ul>
-</nav>
-    </div>
-<!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">News &amp; Activities</h1>
-</div>
-
-
-
-<div class="quarto-title-meta column-page-left">
-
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page">
+      <h1 class="title">Measuring the Effects of Population-level Interventions Using Healthcare Claims Data</h1>
+            <p class="subtitle lead">Talk at the 2026 Symposium of Causal Inference in the Health Sciences, Fribourg</p>
+                  <div>
+        <div class="description">
+          How do you evaluate the causal impact of a health policy when everyone is treated at the same time? This talk at the 2026 Causal Inference Symposium in Fribourg presents interrupted time series applied to Swiss health insurance claims data — and shows how real-world evidence from routine administrative data can guide policy in the absence of a control group.
+        </div>
+      </div>
+                </div>
+  </div>
     
   
+  <div class="quarto-title-meta column-page">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Aurélien Sallin </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 18, 2026</p>
+      </div>
+    </div>
     
+      
+    </div>
+    
+
+  <div>
+    <div class="keywords">
+      <div class="block-title">Keywords</div>
+      <p>real-world evidence, interrupted time series, causal inference, health policy evaluation, Switzerland, Swiss healthcare, claims data, administrative data, routine data, low-value care, itscausal, SWICA, population-level intervention, Krankenkassendaten, Schweizer Gesundheitssystem</p>
+    </div>
   </div>
   
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
-</header>
 
 
-<section id="latest-news" class="level2">
-<h2 class="anchored" data-anchor-id="latest-news">Latest News</h2>
-<section id="talk-at-the-causal-inference-symposium-march-2026" class="level3">
-<h3 class="anchored" data-anchor-id="talk-at-the-causal-inference-symposium-march-2026">🎤 <strong>Talk at the Causal Inference Symposium</strong> (March 2026)</h3>
-<p>Presented at the <a href="https://projects.unifr.ch/pophealthlab/?page_id=1561">2026 Symposium of Causal Inference in the Health Sciences</a> organized by #PopHealthLab in Fribourg. Topic: <em>Measuring the Effects of Population-level Interventions Using Healthcare Claims Data</em> — interrupted time series, Swiss claims data, and the <code>itscausal</code> package.</p>
-<p><a href=".\presentations/fribourg2026.html" target="_blank">Slides</a> | <a href=".\posts/202603_fribourg/blog.html">Blog post</a></p>
+
+<p><strong>The challenge:</strong> Public health authorities, insurers, and researchers need to know whether their policies work. But population-level interventions affect everyone simultaneously! They rule out randomized experiments, difference-in-differences designs, and synthetic control methods.</p>
+<p>The question is: How do you evaluate causally what happened?</p>
+<p><strong>The setting:</strong> Swiss health insurance claims data — rich, longitudinal, and collected for billing purposes rather than research. Administrative data at its most routine, and yet often the only window into what actually changes at the population level.</p>
+<p><strong>The method:</strong> Interrupted time series (ITS). <strong>The illustration:</strong> Two successive Swiss policies targeting the same low-value practice — unnecessary Vitamin D testing — with strikingly different results.</p>
+<p>📊 <strong>Full presentation:</strong> <a href="../..\presentations/fribourg2026.html" target="_blank">Fribourg 2026 slides</a></p>
+<p><br>
+</p>
+<section id="the-setting-causal-analysis-without-a-control-group" class="level2">
+<h2 class="anchored" data-anchor-id="the-setting-causal-analysis-without-a-control-group">The Setting: Causal Analysis Without a Control Group</h2>
+<p>Evaluating the impact of public health policies is essential for accountability, quality improvement, and better policy design. Yet many real-world settings make this hard:</p>
+<ul>
+<li><strong>No control group</strong>: national clinical guidelines, reimbursement restrictions, or public health campaigns affect all units simultaneously.</li>
+<li><strong>Routine data</strong>: health insurance claims data are collected for billing and administrative purposes, not designed for causal research. They are available, but they were not built for this.</li>
+</ul>
+<p>This is the setting I work in daily at <strong>SWICA</strong>, and the focus of my talk at the <a href="https://www.unifr.ch">2026 Symposium of Causal Inference in the Health Sciences</a> in Fribourg (March 18, 2026).</p>
+<p><br></p>
+</section>
+<section id="the-method-interrupted-time-series" class="level2">
+<h2 class="anchored" data-anchor-id="the-method-interrupted-time-series">The Method: Interrupted Time Series</h2>
+<p><strong>Interrupted time series (ITS)</strong> is a pragmatic response to the no-control-group problem. The core idea: use the pre-intervention trend to project a counterfactual — what would have happened without the intervention — and compare this to what was actually observed.</p>
+<p>ITS is widely used in real-world evidence and health policy evaluation. It is also widely misimplemented. The key risks:</p>
+<ul>
+<li><strong>Strong causal assumptions</strong>: trend continuity, no concurrent interventions, and no anticipation effects must all hold.</li>
+<li><strong>Functional form</strong>: the shape of the counterfactual matters enormously. Misspecification leads to biased estimates.</li>
+</ul>
+<p>Sound implementation requires careful attention to both. This is the problem that <a href="https://github.com/ASallin/itsCausal"><code>itscausal</code></a>, an R package I developed with colleagues of the Berner Fachhochschule, is designed to address.</p>
+<p><br></p>
+</section>
+<section id="the-illustration-vitamin-d-testing-and-low-value-care" class="level2">
+<h2 class="anchored" data-anchor-id="the-illustration-vitamin-d-testing-and-low-value-care">The Illustration: Vitamin D Testing and Low-Value Care</h2>
+<p>Switzerland offers a natural experiment. Two successive policies targeted the same unnecessary practice — routine Vitamin D testing for low-risk patients:</p>
+<ol type="1">
+<li><strong>April 2021</strong>: Smarter Medicine (Switzerland’s Choosing Wisely™ equivalent) listed Vitamin D testing in its Top 5 procedures to avoid. A clinical recommendation directed at physicians.</li>
+<li><strong>2022</strong>: The Federal Office of Public Health introduced a <strong>coverage restriction</strong> (<em>limitatio</em>), directly limiting reimbursement for such tests under mandatory health insurance.</li>
+</ol>
+<p>Using claims data from SWICA covering more than 3’600 general practitioners, we estimated the causal effect of each intervention using interrupted time series:</p>
+<ul>
+<li>The <strong>clinical recommendation</strong> reduced unnecessary testing by approximately <strong>6%</strong>.</li>
+<li>The <strong>financial incentive</strong> reduced testing by approximately <strong>58% within six months</strong>.</li>
+</ul>
+<p>The contrast is striking. Soft nudges and hard levers can both work — but they do not work equally.</p>
+<p><br></p>
+</section>
+<section id="what-we-can-do-with-routine-data" class="level2">
+<h2 class="anchored" data-anchor-id="what-we-can-do-with-routine-data">What We Can Do With Routine Data</h2>
+<p>The core message is encouraging: <strong>no control group is not the end of the world</strong>. When rich longitudinal claims data are available, interrupted time series can produce credible causal estimates of policy effects — as long as the analysis is done carefully.</p>
+<p>Administrative data from health insurance systems like SWICA’s are a powerful resource for real-world evidence. They cover large populations, track individuals over time, and record actual healthcare utilization rather than self-reported behavior. These are precisely the properties that make ITS viable.</p>
+<p>The challenge is to move from <em>widely used</em> to <em>soundly implemented</em>. <code>itscausal</code> is our contribution to that goal.</p>
+<p><br></p>
 <hr>
-</section>
-<div class="quarto-layout-panel" data-layout="[60, 40]">
-<div class="quarto-layout-row">
-<div class="column quarto-layout-cell" style="flex-basis: 60.0%;justify-content: flex-start;">
-<section id="new-publication-october-2025" class="level3">
-<h3 class="anchored" data-anchor-id="new-publication-october-2025">📰 <strong>New Publication</strong> (October 2025)</h3>
-<p><strong>“The impact of Choosing WiselyTM recommendations and insurance coverage restrictions on the provision of low-value care: an interrupted time series analysis of vitamin D tests”</strong> published in <em>BMC Health Services Research</em></p>
-<p><a href="https://bmchealthservres.biomedcentral.com/articles/10.1186/s12913-025-13524-9">Read Study</a> | <a href=".\posts/2025-06-07-blog1/scroll.html">Check my summary blog post (with cool graphs!)</a></p>
-<p><br>
-</p>
-<section id="key-findings" class="level4">
-<h4 class="anchored" data-anchor-id="key-findings">📊 <strong>Key findings:</strong></h4>
-<p>Clinical recommendations alone are insufficient to reduce low-value care in the case of Vit D tests. Insurance coverage restrictions proved more effective than guidelines, reducing unnecessary vitamin D testing by 62% and saving 15.65 million CHF annually. However, coverage restrictions increase administrative burden and risk underuse.</p>
-<p><br>
-</p>
-</section>
-<section id="media-coverage" class="level4">
-<h4 class="anchored" data-anchor-id="media-coverage">📺 <strong>Media Coverage</strong></h4>
-<p>Our research on reducing unnecessary vitamin D testing has been featured in the <a href="media/sonntagszeitung.jpg">“Sonntagszeitung”</a> (pdf version) and the <a href="https://www.tagesanzeiger.ch/vitamin-d-tests-bag-spart-60-millionen-bei-gesundheitskosten-701517681555">“Tages Anzeiger”</a> (<a href="media/2025_10_27_Überversorgung.pdf">pdf version</a>)</p>
-</section>
-</section>
-</div>
-<div class="column quarto-layout-cell" style="flex-basis: 40.0%;justify-content: center;">
-<p><br>
-</p>
-<p><br>
-</p>
-<p><img src="media/bmc2025.png" class="img-fluid" style="width: 70%; height: auto;"></p>
-</div>
-</div>
-</div>
-<p><br>
-</p>
-<hr>
-</section>
-<section id="complete-academic-record" class="level2">
-<h2 class="anchored" data-anchor-id="complete-academic-record">Complete Academic Record</h2>
-<p>For a comprehensive list of publications and citations, visit my <a href="https://scholar.google.com/citations?user=buQosFUAAAAJ&amp;hl=en">Google Scholar profile</a>.</p>
+<p>📊 The full presentation is available here: <a href="../..\presentations/fribourg2026.html" target="_blank"><strong>Fribourg 2026 slides</strong></a></p>
+<p>🔗 <code>itscausal</code> on GitHub: <a href="https://github.com/ASallin/itsCausal">github.com/ASallin/itsCausal</a></p>
 
 
 </section>
