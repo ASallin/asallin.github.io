@@ -4,7 +4,7 @@ subtitle: "Talk at the 2026 Symposium of Causal Inference in the Health Sciences
 author: "Aurélien Sallin"
 date: "2026-03-18"
 image: its_bouquet_flowers.png
-description: "How do you evaluate the causal impact of a health policy when everyone is treated at the same time? This talk at the 2026 Causal Inference Symposium in Fribourg presents interrupted time series applied to Swiss health insurance claims data — and shows how real-world evidence from routine administrative data can guide policy in the absence of a control group."
+description: "How do you evaluate the causal impact of a health policy when everyone is treated at the same time? This talk at the 2026 Causal Inference Symposium in Fribourg presents interrupted time series applied to Swiss health insurance claims data. It shows how real-world evidence from routine administrative data can guide policy in the absence of a control group."
 keywords: ["real-world evidence", "interrupted time series", "causal inference", "health policy evaluation", "Switzerland", "Swiss healthcare", "claims data", "administrative data", "routine data", "low-value care", "itscausal", "SWICA", "population-level intervention", "Krankenkassendaten", "Schweizer Gesundheitssystem"]
 toc: false
 format:
