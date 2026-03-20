@@ -4,7 +4,7 @@ title: "News & Activities"
 
 ## Latest News
 
-::: {layout="[40, 60]"}
+::: {layout="[30, 70]"}
 ::: {.column}
 ![](media/fribourg_march_2026.JPG){style="width: 60%; height: auto;"}
 :::
