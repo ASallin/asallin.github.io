@@ -4,7 +4,7 @@ title: "News & Activities"
 
 ## Latest News
 
-### Our brand new course "Introduction to Programming for Economists" at the University of St. Gallen just completed its first run (June 202)
+### Our brand new course "Introduction to Programming for Economists" at the University of St. Gallen just completed its first run (June 2026)
 
 ![](media/banner_course.png){style="width: 50%; height: auto; display: block; margin: 0 auto;"}
 
