@@ -1,5 +1,7 @@
 ---
 title: "News & Activities"
+description: "News, talks, courses, and activities from Aurélien Sallin — health economics research, data science teaching, and conferences."
+hide-description: true
 ---
 
 ## Latest News

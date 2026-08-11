@@ -2,11 +2,18 @@ project:
   type: website
   output-dir: docs
   resources: CNAME
+  render:
+    - "*.qmd"
+    - "!CLAUDE.md"
+    - "!README.md"
 
 website:
   title: "Aurélien Sallin"
+  description: "Aurélien Sallin — Senior Economist and Data Scientist in Swiss health economics, causal inference, and data science teaching."
   site-url: "https://aureliensallin.ch"
   repo-url: "https://github.com/ASallin/asallin.github.io"
+  open-graph: true
+  twitter-card: true
   google-analytics: "G-W2D6L26NC8" # Replace with your Google Analytics Measurement ID
   navbar:
     title: "Aurélien Sallin, PhD" # override printing your website `title`

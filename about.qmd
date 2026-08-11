@@ -1,7 +1,8 @@
 ---
 title: "Aurélien Sallin"
 subtitle: "PhD, Economist and Data Scientist"
-description: ""
+description: "Aurélien Sallin is a Senior Economist and Data Scientist at a major Swiss health insurer, working on value-based healthcare, claims data analysis, and causal inference."
+hide-description: true
 image: media/asallin.jpg
 toc: false # no table of contents in about page
 about:

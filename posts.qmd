@@ -1,5 +1,7 @@
 ---
 title: "Blog"
+description: "Posts by Aurélien Sallin on the healthcare system, teaching programming, and data science."
+hide-description: true
 listing:
   contents: posts # this name must match the name of the folder you created in step #1; here, all Quarto docs in the `posts` directory will be included on your listing page
   type: grid # or `default` or `table`; each type has its own set of yaml options to include
