@@ -18,6 +18,8 @@ toc: false
 
 ---
 
+\
+
 ## Man braucht mehr koordinierte und integrierte Versorgung
 
 Wenn man die Berichte und Präsentationen der Akteure des Gesundheitswesens in der Schweiz aus den letzten 15 Jahren liest, kommt man immer auf die "Aufforderung", **integrierte Versorgung sei zu fördern**.
@@ -44,7 +46,7 @@ Die erste Linie ist rein produktionstheoretisch: Skaleneffekte, Verbundvorteile 
 
 Je mehr Akteure an der Koordination beteiligt sind, desto stärker steigt diese Komplexität. Das zeigt die folgende Grafik als Beispiel (persönliche Interpretation 😎). Nehmen wir an, der Koordinationsaufwand steigt näherungsweise mit N·(N−1)/2: Bei N beteiligten Ärzten wächst die Zahl möglicher Abstimmungsbeziehungen dann quadratisch, nicht linear.
 
-![](cache/graph_coordination.png){fig-align="center" fig-alt="Grafik zur koordinierten Versorgung" width="80%"}
+![](cache/graph_coordination.png){fig-align="center" fig-alt="Grafik zur koordinierten Versorgung" width="70%"}
 
 \
 
@@ -52,7 +54,7 @@ Je mehr Akteure an der Koordination beteiligt sind, desto stärker steigt diese 
 
 Die zweite Linie betrifft die Anreize selbst: In einem Tarifsystem, in dem Koordinationsaufwand kaum tarifiert wird, ist die Übernahme von Koordinationsleistungen eine positive Externalität. **Die Organisation, die integriert und koordiniert, trägt die Kosten, aber die Vorteile werden von allen geteilt** (andere Ärzte, Krankenkasse, Kostenträger). Das ist ein klassisches Marktversagen. Die Externalität ist besonders stark, wenn die Koordination über mehrere Organisationen hinweg geht: In diesem Fall lässt sich die Kostenlast nicht einmal mehr einer einzelnen Gegenpartei zuordnen.
 
-![](cache/positive_externalitaet.png){fig-align="center" fig-alt="Eigene Darstellung der positiven Externalität" width="80%"}
+![](cache/positive_externalitaet.png){fig-align="center" fig-alt="Eigene Darstellung der positiven Externalität" width="70%"}
 
 Dazu kommt das Trittbrettfahrerverhalten (free-riding): Die Organisation, die integriert und koordiniert, trägt die Kosten, aber andere profitieren davon, ohne etwas beizutragen.
 
@@ -80,4 +82,4 @@ Der Punkt, den ich den Teilnehmenden des CAS am meisten mitgeben möchte: **koor
 
 \
 
-![](cache/portrait_zhaw.jpg){fig-align="center" fig-alt="Selfie vor dem Eingang der ZHAW" width="70%"}
+![](cache/portrait_zhaw.jpg){fig-align="center" fig-alt="Selfie vor dem Eingang der ZHAW" width="60%"}

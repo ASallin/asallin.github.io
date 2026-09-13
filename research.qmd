@@ -18,7 +18,9 @@ Together with my colleague Christian Frei, I taught the introductory module of t
 
 \
 
-### Our brand new course "Introduction to Programming for Economists" at the University of St. Gallen just completed its first run (June 2026)
+### 🎓 **Brand new course "Introduction to Programming for Economists" is over!** (June 2026)
+
+Our brand new course "Introduction to Programming for Economists" at the University of St. Gallen just completed its first run!
 
 ![](media/banner_course.png){style="width: 50%; height: auto; display: block; margin: 0 auto;"}
 

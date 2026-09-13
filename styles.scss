@@ -33,7 +33,9 @@ $muted-pink: #b74a58;
 $navbar-bg: $misty-sky; // navbar
 $navbar-fg: $deep-forest; // navbar foreground elements
 $navbar-hl: $hover-color; // highlight color when hovering over navbar links
-$body-bg: $muted-pink; // page background
+$body-bg: white; // surface colour for cards, search panel, nav, inputs. The
+                 // visible page background is set on `body` in the rules
+                 // section below ($misty-sky).
 $body-color: $deep-forest; // page text
 $footer-bg: $misty-sky; // footer
 $link-color: $muted-pink; // hyperlinks
@@ -48,13 +50,6 @@ $code-color: $muted-pink; // inline code text color
 
 .footnote-back {
   font-family: Arial, "Segoe UI Symbol", sans-serif;
-}
-
-// Fix: Quarto's compiled bootstrap.min.css hardcodes #quarto-appendix.default
-// to $body-bg ($muted-pink), which the page-wide `body` background override
-// below doesn't reach since this rule is more specific. Match it explicitly.
-#quarto-appendix.default {
-  background-color: $misty-sky;
 }
 
 h1, h2, h3,
