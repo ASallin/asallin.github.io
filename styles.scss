@@ -46,6 +46,17 @@ $code-color: $muted-pink; // inline code text color
 
 /*-- scss:rules --*/
 
+.footnote-back {
+  font-family: Arial, "Segoe UI Symbol", sans-serif;
+}
+
+// Fix: Quarto's compiled bootstrap.min.css hardcodes #quarto-appendix.default
+// to $body-bg ($muted-pink), which the page-wide `body` background override
+// below doesn't reach since this rule is more specific. Match it explicitly.
+#quarto-appendix.default {
+  background-color: $misty-sky;
+}
+
 h1, h2, h3,
 h4,
 h5,

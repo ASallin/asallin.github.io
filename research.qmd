@@ -6,6 +6,18 @@ hide-description: true
 
 ## Latest News
 
+### 🎓 **CAS Course "Coordinated Care in Healthcare"** (September 2026)
+
+Together with my colleague Christian Frei, I taught the introductory module of the CAS "Koordinierte Versorgung im Gesundheitswesen" at ZHAW: an economist's take on why the market alone under-delivers coordinated care, and what we're doing about it at SWICA.
+
+[Blog post (German)](/posts/202608_koordinierteversorgung/blog.html) | [Course details](https://www.zhaw.ch/de/sml/weiterbildung/detail/kurs/cas-koordinierte-versorgung-im-gesundheitswesen)
+
+\
+
+---
+
+\
+
 ### Our brand new course "Introduction to Programming for Economists" at the University of St. Gallen just completed its first run (June 2026)
 
 ![](media/banner_course.png){style="width: 50%; height: auto; display: block; margin: 0 auto;"}
