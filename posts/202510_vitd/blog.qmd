@@ -4,7 +4,8 @@ subtitle: "Lessons from Switzerland's Vitamin D case"
 author: "Aurélien Sallin"
 date: "2025-10-20"
 image: img/Vitamin-D.jpg
-description: "Swiss natural experiment reveals financial incentives reduced unnecessary vitamin D testing by 60% while clinical guidelines achieved only 6% reduction. Analysis of 3,600+ physicians shows policy implications for healthcare systems worldwide."
+pagetitle: "Low-Value Care: Guidelines vs. Financial Incentives"
+description: "A Swiss natural experiment: financial incentives cut unnecessary vitamin D testing by 60%, while clinical guidelines achieved only 6%."
 keywords: ["low-value care", "health policy", "vitamin D testing", "Switzerland healthcare", "interrupted time series", "choosing wisely", "health economics"]
 toc: false
 bibliography: references.bib

@@ -1,7 +1,8 @@
 ---
 title: "Aurélien Sallin"
 subtitle: "PhD, Economist and Data Scientist"
-description: "Aurélien Sallin is a Senior Economist and Data Scientist at a major Swiss health insurer, working on value-based healthcare, claims data analysis, and causal inference."
+pagetitle: "About Aurélien Sallin – Economist and Data Scientist"
+description: "Senior Economist and Data Scientist at a major Swiss health insurer. Value-based healthcare, claims data analysis, and causal inference."
 hide-description: true
 image: media/asallin.jpg
 toc: false # no table of contents in about page
@@ -31,9 +32,9 @@ html:
 
 ## Data Science and Economics
 
-I am a **Senior Economist/Data Scientist** in the **Health Services Management Team** of one of the largest health insurance companies in Switzerland. I spend a lot of time asking whether healthcare financing can be designed to reward what actually matters: good outcomes for patients, and efficient use of resources for all. In other words, value-based healthcare.
+I am a **Senior Economist/Data Scientist** in the **Health Services Management Team** at **SWICA**, one of Switzerland's largest health insurers. I lead projects on healthcare financing, develop shared-savings and value-based models with provider partners, mostly within **Managed Care** contracts, and measure whether they actually change outcomes.
 
-My role includes conceptualizing and conducting **statistical analyses** based on **claims data**, leading projects on healthcare financing, and using data to monitor costs, evaluate our interventions, and generate value for our insurees. This includes applying methods such as **causal machine learning** and **quasi-experimental designs**. I like talking about what I do and have presented our ideas and research at national and international conferences in health economics, statistics, and population research.
+My role is to **design financing models from claims data** that create value and contain costs. I also **evaluate whether our interventions actually work**, with quasi-experimental designs and causal machine learning. We published our study on vitamin D testing in *BMC Health Services Research*, and it was picked up by Sonntagszeitung and Tages-Anzeiger. I like exchanging ideas at national and international conferences in health economics, statistics, and population research.
 
 Before, I was an **Economics researcher** at **the Swiss Institute for Empirical Economic Research (SEW) at the University of St. Gallen**, where I led projects in education economics and applied econometrics. I published some work on gifted students and their positive effects on their peers.
 

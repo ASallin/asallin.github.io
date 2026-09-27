@@ -6,6 +6,18 @@ hide-description: true
 
 ## Latest News
 
+### 👥 **R in Healthcare** with the Zurich R User Group (September 2026)
+
+Together with the Zurich R User Group team, I organized our "End of SummeR" meetup at SWICA in Winterthur, on R in healthcare.
+
+👉 More about the talks: [R in Healthcare @ SWICA, Winterthur](https://zurich-r-user-group.github.io/blog/r-in-health/)
+
+\
+
+---
+
+\
+
 ### 🎓 **CAS Course "Coordinated Care in Healthcare"** (September 2026)
 
 Together with my colleague Christian Frei, I taught the introductory module of the CAS "Koordinierte Versorgung im Gesundheitswesen" at ZHAW: an economist's take on why the market alone under-delivers coordinated care, and what we're doing about it at SWICA.

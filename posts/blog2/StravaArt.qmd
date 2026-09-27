@@ -1,5 +1,6 @@
 ---
 title: "An artistic map of my biking meandering using rStrava and open street maps"
+pagetitle: "Artistic Maps of My Biking with rStrava"
 subtitle: "Here’s to past watts, nice maps, and many new roads ahead"
 author: "Aurélien Sallin"
 date: "2025-12-31"

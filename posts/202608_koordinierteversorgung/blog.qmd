@@ -4,7 +4,9 @@ subtitle: "Eine Zusammenfassung meiner Vorlesung im CAS Koordinierte Versorgung 
 author: "Aurélien Sallin"
 date: "2026-09-12"
 image: cache/graph_coordination.png
-description: "Warum sorgt der Markt allein nicht für koordinierte Versorgung im Gesundheitswesen? Wegen hoher Kosten der Komplexität, Externalitäten und Fehlanreizen. Lösungsansätze bei Anreizen und Vergütung, wie shared-savings-Modellen."
+pagetitle: "Warum der Markt zu wenig koordinierte Versorgung liefert"
+lang: de
+description: "Warum liefert der Markt allein zu wenig koordinierte Versorgung? Komplexitätskosten, Externalitäten und Fehlanreize, und wie bessere Vergütung hilft."
 keywords: ["Koordinierte Versorgung", "Managed Care", "Gesundheitsökonomie", "Marktversagen", "Anreize", "SWICA"]
 categories: ["DE"]
 toc: false

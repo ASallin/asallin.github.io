@@ -29,9 +29,9 @@ page-layout: full
 ---
 
 ::: {#hero-heading}
-As an **economist** and **data scientist** at a major Swiss healthcare organization, I work with claims data to generate value for our healthcare system, our clients, and our provider partners. I **teach data science** at the University of St. Gallen on the side.
+I am an economist and data scientist at **SWICA**, where I design alternative financing and value-based care models and test whether they work, using claims data. I teach data science and programming for economists at the **University of St. Gallen**, and co-organize the Zurich R User Group.
 
-My passion lies in **turning data into insight through numbers, simulations, models, and impactful visualizations**. When I’m not coding, I’m probably running, biking, doing politics for my township, or cooking.
+When I’m not working on this, I’m probably running, biking, doing politics for my township, or cooking.
 
 Feel free to **get in touch** using my contact info.
 :::
