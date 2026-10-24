@@ -6,6 +6,18 @@ hide-description: true
 
 ## Latest News
 
+### 👥 **Transforming Data into Insight** with the Tableau User Group hosted by Quantum Analytics (October 2026)
+
+My HSG students Yann Rochaix and Jonas Weber presented on data visualization with `R`. They asked whether higher healthcare spending leads to better health outcomes and built the answer in #R layer by layer (data, aesthetics, geometries, facets, statistics, coordinates, theme). Their goal was to tell a compelling story that engages specialists and decision makers.
+
+We then rebuilt the analysis together in Tableau. From our conversation, it was clear that both R and Tableau can be used as complements, since they sit on different parts of the data analytics pipeline and mostly serve different groups of data consumers.
+
+👉 Link to the slides: [Transforming Data into Insight](https://jonasweberch.github.io/presentation_quantumanalytics/)
+
+\
+
+---
+
 ### 👥 **R in Healthcare** with the Zurich R User Group (September 2026)
 
 Together with the Zurich R User Group team, I organized our "End of SummeR" meetup at SWICA in Winterthur, on R in healthcare.

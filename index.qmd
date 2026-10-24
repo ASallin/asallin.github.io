@@ -29,9 +29,13 @@ page-layout: full
 ---
 
 ::: {#hero-heading}
-I am an economist and data scientist at **SWICA**, where I design alternative financing and value-based care models and test whether they work, using claims data. I teach data science and programming for economists at the **University of St. Gallen**, and co-organize the Zurich R User Group.
+I am a senior health economist and data scientist working on managed care, healthcare financing, and value-based care. My bread and butter is healthcare claims data.
 
-When I’m not working on this, I’m probably running, biking, doing politics for my township, or cooking.
+I teach data science and programming for economists at the **University of St. Gallen**, and co-organize the **Zurich R User Group**.
+
+I am engaged in politics with the Green Liberal Party, and I am an elected member of the Audit Commission of the Flawil township.
+
+Else: I run half-marathons and 10k races, bike granfondos, cook and bake.
 
 Feel free to **get in touch** using my contact info.
 :::
