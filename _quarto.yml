@@ -9,6 +9,7 @@ project:
 
 website:
   title: "Aurélien Sallin"
+  favicon: media/favicon.png
   description: "Aurélien Sallin — Senior Economist and Data Scientist in Swiss health economics, causal inference, and data science teaching."
   site-url: "https://aureliensallin.ch"
   repo-url: "https://github.com/ASallin/asallin.github.io"
